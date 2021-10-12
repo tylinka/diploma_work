@@ -1,0 +1,9 @@
+T1	Phenomena 11 19	сгорании
+T2	Property 37 50	132 кДж тепла
+T3	Property 58 63	масса
+T4	Question 52 57	Какая
+R1	About Arg1:T4 Arg2:T3	
+T5	Property 64 69	нефти
+R2	Belonging Arg1:T3 Arg2:T5	
+T6	Property 20 25	нефти
+R3	Belonging Arg1:T2 Arg2:T6	

@@ -1,0 +1,11 @@
+T1	Property 53 68	сухие березовые
+T2	Object 69 74	дрова
+R1	Description Arg1:T1 Arg2:T2	
+T3	Phenomena 44 52	сгорании
+T4	Question 0 21	Во сколько раз меньше
+T5	Property 22 27	тепла
+R2	About Arg1:T4 Arg2:T5	
+R3	Description Arg1:T5 Arg2:T2	
+T6	Property 80 86	бензин
+T7	Property 96 101	массы
+R4	Belonging Arg1:T7 Arg2:T6	

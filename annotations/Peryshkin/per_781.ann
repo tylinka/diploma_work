@@ -1,0 +1,8 @@
+T1	Question 0 7	Сколько
+T2	Property 8 15	теплоты
+R1	About Arg1:T1 Arg2:T2	
+T3	Phenomena 37 45	сгорании
+T4	Property 46 51	нефти
+T5	Property 52 64	массой 3,5 т
+R2	Belonging Arg1:T5 Arg2:T4	
+R3	Belonging Arg1:T2 Arg2:T4	

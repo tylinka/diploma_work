@@ -1,0 +1,8 @@
+T1	Question 0 7	Сколько
+T2	Property 8 15	теплоты
+R1	About Arg1:T1 Arg2:T2	
+T3	Phenomena 37 45	сгорании
+T4	Property 46 49	4 л
+T5	Property 50 58	керосина
+R2	Belonging Arg1:T4 Arg2:T5	
+R3	Belonging Arg1:T2 Arg2:T5	
