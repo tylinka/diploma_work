@@ -1,0 +1,21 @@
+T1	Property 479 490	Температура
+T2	Object 491 495	газа
+R1	Description Arg1:T1 Arg2:T2	
+T3	Object 46 49	газ
+T4	Property 0 3	Три
+T5	Property 4 14	одинаковых
+T6	Object 15 21	сосуда
+R2	Description Arg1:T5 Arg2:T6	
+R3	Description Arg1:T4 Arg2:T6	
+T7	Property 161 169	давление
+T8	Object 170 174	газа
+R4	Description Arg1:T7 Arg2:T8	
+T9	Property 211 212	р
+T10	Property 214 216	3р
+R5	Belonging Arg1:T9 Arg2:T7	
+R6	Belonging Arg1:T10 Arg2:T7	
+T11	Property 219 220	р
+R7	Belonging Arg1:T11 Arg2:T7	
+T12	Property 445 455	количество
+T13	Object 456 460	газа
+R8	Description Arg1:T12 Arg2:T13	

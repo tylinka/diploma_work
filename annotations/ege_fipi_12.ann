@@ -1,0 +1,17 @@
+T1	Property 0 8	Скорость
+T2	Object 9 13	тела
+T3	Property 14 25	массой 2 кг
+R1	Description Arg1:T1 Arg2:T2	
+R2	Description Arg1:T3 Arg2:T2	
+T4	Phenomena 27 47	движущегося по оси x
+T5	Property 70 86	υ_x = υ_0x+а_x*t
+T6	Property 92 104	υ_0x= 10 м/с
+T7	Property 106 120	а_x = – 2 м/с2
+R3	Belonging Arg1:T5 Arg2:T1	
+R4	Belonging Arg1:T6 Arg2:T5	
+R5	Belonging Arg1:T7 Arg2:T5	
+T8	Property 122 142	Кинетическая энергия
+T9	Object 143 147	тела
+R6	Description Arg1:T8 Arg2:T9	
+T10	Property 154 157	2 с
+R7	Belonging Arg1:T10 Arg2:T8	

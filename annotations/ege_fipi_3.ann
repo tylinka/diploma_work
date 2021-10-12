@@ -1,0 +1,12 @@
+T1	Object 9 14	груза
+T2	Property 0 8	Смещение
+R1	Description Arg1:T2 Arg2:T1	
+T3	Property 73 90	x=A*cos(2*pi*T*t)
+T4	Property 96 110	период Т = 1 с
+R2	Belonging Arg1:T4 Arg2:T3	
+R3	Belonging Arg1:T3 Arg2:T2	
+T5	Property 168 189	потенциальная энергия
+T6	Property 161 166	t = 0
+T7	Object 190 198	маятника
+R4	Description Arg1:T5 Arg2:T7	
+T8	Object 15 34	пружинного маятника
