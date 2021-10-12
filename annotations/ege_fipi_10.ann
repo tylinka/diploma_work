@@ -1,7 +1,0 @@
-T1	Object 40 44	груз
-T2	Phenomena 35 39	упал
-T3	Property 52 56	10 с
-T4	Property 95 101	высоте
-T5	Object 112 120	аэростат
-R1	Description Arg1:T4 Arg2:T5	
-T6	Object 2 11	аэростата

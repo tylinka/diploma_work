@@ -1,8 +1,0 @@
-T1	Object 0 4	Тело
-T2	Property 33 59	начальной скоростью 10 м/с
-R1	Description Arg1:T2 Arg2:T1	
-T3	Phenomena 5 30	брошено вертикально вверх
-T4	Property 116 128	одну секунду
-T5	Property 142 150	скорость
-T6	Object 151 155	тела
-R2	Description Arg1:T5 Arg2:T6	
