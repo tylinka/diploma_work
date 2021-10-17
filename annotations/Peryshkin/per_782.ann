@@ -1,0 +1,12 @@
+T1	Question 0 5	Какую
+T2	Property 6 11	массу
+T3	Substance 12 16	угля
+A1	Reference T3
+T4	Phenomena 22 27	сжечь
+R1	Happens Arg1:T4 Arg2:T3	
+R2	Description Arg1:T2 Arg2:T3	
+R3	About Arg1:T1 Arg2:T2	
+T5	Value 46 56	40 800 кДж
+T6	Property 57 62	тепла
+R4	Measure Arg1:T6 Arg2:T5	
+R5	Description Arg1:T6 Arg2:T3	

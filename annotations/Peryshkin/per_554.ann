@@ -1,0 +1,22 @@
+T1	Object 0 9	Дирижабль
+T2	Property 14 22	моторами
+T3	Value 26 34	73,6 кВт
+T4	Value 12 13	4
+R1	Measure Arg1:T2 Arg2:T4	
+R2	Measure Arg1:T2 Arg2:T3	
+R3	Description Arg1:T2 Arg2:T1	
+T5	Phenomena 42 50	движется
+R4	Happens Arg1:T5 Arg2:T1	
+T6	Substance 53 60	воздухе
+A1	Medium T6
+R5	Located Arg1:T1 Arg2:T6	
+T7	Property 64 73	скоростью
+T8	Value 74 84	120 км/час
+R6	Measure Arg1:T7 Arg2:T8	
+R7	Description Arg1:T7 Arg2:T1	
+T9	Question 86 92	Какова
+T10	Property 93 111	сила сопротивления
+T11	Substance 112 119	воздуха
+A2	Medium T11
+R8	Description Arg1:T10 Arg2:T11	
+R9	About Arg1:T9 Arg2:T10	

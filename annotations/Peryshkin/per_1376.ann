@@ -1,0 +1,23 @@
+T1	Question 110 120	Определите
+T2	Property 121 127	высоту
+T3	Object 128 139	изображения
+R1	About Arg1:T1 Arg2:T2	
+R2	Description Arg1:T2 Arg2:T3	
+T4	Value 16 21	50 см
+T5	Object 0 7	Предмет
+T6	Property 8 15	высотой
+R3	Description Arg1:T6 Arg2:T5	
+R4	Measure Arg1:T6 Arg2:T4	
+T7	Property 35 45	расстоянии
+T8	Phenomena 22 31	находится
+R5	Happens Arg1:T8 Arg2:T5	
+R6	Description Arg1:T7 Arg2:T5	
+T9	Value 50 55	60 см
+R7	Measure Arg1:T7 Arg2:T9	
+T10	Property 59 69	собирающей
+T11	Object 70 75	линзы
+R8	Description Arg1:T10 Arg2:T11	
+T12	Property 78 98	фокусным расстоянием
+T13	Value 103 108	40 см
+R9	Measure Arg1:T12 Arg2:T13	
+R10	Description Arg1:T12 Arg2:T11	

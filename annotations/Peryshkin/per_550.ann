@@ -1,0 +1,11 @@
+T1	Question 0 5	Какую
+T2	Property 6 12	работу
+T3	Object 23 42	двигатель мотоцикла
+R1	About Arg1:T1 Arg2:T2	
+R2	Description Arg1:T2 Arg2:T3	
+T4	Property 43 52	мощностью
+T5	Value 53 60	200 кВт
+T6	Value 64 70	30 мин
+R3	Description Arg1:T4 Arg2:T3	
+R4	Measure Arg1:T4 Arg2:T5	
+R5	Description Arg1:T6 Arg2:T3	

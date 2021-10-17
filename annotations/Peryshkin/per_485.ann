@@ -1,0 +1,22 @@
+T1	Substance 0 9	Мраморный
+A1	Reference T1
+T2	Object 10 13	шар
+R1	Material Arg1:T1 Arg2:T2	
+T3	Property 14 21	объемом
+T4	Value 22 28	20 см3
+R2	Measure Arg1:T3 Arg2:T4	
+R3	Description Arg1:T3 Arg2:T2	
+T5	Question 47 52	какой
+T6	Property 53 58	силой
+R4	About Arg1:T5 Arg2:T6	
+T7	Phenomena 62 75	выталкивается
+R5	Description Arg1:T6 Arg2:T2	
+R6	Happens Arg1:T7 Arg2:T2	
+T8	Substance 39 43	реку
+A2	Reference T8
+A3	Medium T8
+R7	Located Arg1:T2 Arg2:T8	
+T9	Substance 79 83	воды
+A4	Reference T9
+A5	Medium T9
+R8	Located Arg1:T2 Arg2:T9	

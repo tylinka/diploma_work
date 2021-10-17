@@ -1,0 +1,12 @@
+T1	Value 37 43	1,2 0м
+T2	Property 0 13	Сопротивление
+T3	Property 45 55	напряжение
+T4	Value 56 60	48 В
+R1	Measure Arg1:T3 Arg2:T4	
+R2	Measure Arg1:T2 Arg2:T1	
+T5	Object 14 36	осветительного прибора
+R3	Description Arg1:T2 Arg2:T5	
+R4	Description Arg1:T3 Arg2:T5	
+T6	Property 68 76	силы ток
+T8	Question 62 67	Какой
+R5	About Arg1:T8 Arg2:T6	

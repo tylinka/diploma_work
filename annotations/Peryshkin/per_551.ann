@@ -1,0 +1,16 @@
+T1	Object 0 8	Элеватор
+T2	Value 25 35	720 ООО кг
+T3	Property 45 51	высоту
+T4	Value 52 56	25 м
+R1	Measure Arg1:T3 Arg2:T4	
+T5	Value 21 24	час
+R2	Description Arg1:T2 Arg2:T1	
+R3	Description Arg1:T5 Arg2:T1	
+R4	Description Arg1:T3 Arg2:T1	
+T6	Question 58 68	Определите
+T7	Phenomena 9 18	поднимает
+R5	Happens Arg1:T7 Arg2:T1	
+T8	Property 91 99	мощность
+T9	Object 100 109	элеватора
+R6	About Arg1:T6 Arg2:T8	
+R7	Description Arg1:T8 Arg2:T9	

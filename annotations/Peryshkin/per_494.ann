@@ -1,0 +1,30 @@
+T1	Object 0 5	Кусок
+T2	Substance 6 13	гранита
+A1	Reference T2
+R1	Material Arg1:T2 Arg2:T1	
+T3	Property 14 21	объемом
+T4	Value 22 29	5,5 дм3
+T5	Property 32 38	массой
+T6	Value 39 44	15 кг
+R2	Measure Arg1:T5 Arg2:T6	
+R3	Measure Arg1:T3 Arg2:T4	
+R4	Description Arg1:T3 Arg2:T1	
+R5	Description Arg1:T5 Arg2:T1	
+T7	Phenomena 53 61	погружен
+R6	Happens Arg1:T7 Arg2:T1	
+T8	Substance 64 68	пруд
+A2	Reference T8
+A3	Medium T8
+R7	Located Arg1:T1 Arg2:T8	
+T9	Property 45 52	целиком
+R8	Description Arg1:T9 Arg2:T1	
+T10	Question 70 75	Какую
+T11	Property 76 80	силу
+R9	About Arg1:T10 Arg2:T11	
+T12	Phenomena 109 116	держать
+T13	Substance 123 127	воде
+A4	Reference T13
+A5	Medium T13
+R10	Description Arg1:T11 Arg2:T1	
+R11	Happens Arg1:T12 Arg2:T1	
+R12	Located Arg1:T1 Arg2:T13	

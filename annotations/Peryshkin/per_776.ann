@@ -1,0 +1,10 @@
+T1	Question 0 7	Сколько
+T2	Property 18 23	тепла
+T3	Phenomena 35 43	сгорании
+T4	Value 44 49	10 кг
+T5	Substance 50 70	сухих березовых дров
+A1	Reference T5
+R1	Description Arg1:T4 Arg2:T5	
+R2	Happens Arg1:T3 Arg2:T5	
+R3	Description Arg1:T2 Arg2:T5	
+R4	About Arg1:T1 Arg2:T2	

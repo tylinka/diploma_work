@@ -1,0 +1,15 @@
+T1	Property 0 9	Сила тока
+T2	Object 12 35	волоске электролампочки
+R1	Description Arg1:T1 Arg2:T2	
+T3	Value 42 47	0,8 А
+R2	Measure Arg1:T1 Arg2:T3	
+T4	Property 49 62	Сопротивление
+T5	Object 63 70	волоска
+R3	Description Arg1:T4 Arg2:T5	
+T6	Value 92 98	275 Ом
+R4	Measure Arg1:T4 Arg2:T6	
+T7	Property 108 118	напряжение
+T8	Question 100 107	Найдите
+R5	About Arg1:T8 Arg2:T7	
+T9	Object 138 146	лампочка
+R6	Description Arg1:T7 Arg2:T9	
