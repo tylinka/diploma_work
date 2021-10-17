@@ -1,8 +1,0 @@
-T1	Question 0 5	Какую
-T2	Property 6 11	массу
-R1	About Arg1:T1 Arg2:T2	
-T3	Phenomena 22 27	сжечь
-T4	Property 46 62	40 800 кДж тепла
-T5	Property 12 16	угля
-R2	Belonging Arg1:T2 Arg2:T5	
-R3	Belonging Arg1:T4 Arg2:T5	

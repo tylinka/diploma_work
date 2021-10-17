@@ -1,8 +1,0 @@
-T1	Property 6 24	количество теплоты
-T2	Question 0 5	Какое
-R1	About Arg1:T2 Arg2:T1	
-T3	Phenomena 39 47	сгорании
-T4	Property 48 56	керосина
-T5	Property 57 69	массой 300 г
-R2	Belonging Arg1:T1 Arg2:T4	
-R3	Belonging Arg1:T5 Arg2:T4	
