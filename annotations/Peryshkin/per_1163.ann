@@ -1,0 +1,11 @@
+T1	Property 6 14	мощность
+T2	Question 0 5	Какая
+T3	Object 27 36	лампочкой
+R1	About Arg1:T2 Arg2:T1	
+R2	Description Arg1:T1 Arg2:T3	
+T4	Value 51 56	0,5 А
+R3	Description Arg1:T4 Arg2:T3	
+T5	Property 63 73	напряжение
+T6	Value 94 99	110 В
+R4	Measure Arg1:T5 Arg2:T6	
+R5	Description Arg1:T5 Arg2:T3	

@@ -1,0 +1,16 @@
+T1	Question 34 39	Какой
+T2	Object 0 8	Лампочка
+T3	Property 17 25	мощность
+T4	Value 26 32	100 Вт
+R1	Measure Arg1:T3 Arg2:T4	
+R2	Description Arg1:T3 Arg2:T2	
+T5	Property 40 43	ток
+R3	About Arg1:T1 Arg2:T5	
+T6	Object 58 66	лампочке
+R4	Description Arg1:T5 Arg2:T6	
+T7	Phenomena 76 91	включить в сеть
+R5	Happens Arg1:T7 Arg2:T6	
+T8	Property 94 105	напряжением
+T9	Value 106 111	110 В
+R6	Description Arg1:T8 Arg2:T6	
+R7	Measure Arg1:T8 Arg2:T9	

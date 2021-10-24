@@ -1,0 +1,13 @@
+T1	Question 0 5	Какую
+T2	Property 6 14	мощность
+T3	Object 26 39	электролобзик
+R1	About Arg1:T1 Arg2:T2	
+R2	Description Arg1:T2 Arg2:T3	
+T4	Property 40 54	сопротивлением
+T5	Value 55 61	240 Ом
+T6	Property 66 76	напряжении
+T7	Value 77 82	120 В
+R3	Measure Arg1:T6 Arg2:T7	
+R4	Measure Arg1:T4 Arg2:T5	
+R5	Description Arg1:T4 Arg2:T3	
+R6	Description Arg1:T6 Arg2:T3	

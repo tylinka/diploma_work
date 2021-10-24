@@ -1,0 +1,13 @@
+T1	Question 0 6	Какова
+T2	Property 7 20	мощность тока
+R1	About Arg1:T1 Arg2:T2	
+T3	Property 48 62	сопротивлением
+T4	Object 32 45	электрочайник
+R2	Description Arg1:T2 Arg2:T4	
+R3	Description Arg1:T3 Arg2:T4	
+T5	Value 88 93	44 Ом
+T6	Property 98 108	напряжении
+T7	Value 109 114	220 В
+R4	Measure Arg1:T6 Arg2:T7	
+R5	Measure Arg1:T3 Arg2:T5	
+R6	Description Arg1:T6 Arg2:T4	

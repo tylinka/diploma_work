@@ -1,0 +1,18 @@
+T1	Property 0 11	Работа тока
+T2	Value 25 33	15 минут
+T3	Value 40 48	40 500Дж
+T4	Property 50 60	напряжение
+T5	Value 75 79	15 В
+R1	Measure Arg1:T4 Arg2:T5	
+R2	Measure Arg1:T1 Arg2:T3	
+T6	Object 14 21	приборе
+R3	Description Arg1:T1 Arg2:T6	
+R4	Description Arg1:T2 Arg2:T6	
+R5	Description Arg1:T4 Arg2:T6	
+T7	Question 81 86	Какой
+T8	Property 87 95	силы ток
+R6	About Arg1:T7 Arg2:T8	
+T9	Phenomena 100 108	пропущен
+T10	Object 115 121	прибор
+R7	Happens Arg1:T9 Arg2:T10	
+R8	Description Arg1:T8 Arg2:T10	

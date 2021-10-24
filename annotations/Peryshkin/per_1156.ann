@@ -1,0 +1,13 @@
+T1	Question 0 7	Сколько
+T2	Property 8 15	энергии
+T3	Phenomena 16 26	потребляет
+T4	Value 30 38	60 минут
+T5	Object 39 44	лампа
+R1	About Arg1:T1 Arg2:T2	
+R2	Description Arg1:T2 Arg2:T5	
+R3	Happens Arg1:T3 Arg2:T5	
+R4	Description Arg1:T4 Arg2:T5	
+T6	Property 45 54	мощностью
+T7	Value 55 60	60 Вт
+R5	Measure Arg1:T6 Arg2:T7	
+R6	Description Arg1:T6 Arg2:T5	

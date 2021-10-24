@@ -1,0 +1,14 @@
+T1	Object 0 7	Реостат
+T2	Property 19 27	мощность
+T3	Value 28 33	60 Вт
+T4	Property 38 48	напряжении
+T5	Value 60 64	90 В
+R1	Measure Arg1:T4 Arg2:T5	
+R2	Measure Arg1:T2 Arg2:T3	
+R3	Description Arg1:T2 Arg2:T1	
+R4	Description Arg1:T4 Arg2:T1	
+T6	Question 66 72	Каково
+T7	Property 73 86	сопротивление
+T8	Object 87 95	реостата
+R5	About Arg1:T6 Arg2:T7	
+R6	Description Arg1:T7 Arg2:T8	

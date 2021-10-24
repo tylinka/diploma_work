@@ -1,0 +1,18 @@
+T1	Property 33 43	напряжение
+T2	Value 50 55	3,5 В
+R1	Measure Arg1:T1 Arg2:T2	
+T3	Object 3 10	спирали
+R2	Description Arg1:T1 Arg2:T3	
+T4	Property 57 70	сопротивление
+T5	Value 79 84	14 Ом
+R3	Measure Arg1:T4 Arg2:T5	
+R4	Description Arg1:T4 Arg2:T3	
+T6	Question 86 91	Какую
+T7	Property 92 98	работу
+R5	About Arg1:T6 Arg2:T7	
+T9	Value 127 135	2 минуты
+T8	Object 109 112	ток
+T10	Phenomena 99 108	совершает
+R6	Description Arg1:T7 Arg2:T8	
+R7	Happens Arg1:T10 Arg2:T8	
+R8	Description Arg1:T9 Arg2:T8	

@@ -1,0 +1,12 @@
+T1	Question 80 86	Какова
+T2	Property 87 100	мощность тока
+R1	About Arg1:T1 Arg2:T2	
+T3	Property 23 32	сила тока
+T4	Value 53 57	80 А
+T5	Property 62 72	напряжении
+T6	Value 73 78	500 В
+R2	Measure Arg1:T5 Arg2:T6	
+R3	Measure Arg1:T3 Arg2:T4	
+T7	Object 2 22	трамвайном двигателе
+R4	Description Arg1:T3 Arg2:T7	
+R5	Description Arg1:T5 Arg2:T7	

@@ -1,0 +1,24 @@
+T1	Question 88 95	Найдите
+T2	Property 96 103	угловую
+T3	Property 106 123	линейную скорости
+R1	About Arg1:T1 Arg2:T2	
+R2	About Arg1:T1 Arg2:T3	
+T4	Object 142 146	вала
+R3	Description Arg1:T2 Arg2:T4	
+R4	Description Arg1:T3 Arg2:T4	
+T5	Question 58 64	Какова
+T6	Property 65 81	частота вращения
+R5	About Arg1:T5 Arg2:T6	
+T7	Object 82 86	вала
+R6	Description Arg1:T6 Arg2:T7	
+T8	Object 0 14	Коленчатый вал
+T9	Property 15 23	радиусом
+T10	Value 24 28	2 см
+R7	Measure Arg1:T9 Arg2:T10	
+R8	Description Arg1:T9 Arg2:T8	
+T11	Value 36 39	два
+T12	Property 40 47	оборота
+T13	Value 51 56	0.1 с
+R9	Measure Arg1:T12 Arg2:T11	
+R10	Description Arg1:T12 Arg2:T8	
+R11	Description Arg1:T13 Arg2:T8	

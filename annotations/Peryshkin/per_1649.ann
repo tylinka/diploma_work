@@ -1,0 +1,25 @@
+T1	Question 116 121	Найти
+T2	Property 122 128	период
+T3	Property 130 137	частоту
+T4	Property 140 156	угловую скорость
+T5	Object 166 170	вала
+R1	About Arg1:T1 Arg2:T2	
+R2	About Arg1:T1 Arg2:T3	
+R3	About Arg1:T1 Arg2:T4	
+R4	Description Arg1:T2 Arg2:T5	
+R5	Description Arg1:T3 Arg2:T5	
+R6	Description Arg1:T4 Arg2:T5	
+T6	Value 82 85	5 с
+T7	Value 105 109	15 м
+T8	Phenomena 94 104	намоталось
+T9	Object 110 114	нити
+R7	Happens Arg1:T8 Arg2:T9	
+R8	Description Arg1:T6 Arg2:T9	
+R9	Description Arg1:T7 Arg2:T9	
+T10	Object 0 3	Вал
+T11	Property 4 12	радиусом
+T12	Value 13 18	10 см
+R10	Measure Arg1:T11 Arg2:T12	
+R11	Description Arg1:T11 Arg2:T10	
+T13	Phenomena 48 74	начал равномерно вращаться
+R12	Happens Arg1:T13 Arg2:T10	

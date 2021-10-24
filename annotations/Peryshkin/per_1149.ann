@@ -1,0 +1,18 @@
+T1	Property 4 14	напряжении
+T2	Value 15 20	220 В
+R1	Measure Arg1:T1 Arg2:T2	
+T3	Property 21 30	сила тока
+T4	Value 66 71	0,1 А
+R2	Measure Arg1:T3 Arg2:T4	
+T5	Object 33 42	двигателе
+R3	Description Arg1:T3 Arg2:T5	
+R4	Description Arg1:T1 Arg2:T5	
+T6	Question 73 78	Какую
+T7	Property 79 85	работу
+T8	Object 96 113	электрический ток
+R5	About Arg1:T6 Arg2:T7	
+R6	Description Arg1:T7 Arg2:T8	
+T9	Value 143 147	30 с
+R7	Description Arg1:T9 Arg2:T8	
+T10	Phenomena 86 95	совершает
+R8	Happens Arg1:T10 Arg2:T8	
