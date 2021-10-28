@@ -1,0 +1,25 @@
+T2	Property 66 72	длиной
+T3	Value 73 76	5 м
+T4	Property 79 87	сечением
+T5	Value 88 95	100 см2
+T6	Property 99 105	высоту
+T7	Value 106 110	12 м
+R1	Measure Arg1:T6 Arg2:T7	
+R2	Measure Arg1:T4 Arg2:T5	
+R3	Measure Arg1:T2 Arg2:T3	
+T8	Substance 51 59	стальную
+A1	Reference T8
+T9	Object 60 65	балку
+R4	Material Arg1:T8 Arg2:T9	
+R5	Description Arg1:T2 Arg2:T9	
+R6	Description Arg1:T4 Arg2:T9	
+R7	Description Arg1:T6 Arg2:T9	
+T10	Phenomena 14 23	поднимает
+T11	Question 112 117	Какую
+T12	Property 118 133	полезную работу
+T13	Object 144 148	кран
+R8	About Arg1:T11 Arg2:T12	
+R9	Description Arg1:T12 Arg2:T13	
+R10	Happens Arg1:T10 Arg2:T9	
+T1	Object 9 13	кран
+R11	Do Arg1:T1 Arg2:T10	

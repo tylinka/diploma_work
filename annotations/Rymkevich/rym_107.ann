@@ -1,0 +1,16 @@
+T1	Question 96 102	Каково
+T2	Property 103 132	центростремительное ускорение
+T3	Object 133 155	концов лопаток турбины
+R1	About Arg1:T1 Arg2:T2	
+R2	Description Arg1:T2 Arg2:T3	
+T4	Object 8 22	колесо турбины
+T5	Property 46 53	диаметр
+T6	Value 54 59	7,5 м
+R3	Measure Arg1:T5 Arg2:T6	
+R4	Description Arg1:T5 Arg2:T4	
+T7	Phenomena 62 71	вращается
+T8	Property 74 82	частотой
+T9	Value 83 94	93,8 об/мин
+R5	Measure Arg1:T8 Arg2:T9	
+R6	Happens Arg1:T7 Arg2:T4	
+R7	Description Arg1:T8 Arg2:T4	

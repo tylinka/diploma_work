@@ -1,0 +1,21 @@
+T1	Object 0 6	Камень
+T2	Property 57 65	скорость
+T3	Value 66 72	30 м/с
+R1	Measure Arg1:T2 Arg2:T3	
+R2	Description Arg1:T2 Arg2:T1	
+T4	Property 118 123	силой
+T5	Value 124 129	100 Н
+T6	Property 131 149	коэффициент трения
+T7	Value 150 153	0,2
+R3	Measure Arg1:T6 Arg2:T7	
+R4	Measure Arg1:T4 Arg2:T5	
+T8	Object 110 115	камню
+R5	Description Arg1:T4 Arg2:T8	
+R6	Description Arg1:T6 Arg2:T8	
+T9	Question 155 161	Какова
+T10	Property 162 183	механическая мощность
+T11	Object 21 27	станка
+R7	Part Arg1:T1 Arg2:T11	
+T12	Object 194 200	станка
+R8	About Arg1:T9 Arg2:T10	
+R9	Description Arg1:T10 Arg2:T12	

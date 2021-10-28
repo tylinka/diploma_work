@@ -1,0 +1,12 @@
+T1	Question 0 8	На какой
+T2	Property 9 15	высоте
+T3	Property 16 37	потенциальная энергия
+R1	About Arg1:T1 Arg2:T2	
+T4	Object 38 43	груза
+R2	Description Arg1:T3 Arg2:T4	
+R3	Description Arg1:T2 Arg2:T4	
+T5	Property 44 50	массой
+T6	Value 51 54	2 т
+R4	Measure Arg1:T5 Arg2:T6	
+T7	Value 61 67	10 кДж
+R5	Measure Arg1:T3 Arg2:T7	

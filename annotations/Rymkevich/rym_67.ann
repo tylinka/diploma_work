@@ -1,0 +1,17 @@
+T1	Question 68 74	Какова
+T2	Property 75 83	скорость
+T3	Value 115 122	41,5 см
+T4	Property 102 107	длина
+R1	Measure Arg1:T4 Arg2:T3	
+T5	Object 91 95	пули
+R2	About Arg1:T1 Arg2:T2	
+R3	Description Arg1:T2 Arg2:T5	
+T6	Object 108 114	ствола
+R4	Description Arg1:T4 Arg2:T6	
+T7	Object 0 4	Пуля
+T8	Property 46 56	ускорением
+T9	Value 57 66	616 км/с2
+R5	Measure Arg1:T8 Arg2:T9	
+R6	Description Arg1:T8 Arg2:T7	
+T10	Phenomena 35 43	движется
+R7	Happens Arg1:T10 Arg2:T7	

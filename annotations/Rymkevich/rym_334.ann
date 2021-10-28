@@ -1,0 +1,25 @@
+T1	Substance 2 6	воде
+A1	Reference T1
+A2	Medium T1
+T2	Property 9 16	глубины
+T3	Value 17 20	5 м
+R1	Measure Arg1:T2 Arg2:T3	
+T4	Phenomena 21 45	поднимают до поверхности
+T5	Object 46 52	камень
+R2	Happens Arg1:T4 Arg2:T5	
+R3	Located Arg1:T5 Arg2:T1	
+T6	Property 53 60	объёмом
+T7	Value 61 67	0,6 м3
+R4	Measure Arg1:T6 Arg2:T7	
+R5	Description Arg1:T6 Arg2:T5	
+R6	Description Arg1:T2 Arg2:T5	
+T8	Property 69 78	Плотность
+T9	Object 79 84	камня
+T10	Value 85 95	2500 кг/м3
+R7	Measure Arg1:T8 Arg2:T10	
+R8	Description Arg1:T8 Arg2:T9	
+T11	Question 97 102	Найти
+T12	Property 103 109	работу
+T13	Object 121 126	камня
+R9	About Arg1:T11 Arg2:T12	
+R10	Description Arg1:T12 Arg2:T13	

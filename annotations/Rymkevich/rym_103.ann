@@ -1,0 +1,16 @@
+T1	Question 0 6	Каково
+T2	Property 7 36	центростремительное ускорение
+T3	Object 37 43	поезда
+R1	About Arg1:T1 Arg2:T2	
+R2	Description Arg1:T2 Arg2:T3	
+T4	Phenomena 45 56	движущегося
+R3	Happens Arg1:T4 Arg2:T3	
+T5	Property 72 80	радиусом
+T6	Object 60 71	закруглению
+R4	Description Arg1:T5 Arg2:T6	
+T7	Value 81 86	800 м
+R5	Measure Arg1:T5 Arg2:T7	
+T8	Property 90 99	скоростью
+T9	Value 100 106	20 м/с
+R6	Measure Arg1:T8 Arg2:T9	
+R7	Description Arg1:T8 Arg2:T3	

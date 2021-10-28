@@ -1,0 +1,21 @@
+T1	Object 0 5	Поезд
+T2	Property 6 12	массой
+T3	Value 13 19	2000 т
+R1	Measure Arg1:T2 Arg2:T3	
+R2	Description Arg1:T2 Arg2:T1	
+T4	Increase 44 52	увеличил
+E1	Increase:T4 Changing-Arg:T5
+A1	Type_of_changing E1 On
+T5	Property 53 61	скорость
+T6	Value 65 67	36
+T7	Value 71 78	72 км/ч
+R3	Measure Arg1:T5 Arg2:T6	
+R4	Measure Arg1:T5 Arg2:T7	
+T8	Phenomena 21 42	двигаясь прямолинейно
+R5	Happens Arg1:T8 Arg2:T1	
+R6	Description Arg1:T5 Arg2:T1	
+T9	Question 80 85	Найти
+T10	Property 86 104	изменение импульса
+T11	Object 105 111	поезда
+R7	About Arg1:T9 Arg2:T10	
+R8	Description Arg1:T10 Arg2:T11	

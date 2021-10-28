@@ -1,0 +1,33 @@
+T1	Object 0 10	Троллейбус
+T2	Property 11 17	массой
+T3	Value 18 22	12 т
+R1	Measure Arg1:T2 Arg2:T3	
+R2	Description Arg1:T2 Arg2:T1	
+T4	Property 42 49	высотой
+T5	Object 34 41	подъёму
+R3	Description Arg1:T4 Arg2:T5	
+T6	Value 50 54	12 м
+R4	Measure Arg1:T4 Arg2:T6	
+T7	Property 57 63	длиной
+T8	Value 64 69	180 м
+R5	Measure Arg1:T7 Arg2:T8	
+R6	Description Arg1:T7 Arg2:T5	
+T9	Phenomena 23 31	подходит
+R7	Happens Arg1:T9 Arg2:T1	
+T10	Property 73 82	скоростью
+T11	Value 83 89	10 м/с
+R8	Measure Arg1:T10 Arg2:T11	
+R9	Description Arg1:T10 Arg2:T1	
+T12	Question 91 96	Найти
+T13	Property 97 113	среднюю мощность
+R10	About Arg1:T12 Arg2:T13	
+T14	Object 150 161	троллейбуса
+T15	Property 132 149	конечная скорость
+R11	Description Arg1:T15 Arg2:T14	
+R12	Description Arg1:T13 Arg2:T14	
+T16	Value 168 173	5 м/с
+R13	Measure Arg1:T15 Arg2:T16	
+T17	Property 177 202	коэффициент сопротивления
+T18	Value 203 207	0,03
+R14	Measure Arg1:T17 Arg2:T18	
+R15	Description Arg1:T17 Arg2:T14	

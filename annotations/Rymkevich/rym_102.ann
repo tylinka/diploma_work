@@ -1,0 +1,25 @@
+T1	Property 0 7	Диаметр
+T2	Object 8 14	колеса
+R1	Description Arg1:T1 Arg2:T2	
+T3	Value 34 43	d = 70 см
+R2	Measure Arg1:T1 Arg2:T3	
+T4	Object 45 61	ведущая зубчатка
+T5	Value 68 75	zx = 48
+T6	Property 76 82	зубцов
+R3	Measure Arg1:T6 Arg2:T5	
+R4	Description Arg1:T6 Arg2:T4	
+T7	Object 86 93	ведомая
+T8	Value 94 101	z2 = 18
+T9	Property 102 108	зубцов
+R5	Measure Arg1:T9 Arg2:T8	
+R6	Description Arg1:T9 Arg2:T7	
+T10	Property 118 127	скоростью
+T11	Question 110 117	С какой
+R7	About Arg1:T11 Arg2:T10	
+T12	Object 158 168	велосипеде
+R8	Description Arg1:T10 Arg2:T12	
+T13	Phenomena 128 136	движется
+R9	Happens Arg1:T13 Arg2:T12	
+T14	Property 173 189	частоте вращения
+T15	Object 190 197	педалей
+T16	Value 198 208	п = 1 об/с

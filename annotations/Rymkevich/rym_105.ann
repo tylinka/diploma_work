@@ -1,0 +1,18 @@
+T1	Property 0 16	Период обращения
+T2	Property 55 64	диаметром
+T3	Value 65 71	600 мм
+T4	Value 78 85	0,046 с
+R1	Measure Arg1:T2 Arg2:T3	
+R2	Measure Arg1:T1 Arg2:T4	
+T5	Object 30 38	барабана
+R3	Description Arg1:T1 Arg2:T5	
+R4	Description Arg1:T2 Arg2:T5	
+T6	Question 87 92	Найти
+T7	Property 93 101	скорость
+R5	About Arg1:T6 Arg2:T7	
+T8	Object 126 134	барабана
+T9	Property 141 170	центростремительное ускорение
+R6	Description Arg1:T7 Arg2:T10	
+R7	Description Arg1:T9 Arg2:T10	
+T10	Object 102 107	точек
+R8	Part Arg1:T10 Arg2:T8	

@@ -1,0 +1,21 @@
+T1	Question 89 94	Найти
+T2	Property 95 101	работу
+R1	About Arg1:T1 Arg2:T2	
+T3	Property 0 8	Скорость
+T4	Object 28 32	тела
+T5	Property 33 39	массой
+T6	Value 40 44	4 кг
+R2	Measure Arg1:T5 Arg2:T6	
+R3	Description Arg1:T5 Arg2:T4	
+R4	Description Arg1:T3 Arg2:T4	
+T7	Phenomena 9 27	свободно падающего
+R5	Happens Arg1:T7 Arg2:T4	
+T8	Increase 63 74	увеличилась
+E1	Increase:T8 Changing-Arg:T3
+A1	Type_of_changing E1 On
+T9	Value 77 78	2
+T10	Value 82 87	8 м/с
+R6	Measure Arg1:T3 Arg2:T9	
+R7	Measure Arg1:T3 Arg2:T10	
+T11	Object 102 114	силы тяжести
+R8	Description Arg1:T2 Arg2:T11	
