@@ -1,0 +1,23 @@
+T1	Question 0 24	Во сколько раз изменится
+T2	Property 25 33	давление
+T3	Value 34 46	одноатомного
+T4	Object 47 51	газа
+R1	About Arg1:T1 Arg2:T2	
+R2	Description Arg1:T2 Arg2:T4	
+R3	Description Arg1:T3 Arg2:T4	
+T5	Property 80 86	объёма
+T6	Value 89 95	3 раза
+T7	Decrease 65 75	уменьшения
+E1	Decrease:T7 Changing-Arg:T5
+A1	Type_of_changing E1 In
+R4	Measure Arg1:T5 Arg2:T6	
+R5	Description Arg1:T5 Arg2:T4	
+T8	Increase 98 108	увеличения
+E2	Increase:T8 Changing-Arg:T9
+A2	Type_of_changing E2 In
+T9	Property 109 137	средней кинетической энергии
+T10	Value 148 154	2 раза
+R6	Measure Arg1:T9 Arg2:T10	
+T11	Object 138 145	молекул
+R7	Description Arg1:T9 Arg2:T11	
+R8	Part Arg1:T11 Arg2:T4	

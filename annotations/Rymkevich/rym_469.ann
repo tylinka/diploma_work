@@ -1,0 +1,16 @@
+T1	Property 24 32	давление
+T2	Object 33 37	газа
+R1	Description Arg1:T1 Arg2:T2	
+T3	Phenomena 13 23	нагревания
+R2	Happens Arg1:T3 Arg2:T2	
+T4	Object 49 55	сосуде
+T5	Property 40 48	закрытом
+R3	Description Arg1:T5 Arg2:T4	
+T6	Increase 56 67	увеличилось
+E1	Increase:T6 Changing-Arg:T1
+A1	Type_of_changing E1 In
+T7	Value 70 76	4 раза
+R4	Measure Arg1:T1 Arg2:T7	
+T8	Question 78 103	Во сколько раз изменилась
+T9	Property 104 133	средняя квадратичная скорость
+R5	About Arg1:T8 Arg2:T9	

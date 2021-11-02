@@ -1,0 +1,8 @@
+T1	Question 0 5	Какой
+T2	Property 6 11	объём
+T3	Value 21 29	100 моль
+T4	Substance 30 35	ртути
+A1	Reference T4
+R1	About Arg1:T1 Arg2:T2	
+R2	Description Arg1:T3 Arg2:T4	
+R3	Description Arg1:T2 Arg2:T4	

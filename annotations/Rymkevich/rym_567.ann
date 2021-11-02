@@ -1,0 +1,13 @@
+T1	Value 2 6	4 м3
+T2	Property 19 30	температуре
+T3	Value 31 36	16 °С
+T4	Value 47 51	40 г
+T5	Question 67 72	Найти
+T6	Property 73 96	относительную влажность
+R1	About Arg1:T5 Arg2:T6	
+R2	Measure Arg1:T2 Arg2:T3	
+T7	Substance 52 65	водяного пара
+A1	Reference T7
+R3	Description Arg1:T1 Arg2:T7	
+R4	Description Arg1:T2 Arg2:T7	
+R5	Description Arg1:T4 Arg2:T7	

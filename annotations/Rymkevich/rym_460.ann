@@ -1,0 +1,10 @@
+T1	Question 0 7	Сколько
+T2	Property 8 15	молекул
+T3	Substance 29 44	углекислом газе
+A1	Reference T3
+T4	Property 51 57	массой
+T5	Value 58 61	1 г
+R1	Measure Arg1:T4 Arg2:T5	
+R2	Description Arg1:T4 Arg2:T3	
+R3	About Arg1:T1 Arg2:T2	
+R4	Description Arg1:T2 Arg2:T3	

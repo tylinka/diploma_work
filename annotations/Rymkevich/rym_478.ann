@@ -1,0 +1,11 @@
+T1	Question 0 9	При какой
+T2	Property 10 21	температуре
+T3	Property 22 50	средняя кинетическая энергия
+R1	About Arg1:T1 Arg2:T2	
+T4	Object 76 83	молекул
+T5	Object 84 88	газа
+R2	Part Arg1:T4 Arg2:T5	
+R3	Description Arg1:T3 Arg2:T4	
+R4	Description Arg1:T2 Arg2:T5	
+T6	Value 95 108	6,21x10^21 Дж
+R5	Measure Arg1:T3 Arg2:T6	

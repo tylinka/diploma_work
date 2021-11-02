@@ -1,0 +1,12 @@
+T2	Property 59 65	массой
+T3	Value 66 72	5,4 кг
+R1	Measure Arg1:T2 Arg2:T3	
+T1	Question 0 5	Какое
+T4	Property 6 25	количество вещества
+R2	About Arg1:T1 Arg2:T4	
+T5	Substance 39 50	алюминиевой
+A1	Reference T5
+T6	Object 51 58	отливке
+R3	Material Arg1:T5 Arg2:T6	
+R4	Description Arg1:T2 Arg2:T6	
+R5	Description Arg1:T4 Arg2:T6	

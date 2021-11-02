@@ -1,0 +1,19 @@
+T1	Question 0 6	Какова
+T2	Property 7 36	средняя квадратичная скорость
+R1	About Arg1:T1 Arg2:T2	
+T3	Object 46 53	молекул
+T4	Object 54 58	газа
+R2	Part Arg1:T3 Arg2:T4	
+R3	Description Arg1:T2 Arg2:T3	
+T5	Property 71 76	массу
+T6	Value 77 81	6 кг
+T7	Property 95 100	объём
+T8	Value 101 105	5 м3
+R4	Measure Arg1:T7 Arg2:T8	
+R5	Measure Arg1:T5 Arg2:T6	
+T9	Property 110 118	давлении
+T10	Value 119 126	200 кПа
+R6	Measure Arg1:T9 Arg2:T10	
+R7	Description Arg1:T5 Arg2:T4	
+R8	Description Arg1:T7 Arg2:T4	
+R9	Description Arg1:T9 Arg2:T4	

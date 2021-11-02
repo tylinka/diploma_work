@@ -1,0 +1,20 @@
+T1	Property 15 21	объёма
+T2	Value 22 34	одноатомного
+T3	Object 35 39	газа
+R1	Description Arg1:T1 Arg2:T3	
+R2	Description Arg1:T2 Arg2:T3	
+T4	Value 40 50	в 3,6 раза
+T5	Decrease 4 14	уменьшении
+E1	Decrease:T5 Changing-Arg:T1
+A1	Type_of_changing E1 In
+R3	Measure Arg1:T1 Arg2:T4	
+T6	Property 55 63	давление
+T7	Increase 64 75	увеличилось
+E2	Increase:T7 Changing-Arg:T6
+A2	Type_of_changing E2 On
+T8	Value 76 82	на 20%
+R4	Measure Arg1:T6 Arg2:T8	
+R5	Description Arg1:T6 Arg2:T3	
+T9	Question 84 109	Во сколько раз изменилась
+T10	Property 110 128	внутренняя энергия
+R6	About Arg1:T9 Arg2:T10	

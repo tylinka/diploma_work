@@ -1,0 +1,21 @@
+T1	Question 96 110	Во сколько раз
+T2	Property 130 135	объём
+R1	About Arg1:T1 Arg2:T2	
+T3	Increase 120 129	изменился
+E1	Increase:T3 Changing-Arg:T2
+A1	Type_of_changing E1 In
+T4	Property 14 36	абсолютной температуры
+T5	Increase 4 13	повышении
+E2	Increase:T5 Changing-Arg:T4
+A2	Type_of_changing E2 In
+T7	Object 37 52	идеального газа
+R2	Description Arg1:T4 Arg2:T7	
+T6	Value 53 61	в 2 раза
+R3	Measure Arg1:T4 Arg2:T6	
+T8	Property 62 70	давление
+R4	Description Arg1:T8 Arg2:T7	
+T9	Increase 76 87	увеличилось
+E3	Increase:T9 Changing-Arg:T8
+A3	Type_of_changing E3 On
+T10	Value 88 94	на 25%
+R5	Measure Arg1:T8 Arg2:T10	
