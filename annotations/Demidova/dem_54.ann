@@ -1,0 +1,22 @@
+T1	Question 106 116	Чему равна
+T2	Property 117 122	масса
+T3	Substance 123 128	гелия
+A1	Reference T3
+R1	About Arg1:T1 Arg2:T2	
+R2	Description Arg1:T2 Arg2:T3	
+T4	Constant 4 14	постоянном
+E1	Constant:T4 Changing-Arg:T5
+T5	Property 15 23	давлении
+T6	Substance 37 42	гелий
+A2	Reference T6
+R3	Description Arg1:T5 Arg2:T6	
+T7	Phenomena 43 50	нагрели
+R4	Happens Arg1:T7 Arg2:T6	
+T8	Value 51 58	на 40 К
+R5	Description Arg1:T8 Arg2:T6	
+T9	Property 90 96	работу
+T10	Phenomena 81 89	совершил
+T11	Value 97 104	2493 Дж
+R6	Measure Arg1:T9 Arg2:T11	
+R7	Do Arg1:T6 Arg2:T10	
+R8	Description Arg1:T9 Arg2:T6	

@@ -1,0 +1,33 @@
+T1	Object 0 7	Частица
+T2	Property 10 16	массой
+T3	Value 17 21	1 мг
+R1	Measure Arg1:T2 Arg2:T3	
+R2	Description Arg1:T2 Arg2:T1	
+T4	Property 24 31	зарядом
+T5	Value 32 37	2 нКл
+R3	Measure Arg1:T4 Arg2:T5	
+R4	Description Arg1:T4 Arg2:T1	
+T6	Property 95 109	напряженностью
+T7	Value 110 118	5000 В/м
+R5	Measure Arg1:T6 Arg2:T7	
+T8	Object 76 94	электрическом поле
+T9	Property 50 60	однородном
+T10	Property 61 75	горизонтальном
+R6	Description Arg1:T10 Arg2:T8	
+R7	Description Arg1:T9 Arg2:T8	
+R8	Part Arg1:T1 Arg2:T8	
+R9	Description Arg1:T6 Arg2:T8	
+T11	Question 120 128	За какое
+T12	Property 129 134	время
+T13	Object 135 142	частица
+R10	About Arg1:T11 Arg2:T12	
+R11	Description Arg1:T12 Arg2:T13	
+T14	Property 159 169	расстояние
+T15	Value 170 176	0,45 м
+R12	Measure Arg1:T14 Arg2:T15	
+T16	Phenomena 143 155	переместится
+R13	Happens Arg1:T16 Arg2:T13	
+T17	Property 201 219	начальная скорость
+T18	Value 226 230	нулю
+R14	Measure Arg1:T17 Arg2:T18	
+R15	Description Arg1:T17 Arg2:T13	

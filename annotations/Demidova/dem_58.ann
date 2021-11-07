@@ -1,0 +1,27 @@
+T1	Substance 13 18	гелий
+A1	Reference T1
+T2	Property 20 25	масса
+T3	Value 41 45	16 г
+R1	Measure Arg1:T2 Arg2:T3	
+R2	Description Arg1:T2 Arg2:T1	
+T4	Property 57 63	работу
+T5	Phenomena 47 56	совершает
+R3	Do Arg1:T1 Arg2:T5	
+T6	Value 72 79	1,2 кДж
+R4	Measure Arg1:T4 Arg2:T6	
+R5	Description Arg1:T4 Arg2:T1	
+T7	Property 102 120	количество теплоты
+T8	Increase 83 92	поглощает
+E1	Increase:T8 Changing-Arg:T7
+A2	Type_of_changing E1 On
+T9	Value 129 134	2 кДж
+R6	Measure Arg1:T7 Arg2:T9	
+R7	Description Arg1:T7 Arg2:T1	
+T10	Question 136 153	На какую величину
+T11	Increase 154 164	повышается
+E2	Increase:T11 Changing-Arg:T12
+A3	Type_of_changing E2 On
+T12	Property 174 185	температура
+T13	Object 186 190	газа
+R8	Description Arg1:T12 Arg2:T13	
+R9	About Arg1:T10 Arg2:T12	

@@ -1,0 +1,34 @@
+T1	Substance 35 48	водяного пара
+A1	Reference T1
+T2	Property 53 62	давлением
+T3	Value 63 69	50 кПа
+R1	Measure Arg1:T2 Arg2:T3	
+R2	Description Arg1:T2 Arg2:T1	
+T4	Value 31 34	2 г
+R3	Description Arg1:T4 Arg2:T1	
+T5	Property 76 87	температуре
+T6	Value 88 93	100 С
+R4	Measure Arg1:T5 Arg2:T6	
+R5	Description Arg1:T5 Arg2:T1	
+T7	Phenomena 0 30	В сосуде под поршнем находится
+R6	Happens Arg1:T7 Arg2:T1	
+T8	Property 106 117	температуры
+T9	Constant 95 105	Не изменяя
+E1	Constant:T9 Changing-Arg:T8
+T10	Property 119 124	объем
+T11	Object 125 131	сосуда
+R7	Description Arg1:T10 Arg2:T11	
+T12	Decrease 132 141	уменьшили
+E2	Decrease:T12 Changing-Arg:T10
+A2	Type_of_changing E2 In
+T13	Value 142 150	в 4 раза
+R8	Measure Arg1:T10 Arg2:T13	
+R9	Description Arg1:T8 Arg2:T11	
+T14	Question 152 159	Найдите
+T15	Property 160 165	массу
+T16	Substance 190 194	воды
+A3	Reference T16
+T17	Object 166 180	образовавшейся
+R10	About Arg1:T14 Arg2:T15	
+R11	Located Arg1:T17 Arg2:T16	
+R12	Description Arg1:T15 Arg2:T16	

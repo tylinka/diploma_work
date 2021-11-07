@@ -1,0 +1,17 @@
+T1	Property 86 106	разность потенциалов
+T2	Value 107 112	10 кВ
+R1	Measure Arg1:T1 Arg2:T2	
+T3	Object 50 70	электрической машины
+R2	Description Arg1:T1 Arg2:T3	
+T4	Question 114 119	Какой
+T5	Property 120 125	заряд
+T6	Object 141 152	электродами
+R3	About Arg1:T4 Arg2:T5	
+R4	Description Arg1:T5 Arg2:T6	
+T7	Object 192 210	электрическое поле
+T8	Property 230 236	работу
+T9	Phenomena 211 220	совершает
+R5	Do Arg1:T7 Arg2:T9	
+R6	Description Arg1:T8 Arg2:T7	
+T10	Value 245 252	3,6 кДж
+R7	Measure Arg1:T8 Arg2:T10	

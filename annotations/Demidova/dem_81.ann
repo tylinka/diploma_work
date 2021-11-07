@@ -1,0 +1,37 @@
+T1	Object 0 7	Пылинка
+T2	Property 10 16	массой
+T3	Value 17 24	10^-6 к
+R1	Measure Arg1:T2 Arg2:T3	
+R2	Description Arg1:T2 Arg2:T1	
+T4	Object 48 66	электрическое поле
+T5	Property 69 83	напряженностью
+T6	Value 84 91	105 В/м
+R3	Measure Arg1:T5 Arg2:T6	
+R4	Description Arg1:T5 Arg2:T4	
+T7	Property 37 47	однородное
+R5	Description Arg1:T7 Arg2:T4	
+R6	Part Arg1:T1 Arg2:T4	
+T8	Phenomena 92 115	вдоль его силовых линий
+R7	Happens Arg1:T8 Arg2:T1	
+T9	Property 118 137	начальной скоростью
+T10	Value 138 145	0,1 м/с
+R8	Measure Arg1:T9 Arg2:T10	
+R9	Description Arg1:T9 Arg2:T1	
+T11	Property 165 175	расстояние
+T12	Value 176 180	4 см
+R10	Measure Arg1:T11 Arg2:T12	
+T13	Phenomena 148 161	переместилась
+R11	Happens Arg1:T13 Arg2:T1	
+R12	Description Arg1:T11 Arg2:T1	
+T14	Question 182 187	Каков
+T15	Property 188 193	заряд
+T16	Object 194 201	пылинки
+R13	About Arg1:T14 Arg2:T15	
+R14	Description Arg1:T15 Arg2:T16	
+T17	Property 211 219	скорость
+T18	Increase 220 231	увеличилась
+E1	Increase:T18 Changing-Arg:T17
+A1	Type_of_changing E1 On
+T19	Value 232 242	на 0,2 м/с
+R15	Measure Arg1:T17 Arg2:T19	
+R16	Description Arg1:T17 Arg2:T16	
