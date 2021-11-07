@@ -1,0 +1,14 @@
+T1	Object 0 4	Тело
+T2	Phenomena 5 29	упало с некоторой высоты
+R1	Happens Arg1:T2 Arg2:T1	
+T3	Value 32 39	нулевой
+T4	Property 40 59	начальной скоростью
+R2	Measure Arg1:T4 Arg2:T3	
+R3	Description Arg1:T4 Arg2:T1	
+T5	Property 86 94	скорость
+T6	Value 95 101	40 м/с
+R4	Measure Arg1:T5 Arg2:T6	
+R5	Description Arg1:T5 Arg2:T1	
+T7	Question 103 113	Чему равно
+T8	Property 114 127	время падения
+R6	About Arg1:T7 Arg2:T8	

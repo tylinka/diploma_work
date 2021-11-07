@@ -1,0 +1,19 @@
+T1	Phenomena 7 47	прямолинейного равноускоренного движения
+T2	Value 3 6	2 с
+T3	Object 48 52	тело
+T4	Value 60 64	20 м
+R1	Happens Arg1:T1 Arg2:T3	
+R2	Description Arg1:T2 Arg2:T3	
+R3	Description Arg1:T4 Arg2:T3	
+T5	Property 80 88	скорость
+T6	Increase 66 74	увеличив
+E1	Increase:T6 Changing-Arg:T5
+A1	Type_of_changing E1 In
+T7	Value 89 97	в З раза
+R4	Measure Arg1:T5 Arg2:T7	
+R5	Description Arg1:T5 Arg2:T3	
+T8	Question 99 109	Определите
+T9	Property 110 128	начальную скорость
+T10	Object 129 133	тела
+R6	About Arg1:T8 Arg2:T9	
+R7	Description Arg1:T9 Arg2:T10	

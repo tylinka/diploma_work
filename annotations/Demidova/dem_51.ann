@@ -1,0 +1,25 @@
+T1	Property 131 136	Масса
+T2	Substance 137 142	гелия
+A1	Reference T2
+R1	Description Arg1:T1 Arg2:T2	
+T3	Constant 161 172	не менялась
+E1	Constant:T3 Changing-Arg:T1
+T4	Question 75 80	Какое
+T5	Property 81 99	количество теплоты
+T6	Increase 100 107	получил
+E2	Increase:T6 Changing-Arg:T5
+A2	Type_of_changing E2 On
+R2	About Arg1:T4 Arg2:T5	
+T7	Substance 108 113	гелий
+A3	Reference T7
+R3	Description Arg1:T5 Arg2:T7	
+T8	Phenomena 4 24	изобарном нагревании
+T9	Substance 38 43	гелий
+A4	Reference T9
+R4	Happens Arg1:T8 Arg2:T9	
+T10	Property 53 59	работу
+T11	Value 68 73	50 Дж
+R5	Measure Arg1:T10 Arg2:T11	
+T12	Phenomena 44 52	совершил
+R6	Do Arg1:T9 Arg2:T12	
+R7	Description Arg1:T10 Arg2:T9	

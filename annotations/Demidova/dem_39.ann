@@ -1,0 +1,22 @@
+T1	Object 0 4	Груз
+T2	Property 5 11	массой
+T3	Value 12 16	3 кг
+R1	Measure Arg1:T2 Arg2:T3	
+R2	Description Arg1:T2 Arg2:T1	
+T4	Phenomena 17 60	подвешен к укрепленному в лифте динамометру
+R3	Happens Arg1:T4 Arg2:T1	
+T5	Object 62 66	Лифт
+T6	Phenomena 67 87	начинает подниматься
+R4	Happens Arg1:T6 Arg2:T5	
+T7	Property 117 127	ускорением
+T8	Constant 106 116	постоянным
+E1	Constant:T8 Changing-Arg:T7
+R5	Description Arg1:T7 Arg2:T5	
+T9	Object 139 150	динамометра
+T10	Value 166 170	36 Н
+R6	Description Arg1:T10 Arg2:T9	
+T11	Question 172 182	Чему равно
+T12	Property 183 192	ускорение
+T13	Object 193 198	лифта
+R7	About Arg1:T11 Arg2:T12	
+R8	Description Arg1:T12 Arg2:T13	

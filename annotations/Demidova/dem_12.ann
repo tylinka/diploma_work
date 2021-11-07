@@ -1,0 +1,20 @@
+T1	Property 0 18	Начальная скорость
+T2	Object 19 29	автомобиля
+R1	Description Arg1:T1 Arg2:T2	
+T3	Phenomena 31 72	движущегося прямолинейно и равноускоренно
+R2	Happens Arg1:T3 Arg2:T2	
+T4	Value 80 85	5 м/с
+R3	Measure Arg1:T1 Arg2:T4	
+T5	Property 105 115	расстояния
+T6	Value 116 120	40 м
+R4	Measure Arg1:T5 Arg2:T6	
+T7	Property 125 133	скорость
+T8	Value 151 157	15 м/с
+R5	Measure Arg1:T7 Arg2:T8	
+R6	Description Arg1:T5 Arg2:T2	
+R7	Description Arg1:T7 Arg2:T2	
+T9	Question 159 169	Чему равно
+T10	Property 170 179	ускорение
+T11	Object 180 190	автомобиля
+R8	About Arg1:T9 Arg2:T10	
+R9	Description Arg1:T10 Arg2:T11	

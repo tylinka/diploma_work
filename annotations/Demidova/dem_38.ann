@@ -1,0 +1,25 @@
+T1	Object 0 21	Искусственный спутник
+T2	Phenomena 22 47	обращается вокруг планеты
+R1	Happens Arg1:T2 Arg2:T1	
+T3	Object 60 66	орбите
+T4	Property 51 59	круговой
+R2	Description Arg1:T4 Arg2:T3	
+T5	Property 67 75	радиусом
+T6	Value 76 83	4000 км
+R3	Measure Arg1:T5 Arg2:T6	
+R4	Description Arg1:T5 Arg2:T3	
+R5	Part Arg1:T1 Arg2:T3	
+T7	Property 87 96	скоростью
+T8	Value 97 105	3,4 км/с
+R6	Measure Arg1:T7 Arg2:T8	
+R7	Description Arg1:T7 Arg2:T1	
+T9	Property 107 135	Ускорение свободного падения
+T10	Object 151 158	планеты
+R8	Description Arg1:T9 Arg2:T10	
+T11	Value 165 170	4 м/с
+R9	Measure Arg1:T9 Arg2:T11	
+T12	Question 172 182	Определите
+T13	Property 183 189	радиус
+T14	Object 190 197	планеты
+R10	About Arg1:T12 Arg2:T13	
+R11	Description Arg1:T13 Arg2:T14	
