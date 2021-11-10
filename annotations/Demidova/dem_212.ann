@@ -1,0 +1,24 @@
+T1	Value 137 145	6 • 10^5
+T2	Property 146 153	фотонов
+R1	Measure Arg1:T2 Arg2:T1	
+T3	Question 104 112	За какое
+T4	Property 113 118	время
+R2	About Arg1:T3 Arg2:T4	
+T5	Object 119 127	детектор
+T6	Phenomena 128 136	поглотит
+R3	Do Arg1:T5 Arg2:T6	
+R4	Description Arg1:T4 Arg2:T5	
+R5	Description Arg1:T2 Arg2:T5	
+T7	Property 62 82	Поглощаемая мощность
+T8	Value 83 102	Р = 1.1 • 10^-14 Вт
+R6	Measure Arg1:T7 Arg2:T8	
+T9	Object 0 8	Детектор
+T10	Object 36 40	свет
+T11	Property 41 53	длиной волны
+T12	Value 54 60	600 нм
+R7	Measure Arg1:T11 Arg2:T12	
+T13	Phenomena 9 18	поглощает
+R8	Do Arg1:T9 Arg2:T13	
+R9	Happens Arg1:T13 Arg2:T10	
+R10	Description Arg1:T11 Arg2:T10	
+R11	Description Arg1:T7 Arg2:T9	

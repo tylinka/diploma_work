@@ -1,0 +1,28 @@
+T1	Property 0 15	Красная граница
+T2	Value 38 46	0,62 мкм
+R1	Measure Arg1:T1 Arg2:T2	
+T3	Substance 32 37	калия
+A1	Reference T3
+R2	Description Arg1:T1 Arg2:T3	
+T4	Question 48 53	Какую
+T5	Property 54 75	максимальную скорость
+R3	About Arg1:T4 Arg2:T5	
+T6	Object 88 101	фотоэлектроны
+R4	Description Arg1:T5 Arg2:T6	
+T7	Property 174 186	длиной волны
+T8	Value 187 195	0,42 мкм
+R5	Measure Arg1:T7 Arg2:T8	
+T9	Object 167 173	светом
+R6	Description Arg1:T7 Arg2:T9	
+T10	Phenomena 103 127	вылетающие с поверхности
+R7	Do Arg1:T6 Arg2:T10	
+T11	Substance 128 137	калиевого
+A2	Reference T11
+T12	Object 138 148	фотокатода
+R8	Material Arg1:T11 Arg2:T12	
+R9	Happens Arg1:T10 Arg2:T12	
+T13	Phenomena 153 162	облучении
+R10	Do Arg1:T9 Arg2:T13	
+R11	Happens Arg1:T13 Arg2:T12	
+T14	Object 16 27	фотоэффекта
+R12	Description Arg1:T1 Arg2:T14	

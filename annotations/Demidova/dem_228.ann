@@ -1,0 +1,21 @@
+T1	Question 0 7	Найдите
+T2	Property 8 21	работу выхода
+T3	Object 22 31	электрона
+A1	Reference T3
+T4	Property 115 136	запирающее напряжение
+T5	Value 148 153	2,1 В
+T6	Value 108 114	4,1 эВ
+T7	Property 91 99	энергией
+T8	Object 100 107	фотонов
+R1	Description Arg1:T7 Arg2:T8	
+R2	Measure Arg1:T7 Arg2:T6	
+R3	Measure Arg1:T4 Arg2:T5	
+R4	About Arg1:T1 Arg2:T2	
+R5	Description Arg1:T2 Arg2:T3	
+T9	Object 42 54	фотоэлемента
+R6	Part Arg1:T3 Arg2:T9	
+T10	Object 82 88	светом
+R7	Part Arg1:T8 Arg2:T10	
+T11	Phenomena 65 74	облучении
+R8	Do Arg1:T10 Arg2:T11	
+R9	Happens Arg1:T11 Arg2:T9	

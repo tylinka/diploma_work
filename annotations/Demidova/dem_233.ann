@@ -1,0 +1,20 @@
+T1	Property 0 18	Мощность излучения
+T2	Property 37 49	длиной волны
+T3	Value 50 56	600 нм
+T4	Value 63 68	2 мВт
+R1	Measure Arg1:T1 Arg2:T4	
+R2	Measure Arg1:T2 Arg2:T3	
+T5	Object 19 34	лазерной указки
+R3	Description Arg1:T1 Arg2:T5	
+R4	Description Arg1:T2 Arg2:T5	
+T6	Question 70 80	Определите
+T7	Property 81 86	число
+T8	Object 87 94	фотонов
+R5	About Arg1:T6 Arg2:T7	
+R6	Description Arg1:T7 Arg2:T8	
+T9	Value 118 121	1 с
+T10	Object 107 114	указкой
+T11	Phenomena 96 106	излучаемых
+R7	Happens Arg1:T11 Arg2:T8	
+R8	Do Arg1:T10 Arg2:T11	
+R9	Description Arg1:T9 Arg2:T8	

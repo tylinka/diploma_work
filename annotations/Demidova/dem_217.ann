@@ -1,0 +1,31 @@
+T1	Object 0 6	Фотоны
+T2	Property 9 17	энергией
+T3	Value 18 24	2,1 эВ
+R1	Measure Arg1:T2 Arg2:T3	
+R2	Description Arg1:T2 Arg2:T1	
+T4	Phenomena 25 58	вызывают фотоэффект с поверхности
+T5	Substance 59 64	цезия
+A1	Reference T5
+R3	Do Arg1:T1 Arg2:T4	
+R4	Happens Arg1:T4 Arg2:T5	
+T6	Property 79 92	работа выхода
+T7	Value 99 105	1,9 эВ
+R5	Measure Arg1:T6 Arg2:T7	
+R6	Description Arg1:T6 Arg2:T5	
+T8	Question 107 124	На какую величину
+T9	Increase 131 140	увеличить
+E1	Increase:T9 Changing-Arg:T10
+A2	Type_of_changing E1 On
+T10	Property 141 148	энергию
+T11	Object 149 155	фотона
+R7	About Arg1:T8 Arg2:T10	
+R8	Description Arg1:T10 Arg2:T11	
+T12	Property 163 196	максимальная кинетическая энергия
+T13	Object 197 211	фотоэлектронов
+R9	Description Arg1:T12 Arg2:T13	
+T14	Increase 212 223	увеличилась
+E2	Increase:T14 Changing-Arg:T12
+A3	Type_of_changing E2 In
+T15	Value 224 232	в 2 раза
+R10	Measure Arg1:T12 Arg2:T15	
+R11	Part Arg1:T13 Arg2:T11	

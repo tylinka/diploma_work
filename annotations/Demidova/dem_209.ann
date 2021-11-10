@@ -1,0 +1,23 @@
+T1	Question 118 125	Сколько
+T2	Property 126 133	фотонов
+R1	About Arg1:T1 Arg2:T2	
+T3	Object 144 152	детектор
+T4	Phenomena 134 143	поглощает
+R2	Do Arg1:T3 Arg2:T4	
+R3	Description Arg1:T2 Arg2:T3	
+T5	Property 156 161	время
+T6	Value 162 167	t=б с
+R4	Measure Arg1:T5 Arg2:T6	
+R5	Description Arg1:T5 Arg2:T3	
+T7	Property 78 98	Поглощаемая мощность
+T8	Value 99 116	Р=3,3 • 10^-14 Вт
+R6	Measure Arg1:T7 Arg2:T8	
+T9	Property 51 59	частотой
+T10	Value 60 76	v = 6 • 10^14 Гц
+R7	Measure Arg1:T9 Arg2:T10	
+T11	Object 0 8	Детектор
+T12	Phenomena 9 28	полностью поглощает
+T13	Object 46 50	свет
+R8	Description Arg1:T9 Arg2:T13	
+R9	Do Arg1:T11 Arg2:T12	
+R10	Happens Arg1:T12 Arg2:T13	
