@@ -1,0 +1,40 @@
+T1	Property 54 71	полезную мощность
+T2	Value 72 78	21 кВт
+R1	Measure Arg1:T1 Arg2:T2	
+T3	Property 81 84	КПД
+T4	Value 85 88	80%
+R2	Measure Arg1:T3 Arg2:T4	
+T5	Question 91 98	Сколько
+T6	Property 99 106	времени
+R3	About Arg1:T5 Arg2:T6	
+T7	Object 125 130	ванна
+T8	Property 131 143	вместимостью
+T9	Value 144 149	200 л
+R4	Measure Arg1:T8 Arg2:T9	
+T10	Substance 150 155	водой
+A1	Reference T10
+R5	Description Arg1:T8 Arg2:T7	
+T11	Phenomena 113 124	наполняться
+R6	Do Arg1:T10 Arg2:T11	
+R7	Happens Arg1:T11 Arg2:T7	
+T12	Value 180 188	на 24 °С
+T13	Question 192 197	каков
+T14	Property 198 204	расход
+R8	About Arg1:T13 Arg2:T14	
+T15	Substance 205 209	газа
+A2	Reference T15
+R9	Description Arg1:T14 Arg2:T15	
+R10	Description Arg1:T12 Arg2:T10	
+T16	Phenomena 157 179	нагретой в нагревателе
+R11	Happens Arg1:T16 Arg2:T10	
+T18	Value 248 252	1 м3
+T19	Property 280 287	энергия
+T20	Value 288 294	36 МДж
+R12	Measure Arg1:T19 Arg2:T20	
+T17	Substance 253 268	природного газа
+A3	Reference T17
+R13	Description Arg1:T18 Arg2:T17	
+R14	Description Arg1:T19 Arg2:T17	
+T21	Object 8 31	газовый водонагреватель
+R15	Description Arg1:T1 Arg2:T21	
+R16	Description Arg1:T3 Arg2:T21	

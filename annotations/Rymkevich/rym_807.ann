@@ -1,0 +1,16 @@
+T1	Object 33 40	спираль
+T2	Decrease 46 55	укорочена
+E1	Decrease:T2 Changing-Arg:T4
+A1	Type_of_changing E1 On
+T3	Value 56 62	на 0,1
+T4	Property 78 83	длины
+R1	Measure Arg1:T4 Arg2:T3	
+R2	Description Arg1:T4 Arg2:T1	
+T5	Question 85 99	Во сколько раз
+T6	Increase 100 110	изменилась
+E2	Increase:T6 Changing-Arg:T7
+A2	Type_of_changing E2 In
+T7	Property 111 119	мощность
+R3	About Arg1:T5 Arg2:T7	
+T8	Object 120 126	плитки
+R4	Description Arg1:T7 Arg2:T8	

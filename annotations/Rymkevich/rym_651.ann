@@ -1,0 +1,22 @@
+T1	Value 20 26	1,5 кг
+T2	Substance 27 31	воды
+A1	Reference T2
+T3	Value 36 41	15 °С
+T4	Value 52 57	200 г
+T5	Object 2 7	сосуд
+R1	Description Arg1:T1 Arg2:T2	
+R2	Located Arg1:T2 Arg2:T5	
+R3	Description Arg1:T3 Arg2:T2	
+T6	Substance 58 71	водяного пара
+A2	Reference T6
+T7	Value 76 82	100 °С
+R4	Description Arg1:T4 Arg2:T6	
+R5	Description Arg1:T7 Arg2:T6	
+T8	Phenomena 43 51	впускают
+R6	Happens Arg1:T8 Arg2:T6	
+R7	Located Arg1:T6 Arg2:T5	
+T9	Question 84 89	Какая
+T10	Property 90 107	общая температура
+R8	About Arg1:T9 Arg2:T10	
+T11	Object 122 128	сосуде
+R9	Description Arg1:T10 Arg2:T11	

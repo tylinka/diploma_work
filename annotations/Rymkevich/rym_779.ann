@@ -1,0 +1,18 @@
+T1	Substance 0 6	Медный
+T2	Object 7 13	провод
+A1	Reference T1
+T3	Property 14 20	длиной
+T4	Value 21 25	5 км
+R1	Measure Arg1:T3 Arg2:T4	
+T5	Property 32 45	сопротивление
+T6	Value 46 51	12 Ом
+R2	Measure Arg1:T5 Arg2:T6	
+R3	Material Arg1:T1 Arg2:T2	
+R4	Description Arg1:T3 Arg2:T2	
+R5	Description Arg1:T5 Arg2:T2	
+T7	Question 53 63	Определить
+T8	Property 64 69	массу
+T9	Substance 70 74	меди
+A2	Reference T9
+R6	About Arg1:T7 Arg2:T8	
+R7	Description Arg1:T8 Arg2:T9	

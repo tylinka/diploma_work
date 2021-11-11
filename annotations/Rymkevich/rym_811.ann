@@ -1,0 +1,21 @@
+T1	Object 0 12	Электромотор
+T2	Property 32 43	напряжением
+T3	Value 44 49	220 В
+R1	Measure Arg1:T2 Arg2:T3	
+R2	Description Arg1:T2 Arg2:T1	
+T4	Property 51 64	Сопротивление
+T5	Object 73 79	мотора
+T6	Value 80 84	2 Ом
+R3	Measure Arg1:T4 Arg2:T6	
+R4	Description Arg1:T4 Arg2:T5	
+T7	Value 110 114	10 А
+T8	Property 86 109	Сила потребляемого тока
+R5	Measure Arg1:T8 Arg2:T7	
+T9	Question 116 121	Найти
+T10	Property 135 143	мощность
+T11	Property 146 149	КПД
+T12	Object 150 156	мотора
+R6	About Arg1:T9 Arg2:T10	
+R7	About Arg1:T9 Arg2:T11	
+R8	Description Arg1:T10 Arg2:T12	
+R9	Description Arg1:T11 Arg2:T12	

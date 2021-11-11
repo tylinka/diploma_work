@@ -1,0 +1,44 @@
+T1	Property 63 75	температурой
+T2	Value 76 82	100 °С
+R1	Measure Arg1:T1 Arg2:T2	
+T3	Property 42 54	общей массой
+T4	Value 55 60	150 г
+R2	Measure Arg1:T3 Arg2:T4	
+T5	Property 115 126	температура
+T6	Value 135 140	15 °С
+R3	Measure Arg1:T5 Arg2:T6	
+T7	Property 144 149	масса
+T8	Value 150 155	230 г
+R4	Measure Arg1:T7 Arg2:T8	
+T9	Substance 108 113	водой
+A1	Reference T9
+R5	Description Arg1:T5 Arg2:T9	
+R6	Description Arg1:T7 Arg2:T9	
+T10	Substance 9 18	свинцовых
+A2	Reference T10
+T11	Substance 21 32	алюминиевых
+A3	Reference T11
+T12	Object 33 39	опилок
+R7	Material Arg1:T11 Arg2:T12	
+R8	Material Arg1:T10 Arg2:T12	
+R9	Description Arg1:T3 Arg2:T12	
+T13	Object 95 105	калориметр
+R11	Material Arg1:T9 Arg2:T13	
+R12	Part Arg1:T12 Arg2:T13	
+T14	Property 157 182	Окончательная температура
+T15	Value 196 201	20 °С
+R13	Measure Arg1:T14 Arg2:T15	
+R10	Description Arg1:T1 Arg2:T12	
+T16	Property 203 215	Теплоёмкость
+T17	Value 228 235	42 Дж/К
+R14	Measure Arg1:T16 Arg2:T17	
+T18	Object 216 227	калориметра
+R15	Description Arg1:T16 Arg2:T18	
+T19	Question 237 244	Сколько
+T20	Substance 245 251	свинца
+A4	Reference T20
+T21	Substance 254 262	алюминия
+A5	Reference T21
+T22	Object 270 275	смеси
+R16	Material Arg1:T20 Arg2:T22	
+R17	Material Arg1:T21 Arg2:T22	

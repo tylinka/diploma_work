@@ -1,0 +1,33 @@
+T1	Property 15 28	теплоёмкостью
+T2	Value 29 36	63 Дж/К
+R1	Measure Arg1:T1 Arg2:T2	
+T3	Value 49 54	250 г
+T4	Value 65 70	12 °С
+T5	Object 2 12	калориметр
+R2	Description Arg1:T1 Arg2:T5	
+T6	Substance 55 60	масла
+A1	Reference T6
+R3	Description Arg1:T3 Arg2:T6	
+R4	Description Arg1:T4 Arg2:T6	
+T7	Question 171 177	Какова
+T8	Property 196 217	удельная теплоёмкость
+T9	Substance 218 223	масла
+A2	Reference T9
+R5	About Arg1:T7 Arg2:T8	
+R6	Description Arg1:T8 Arg2:T9	
+T10	Property 109 115	массой
+T11	Value 116 121	500 г
+R7	Measure Arg1:T10 Arg2:T11	
+T12	Value 126 132	100 °С
+T13	Value 164 169	33 °С
+T14	Property 146 163	общая температура
+R8	Measure Arg1:T14 Arg2:T13	
+T15	Substance 96 103	медного
+A3	Reference T15
+T16	Object 104 108	тела
+R9	Material Arg1:T15 Arg2:T16	
+R10	Description Arg1:T10 Arg2:T16	
+T17	Substance 90 95	масло
+A4	Reference T17
+R11	Located Arg1:T16 Arg2:T17	
+R12	Description Arg1:T12 Arg2:T16	

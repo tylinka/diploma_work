@@ -1,0 +1,24 @@
+T1	Question 0 5	Найти
+T2	Property 6 30	внутреннее сопротивление
+R1	About Arg1:T1 Arg2:T2	
+T3	Property 33 36	ЭДС
+R2	About Arg1:T1 Arg2:T3	
+T4	Object 37 51	источника тока
+R3	Description Arg1:T3 Arg2:T4	
+R4	Description Arg1:T2 Arg2:T4	
+T5	Value 72 76	30 А
+T6	Property 62 71	силе тока
+R5	Measure Arg1:T6 Arg2:T5	
+R6	Description Arg1:T6 Arg2:T4	
+T7	Property 77 85	мощность
+T8	Value 108 113	180 В
+R7	Measure Arg1:T7 Arg2:T8	
+T9	Property 122 131	силе тока
+T10	Value 132 136	10 А
+R8	Measure Arg1:T9 Arg2:T10	
+T11	Property 141 149	мощность
+T12	Value 156 162	100 Вт
+R9	Measure Arg1:T11 Arg2:T12	
+R10	Description Arg1:T7 Arg2:T4	
+R11	Description Arg1:T9 Arg2:T4	
+R12	Description Arg1:T11 Arg2:T4	
