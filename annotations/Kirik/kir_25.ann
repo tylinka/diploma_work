@@ -1,0 +1,14 @@
+T1	Question 0 9	При какой
+T2	Property 45 53	давление
+T3	Substance 54 58	воды
+A1	Reference T3
+T4	Value 72 79	200 кПа
+R1	Measure Arg1:T2 Arg2:T4	
+T5	Property 10 17	глубине
+R2	Description Arg1:T2 Arg2:T3	
+T6	Object 36 44	скважины
+R3	About Arg1:T1 Arg2:T5	
+R4	Description Arg1:T5 Arg2:T6	
+T7	Substance 30 35	водой
+A2	Reference T7
+R5	Located Arg1:T7 Arg2:T6	

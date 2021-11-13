@@ -1,0 +1,13 @@
+T1	Question 74 84	Определите
+T2	Property 85 105	атмосферное давление
+R1	About Arg1:T1 Arg2:T2	
+T3	Substance 23 31	ртутного
+A1	Reference T3
+T4	Object 51 60	барометре
+T5	Value 67 73	50 см.
+T6	Property 16 22	высота
+R2	Measure Arg1:T6 Arg2:T5	
+T7	Object 32 40	столбика
+R3	Material Arg1:T3 Arg2:T7	
+R4	Part Arg1:T7 Arg2:T4	
+R5	Description Arg1:T6 Arg2:T7	

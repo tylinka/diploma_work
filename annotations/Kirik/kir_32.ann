@@ -1,0 +1,24 @@
+T1	Question 0 10	Определите
+T2	Property 11 17	работу
+T3	Property 48 54	массой
+T4	Object 43 47	тела
+T5	Value 55 59	4 кг
+R1	Measure Arg1:T3 Arg2:T5	
+T6	Property 63 69	высоту
+T7	Value 70 76	120 см
+R2	Measure Arg1:T6 Arg2:T7	
+R3	About Arg1:T1 Arg2:T2	
+R4	Description Arg1:T3 Arg2:T4	
+R5	Description Arg1:T6 Arg2:T4	
+T8	Question 78 83	Какую
+T9	Property 84 90	работу
+T10	Property 111 120	мощностью
+T11	Value 121 126	5 кВт
+R6	Measure Arg1:T10 Arg2:T11	
+T12	Value 130 135	0,5 ч
+T13	Object 101 110	двигатель
+R7	About Arg1:T8 Arg2:T9	
+R8	Description Arg1:T9 Arg2:T13	
+R9	Description Arg1:T10 Arg2:T13	
+R10	Description Arg1:T12 Arg2:T13	
+R11	Description Arg1:T2 Arg2:T4	

@@ -1,0 +1,16 @@
+T1	Property 80 100	атмосферное давление
+T2	Value 108 115	10^5 Па
+R1	Measure Arg1:T1 Arg2:T2	
+T3	Value 56 70	120 см • 60 см
+T4	Question 0 7	С какой
+T5	Property 8 13	силой
+R2	About Arg1:T4 Arg2:T5	
+T6	Property 46 55	размерами
+R3	Measure Arg1:T6 Arg2:T3	
+T7	Object 20 29	атмосфера
+T8	Object 33 45	крышку парты
+R4	Description Arg1:T6 Arg2:T8	
+R5	Description Arg1:T5 Arg2:T7	
+T9	Phenomena 14 19	давит
+R6	Do Arg1:T7 Arg2:T9	
+R7	Happens Arg1:T9 Arg2:T8	

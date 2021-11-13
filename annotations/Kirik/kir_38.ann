@@ -1,0 +1,24 @@
+T1	Question 72 82	Определите
+T2	Property 83 86	КПД
+R1	About Arg1:T1 Arg2:T2	
+T3	Object 87 106	наклонной плоскости
+R2	Description Arg1:T2 Arg2:T3	
+T4	Property 116 121	длина
+T5	Value 122 125	2 м
+T6	Property 129 135	высота
+R3	Measure Arg1:T4 Arg2:T5	
+T7	Value 138 143	10 см
+R4	Measure Arg1:T6 Arg2:T7	
+T8	Property 5 11	массой
+T9	Object 0 4	Груз
+T10	Value 12 16	20 к
+R5	Measure Arg1:T8 Arg2:T10	
+R6	Description Arg1:T8 Arg2:T9	
+T11	Property 60 65	силой
+T12	Value 66 70	40 Н
+R7	Measure Arg1:T11 Arg2:T12	
+T13	Phenomena 18 57	равномерно тянут по наклонной плоскости
+R8	Happens Arg1:T13 Arg2:T9	
+R9	Description Arg1:T11 Arg2:T9	
+R10	Description Arg1:T4 Arg2:T3	
+R11	Description Arg1:T6 Arg2:T3	

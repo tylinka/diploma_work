@@ -1,0 +1,15 @@
+T1	Object 0 8	Цистерна
+T2	Substance 22 28	нефтью
+A1	Reference T2
+R1	Material Arg1:T2 Arg2:T1	
+T3	Property 36 43	глубину
+T4	Value 44 48	4 м.
+R2	Measure Arg1:T3 Arg2:T4	
+R3	Description Arg1:T3 Arg2:T1	
+T5	Question 49 59	Определите
+T6	Property 60 68	давление
+T7	Object 72 75	дно
+R4	About Arg1:T5 Arg2:T6	
+R5	Description Arg1:T6 Arg2:T7	
+T8	Object 76 84	цистерны
+R6	Part Arg1:T7 Arg2:T8	

@@ -1,0 +1,13 @@
+T1	Question 0 8	На какой
+T2	Value 44 51	412 кПа
+T3	Property 17 25	давление
+T4	Property 9 16	глубине
+R1	About Arg1:T1 Arg2:T4	
+R2	Measure Arg1:T3 Arg2:T2	
+T5	Substance 26 30	воды
+A1	Reference T5
+R3	Description Arg1:T3 Arg2:T5	
+R4	Description Arg1:T4 Arg2:T5	
+T6	Substance 33 37	море
+A2	Reference T6
+R5	Located Arg1:T5 Arg2:T6	

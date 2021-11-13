@@ -1,0 +1,15 @@
+T1	Question 0 7	Сколько
+T2	Property 8 15	времени
+T3	Property 42 51	мощностью
+T4	Value 52 58	25 кВт
+R1	Measure Arg1:T3 Arg2:T4	
+T5	Property 76 82	работу
+T6	Value 83 92	36000 кДж
+R2	Measure Arg1:T5 Arg2:T6	
+T7	Object 32 41	двигатель
+T8	Phenomena 23 31	работать
+R3	About Arg1:T1 Arg2:T2	
+R4	Description Arg1:T2 Arg2:T7	
+R5	Description Arg1:T3 Arg2:T7	
+R6	Description Arg1:T5 Arg2:T7	
+R7	Do Arg1:T7 Arg2:T8	

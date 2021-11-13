@@ -1,0 +1,14 @@
+T1	Question 52 58	Какова
+T2	Property 59 66	площадь
+T3	Object 67 78	опоры ящика
+R1	About Arg1:T1 Arg2:T2	
+R2	Description Arg1:T2 Arg2:T3	
+T4	Property 5 10	весом
+T5	Value 11 16	960 Н
+R3	Measure Arg1:T4 Arg2:T5	
+T6	Property 36 44	давление
+T7	Value 45 50	5 кПа
+R4	Measure Arg1:T6 Arg2:T7	
+T8	Object 0 4	Ящик
+R5	Description Arg1:T4 Arg2:T8	
+R6	Description Arg1:T6 Arg2:T8	

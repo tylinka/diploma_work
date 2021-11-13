@@ -1,0 +1,20 @@
+T1	Question 76 82	Какова
+T2	Property 83 88	масса
+T3	Object 89 96	снаряда
+R1	About Arg1:T1 Arg2:T2	
+R2	Description Arg1:T2 Arg2:T3	
+T4	Property 103 118	скорость отдачи
+T5	Value 154 160	12 м/с
+R3	Measure Arg1:T4 Arg2:T5	
+T6	Property 18 23	масса
+T7	Value 33 36	1 т
+R4	Measure Arg1:T6 Arg2:T7	
+T8	Property 57 66	скоростью
+T9	Value 67 74	600 м/с
+R5	Measure Arg1:T8 Arg2:T9	
+T10	Object 47 53	снаряд
+R6	Description Arg1:T8 Arg2:T10	
+T11	Object 10 16	орудия
+R7	Description Arg1:T6 Arg2:T11	
+T12	Object 119 125	орудия
+R8	Description Arg1:T4 Arg2:T12	

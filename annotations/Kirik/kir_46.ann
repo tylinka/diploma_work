@@ -1,0 +1,13 @@
+T1	Question 0 5	Какое
+T2	Property 6 16	расстояние
+R1	About Arg1:T1 Arg2:T2	
+T3	Value 38 45	1,5 мин
+T4	Property 64 73	скоростью
+T5	Value 74 82	800 км/ч
+R2	Measure Arg1:T4 Arg2:T5	
+T6	Object 27 34	самолет
+T7	Phenomena 55 60	летит
+R3	Happens Arg1:T7 Arg2:T6	
+R4	Description Arg1:T2 Arg2:T6	
+R5	Description Arg1:T3 Arg2:T6	
+R6	Description Arg1:T4 Arg2:T6	

@@ -1,0 +1,9 @@
+T1	Question 0 19	Под действием какой
+T2	Property 20 24	силы
+T3	Property 37 43	работа
+T4	Value 44 51	200 кДж
+R1	Measure Arg1:T3 Arg2:T4	
+T5	Value 60 66	0,8 км
+R2	About Arg1:T1 Arg2:T2	
+T6	Property 55 59	пути
+R3	Measure Arg1:T6 Arg2:T5	

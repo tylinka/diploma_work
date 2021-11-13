@@ -1,0 +1,13 @@
+T1	Question 9 14	какой
+T2	Property 43 49	массой
+T3	Value 50 55	10 кг
+R1	Measure Arg1:T2 Arg2:T3	
+T4	Property 75 83	давление
+T5	Value 84 90	105 Па
+R2	Measure Arg1:T4 Arg2:T5	
+T6	Property 15 22	площади
+T7	Object 38 42	груз
+R3	Description Arg1:T2 Arg2:T7	
+R4	Description Arg1:T4 Arg2:T7	
+R5	About Arg1:T1 Arg2:T6	
+R6	Description Arg1:T6 Arg2:T7	

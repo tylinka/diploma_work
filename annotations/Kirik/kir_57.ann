@@ -1,0 +1,18 @@
+T1	Question 71 78	Найдите
+T2	Property 79 87	давление
+T3	Substance 88 95	воздуха
+A1	Reference T3
+T4	Object 98 103	шахте
+R1	About Arg1:T1 Arg2:T2	
+R2	Description Arg1:T2 Arg2:T3	
+R3	Located Arg1:T3 Arg2:T4	
+T5	Value 64 69	80 см
+T6	Property 13 19	высота
+T7	Substance 20 28	ртутного
+A2	Reference T7
+T8	Object 29 37	столбика
+R4	Description Arg1:T6 Arg2:T8	
+R5	Material Arg1:T7 Arg2:T8	
+T9	Object 48 57	барометре
+R6	Part Arg1:T8 Arg2:T9	
+R7	Measure Arg1:T6 Arg2:T5	

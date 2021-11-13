@@ -1,0 +1,28 @@
+T1	Question 84 94	Определите
+T2	Value 37 42	6 кВт
+T3	Value 65 68	6 т
+T4	Value 79 82	8 м
+T5	Property 72 78	высоту
+R1	Measure Arg1:T5 Arg2:T4	
+T6	Property 58 64	массой
+R2	Measure Arg1:T6 Arg2:T3	
+T7	Property 27 36	мощностью
+R3	Measure Arg1:T7 Arg2:T2	
+T8	Property 95 108	время подъема
+T9	Property 121 124	КПД
+T10	Value 141 144	80%
+R4	Measure Arg1:T9 Arg2:T10	
+R5	About Arg1:T1 Arg2:T8	
+T11	Object 109 114	груза
+R6	Description Arg1:T9 Arg2:T11	
+T12	Object 0 9	Двигатель
+T13	Object 21 26	крана
+R7	Part Arg1:T12 Arg2:T13	
+R8	Description Arg1:T7 Arg2:T12	
+T14	Object 53 57	груз
+R9	Description Arg1:T6 Arg2:T14	
+R10	Description Arg1:T5 Arg2:T14	
+T15	Phenomena 43 52	поднимает
+R11	Do Arg1:T13 Arg2:T15	
+R12	Happens Arg1:T15 Arg2:T14	
+R13	Description Arg1:T8 Arg2:T11	
