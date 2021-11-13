@@ -1,0 +1,9 @@
+T1	Value 57 62	120 т
+T2	Substance 63 68	нефти
+A1	Reference T2
+R1	Description Arg1:T1 Arg2:T2	
+T3	Question 70 75	Какой
+T4	Property 76 83	емкости
+R2	About Arg1:T3 Arg2:T4	
+T5	Object 96 104	цистерна
+R3	Description Arg1:T4 Arg2:T5	

@@ -1,0 +1,12 @@
+T1	Question 0 10	Чему равна
+T2	Property 11 20	жесткость
+T3	Object 21 28	пружины
+R1	About Arg1:T1 Arg2:T2	
+R2	Description Arg1:T2 Arg2:T3	
+T4	Value 55 61	1000 Н
+T5	Value 77 84	на 1 мм
+T6	Object 49 54	груза
+R3	Description Arg1:T4 Arg2:T6	
+T7	Phenomena 66 76	удлинилась
+R4	Happens Arg1:T7 Arg2:T3	
+R5	Description Arg1:T5 Arg2:T3	

@@ -1,0 +1,15 @@
+T1	Question 0 10	На сколько
+T2	Property 11 22	сантиметров
+T3	Property 23 27	сила
+T4	Value 28 32	21 Н
+R1	Measure Arg1:T3 Arg2:T4	
+T5	Property 50 60	жесткостью
+T6	Value 61 68	105 Н/м
+R2	Measure Arg1:T5 Arg2:T6	
+T7	Object 42 49	пружину
+R3	Description Arg1:T5 Arg2:T7	
+R4	About Arg1:T1 Arg2:T2	
+R5	Description Arg1:T2 Arg2:T7	
+R6	Description Arg1:T3 Arg2:T7	
+T8	Phenomena 33 41	растянет
+R7	Happens Arg1:T8 Arg2:T7	
