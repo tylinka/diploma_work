@@ -1,0 +1,20 @@
+T1	Property 119 126	энергия
+T2	Question 135 140	Какое
+T3	Property 141 146	время
+T4	Object 156 161	лампа
+R1	About Arg1:T2 Arg2:T3	
+R2	Description Arg1:T3 Arg2:T4	
+T5	Value 127 133	330 Дж
+R3	Measure Arg1:T1 Arg2:T5	
+T6	Property 40 51	напряжением
+T7	Value 52 57	220 В
+T8	Property 74 83	ток силой
+T9	Value 84 89	0,5 А
+R4	Measure Arg1:T8 Arg2:T9	
+R5	Measure Arg1:T6 Arg2:T7	
+T10	Object 25 30	лампы
+R6	Description Arg1:T6 Arg2:T10	
+R7	Description Arg1:T8 Arg2:T10	
+R8	Description Arg1:T1 Arg2:T10	
+T11	Phenomena 4 13	включении
+R9	Happens Arg1:T11 Arg2:T10	

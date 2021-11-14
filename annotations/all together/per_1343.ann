@@ -1,0 +1,9 @@
+T1	Property 11 30	фокусное расстояние
+T2	Object 31 36	линзы
+R1	Description Arg1:T1 Arg2:T2	
+T3	Question 0 10	Чему равно
+R2	About Arg1:T3 Arg2:T1	
+T4	Property 46 61	оптическая сила
+R3	Description Arg1:T4 Arg2:T2	
+T5	Value 68 76	0,4 дптр
+R4	Measure Arg1:T4 Arg2:T5	

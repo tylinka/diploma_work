@@ -1,0 +1,14 @@
+T1	Value 44 50	440 Ом
+T2	Value 67 72	0,5 А
+T3	Property 57 66	ток силой
+R1	Measure Arg1:T3 Arg2:T2	
+T4	Property 29 43	сопротивлением
+R2	Measure Arg1:T4 Arg2:T1	
+T5	Object 6 28	электрическую лампочку
+R3	Description Arg1:T4 Arg2:T5	
+R4	Description Arg1:T3 Arg2:T5	
+T6	Question 78 83	каком
+T7	Property 84 94	напряжении
+R5	About Arg1:T6 Arg2:T7	
+T8	Object 108 116	лампочка
+R6	Description Arg1:T7 Arg2:T8	

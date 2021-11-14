@@ -1,0 +1,16 @@
+T1	Property 0 10	Напряжение
+T2	Object 22 38	электродвигателя
+T3	Value 45 49	12 В
+R1	Description Arg1:T1 Arg2:T2	
+R2	Measure Arg1:T1 Arg2:T3	
+T4	Property 51 60	сила тока
+T5	Value 85 90	0,5 А
+R3	Measure Arg1:T4 Arg2:T5	
+R4	Description Arg1:T4 Arg2:T2	
+T6	Question 92 102	Определите
+T7	Property 103 109	работу
+T8	Object 110 126	электродвигателя
+R5	About Arg1:T6 Arg2:T7	
+R6	Description Arg1:T7 Arg2:T8	
+T9	Value 130 138	20 минут
+R7	Description Arg1:T9 Arg2:T8	

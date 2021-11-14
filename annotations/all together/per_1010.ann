@@ -1,0 +1,15 @@
+T1	Property 18 28	напряжение
+T2	Value 29 34	575 В
+R1	Measure Arg1:T1 Arg2:T2	
+T3	Property 44 54	сила тока,
+T4	Object 2 17	трамвайной сети
+R2	Description Arg1:T1 Arg2:T4	
+T5	Object 70 96	обмотке трамвайного мотора
+R3	Description Arg1:T3 Arg2:T5	
+T6	Value 98 102	71 А
+R4	Measure Arg1:T3 Arg2:T6	
+T7	Question 104 110	Каково
+T8	Property 111 124	сопротивление
+T9	Object 125 132	обмотки
+R5	About Arg1:T7 Arg2:T8	
+R6	Description Arg1:T8 Arg2:T9	

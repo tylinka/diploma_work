@@ -1,0 +1,23 @@
+T1	Question 88 98	Определите
+T2	Property 99 102	КПД
+T3	Object 103 112	спиртовки
+R1	About Arg1:T1 Arg2:T2	
+R2	Description Arg1:T2 Arg2:T3	
+T4	Substance 0 4	Воду
+A1	Reference T4
+T5	Property 5 11	массой
+T6	Value 12 18	0,3 кг
+R3	Measure Arg1:T5 Arg2:T6	
+R4	Description Arg1:T5 Arg2:T4	
+T7	Phenomena 19 26	нагрели
+R5	Happens Arg1:T7 Arg2:T4	
+T9	Value 43 48	20 °С
+T10	Value 52 57	80 °С
+R6	Description Arg1:T9 Arg2:T4	
+R7	Description Arg1:T10 Arg2:T4	
+T11	Phenomena 60 66	сожгли
+T12	Value 76 79	7 г
+T13	Substance 80 86	спирта
+A2	Reference T13
+R8	Description Arg1:T12 Arg2:T13	
+R9	Happens Arg1:T11 Arg2:T13	

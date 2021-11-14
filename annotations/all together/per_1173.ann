@@ -1,0 +1,13 @@
+T1	Question 33 39	Каково
+T2	Property 43 56	сопротивление
+T3	Property 63 73	напряжение
+T4	Value 81 86	120 В
+R1	Measure Arg1:T3 Arg2:T4	
+R2	About Arg1:T1 Arg2:T2	
+T5	Property 0 8	Мощность
+T6	Object 20 25	лампы
+T7	Value 26 31	60 Вт
+R3	Measure Arg1:T5 Arg2:T7	
+R4	Description Arg1:T5 Arg2:T6	
+R5	Description Arg1:T2 Arg2:T6	
+R6	Description Arg1:T3 Arg2:T6	

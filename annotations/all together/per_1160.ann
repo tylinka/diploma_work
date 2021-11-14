@@ -1,0 +1,12 @@
+T1	Question 120 130	Определите
+T2	Property 138 148	напряжение
+T3	Object 154 161	батарея
+R1	About Arg1:T1 Arg2:T2	
+R2	Description Arg1:T2 Arg2:T3	
+T4	Object 6 14	лампочку
+T5	Value 42 46	5 Кл
+R3	Description Arg1:T5 Arg2:T4	
+T6	Value 91 96	20 Дж
+T7	Property 97 118	электрической энергии
+R4	Measure Arg1:T7 Arg2:T6	
+R5	Description Arg1:T7 Arg2:T4	

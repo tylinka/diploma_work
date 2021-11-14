@@ -1,0 +1,16 @@
+T1	Phenomena 11 19	сгорании
+T2	Substance 20 25	нефти
+A1	Reference T2
+T3	Value 37 44	132 кДж
+T4	Property 45 50	тепла
+R1	Measure Arg1:T4 Arg2:T3	
+R2	Description Arg1:T4 Arg2:T2	
+R3	Happens Arg1:T1 Arg2:T2	
+T5	Question 52 57	Какая
+T6	Property 58 63	масса
+T7	Substance 64 69	нефти
+A2	Reference T7
+T8	Phenomena 70 77	сгорела
+R4	Happens Arg1:T8 Arg2:T7	
+R5	About Arg1:T5 Arg2:T6	
+R6	Description Arg1:T6 Arg2:T7	

@@ -1,0 +1,14 @@
+T1	Question 148 158	Определите
+T2	Property 159 169	напряжение
+T3	Object 172 176	сети
+R1	About Arg1:T1 Arg2:T2	
+R2	Description Arg1:T2 Arg2:T3	
+T4	Value 72 76	5 Кл
+T5	Object 6 28	электрическую лампочку
+T6	Phenomena 30 61	включенную в осветительную сеть
+R3	Happens Arg1:T6 Arg2:T5	
+T7	Value 118 124	600 Дж
+T8	Property 125 146	электрической энергии
+R4	Measure Arg1:T8 Arg2:T7	
+R5	Description Arg1:T8 Arg2:T5	
+R6	Description Arg1:T4 Arg2:T5	

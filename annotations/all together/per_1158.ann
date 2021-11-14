@@ -1,0 +1,15 @@
+T1	Question 0 6	Какова
+T2	Property 7 20	мощность тока
+R1	About Arg1:T1 Arg2:T2	
+T3	Object 23 33	телевизоре
+R2	Description Arg1:T2 Arg2:T3	
+T4	Property 55 66	напряжением
+T5	Value 67 72	220 В
+R3	Measure Arg1:T4 Arg2:T5	
+T6	Property 78 87	силе тока
+T7	Value 88 93	0,4 А
+R4	Measure Arg1:T6 Arg2:T7	
+R5	Description Arg1:T4 Arg2:T3	
+R6	Description Arg1:T6 Arg2:T3	
+T8	Phenomena 35 45	включенном
+R7	Happens Arg1:T8 Arg2:T3	

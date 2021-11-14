@@ -1,0 +1,15 @@
+T1	Property 51 67	Теплота сгорания
+T2	Substance 68 74	пороха
+A1	Reference T2
+R1	Description Arg1:T1 Arg2:T2	
+T3	Value 75 85	3,8 МДж/кг
+R2	Measure Arg1:T1 Arg2:T3	
+T4	Substance 6 12	пороха
+A2	Reference T4
+T5	Property 38 43	массу
+T6	Value 44 49	3,2 г
+R3	Measure Arg1:T5 Arg2:T6	
+R4	Description Arg1:T5 Arg2:T4	
+T7	Question 87 94	Сколько
+T8	Property 106 111	тепла
+R5	About Arg1:T7 Arg2:T8	

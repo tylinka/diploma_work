@@ -1,0 +1,18 @@
+T1	Property 42 53	напряжением
+T2	Value 54 59	220 В
+T3	Property 61 70	сила тока
+T4	Value 77 81	10 А
+R1	Measure Arg1:T3 Arg2:T4	
+R2	Measure Arg1:T1 Arg2:T2	
+T5	Question 83 90	Сколько
+T6	Property 91 98	энергии
+T7	Object 109 123	электродуховка
+T8	Phenomena 99 108	расходует
+R3	Happens Arg1:T8 Arg2:T7	
+T9	Value 127 130	5 ч
+R4	Description Arg1:T9 Arg2:T7	
+R5	About Arg1:T5 Arg2:T6	
+R6	Description Arg1:T6 Arg2:T7	
+T10	Object 14 21	духовка
+R7	Description Arg1:T1 Arg2:T10	
+R8	Description Arg1:T3 Arg2:T10	

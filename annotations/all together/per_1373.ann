@@ -1,0 +1,18 @@
+T1	Object 0 26	Действительное изображение
+T2	Phenomena 44 54	получилось
+R1	Happens Arg1:T2 Arg2:T1	
+T3	Property 58 68	расстоянии
+T4	Value 69 74	42 см
+R2	Measure Arg1:T3 Arg2:T4	
+T5	Object 78 83	линзы
+R3	Description Arg1:T3 Arg2:T5	
+R4	Description Arg1:T3 Arg2:T1	
+T6	Property 85 100	оптическая сила
+T7	Value 115 123	2,5 дптр
+R5	Measure Arg1:T6 Arg2:T7	
+R6	Description Arg1:T6 Arg2:T5	
+T8	Question 128 133	каком
+T9	Property 134 144	расстоянии
+T10	Object 148 153	линзы
+R7	About Arg1:T8 Arg2:T9	
+R8	Description Arg1:T9 Arg2:T10	

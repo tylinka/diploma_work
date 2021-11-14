@@ -1,0 +1,13 @@
+T1	Question 0 10	Определите
+T2	Property 11 20	силу тока
+R1	About Arg1:T1 Arg2:T2	
+T3	Object 40 60	лампочку накаливания
+R2	Description Arg1:T2 Arg2:T3	
+T4	Property 67 77	напряжение
+R3	Description Arg1:T4 Arg2:T3	
+T5	Value 85 90	110 В
+R4	Measure Arg1:T4 Arg2:T5	
+T6	Property 94 107	сопротивление
+R5	Description Arg1:T6 Arg2:T3	
+T7	Value 128 133	80 Ом
+R6	Measure Arg1:T6 Arg2:T7	

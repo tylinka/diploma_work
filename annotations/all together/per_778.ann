@@ -1,0 +1,12 @@
+T1	Question 0 5	Какое
+T2	Property 17 24	теплоты
+T3	Phenomena 39 47	сгорании
+T4	Substance 48 56	керосина
+A1	Reference T4
+T5	Property 57 63	массой
+T6	Value 64 69	300 г
+R1	Measure Arg1:T5 Arg2:T6	
+R2	About Arg1:T1 Arg2:T2	
+R3	Description Arg1:T2 Arg2:T4	
+R4	Happens Arg1:T3 Arg2:T4	
+R5	Description Arg1:T5 Arg2:T4	
