@@ -1,0 +1,27 @@
+T1	Question 0 5	Найти
+T2	Property 6 13	импульс
+T3	Object 14 34	грузового автомобиля
+R1	About Arg1:T1 Arg2:T2	
+R2	Description Arg1:T2 Arg2:T3	
+T4	Property 35 41	массой
+T5	Value 42 46	10 т
+R3	Measure Arg1:T4 Arg2:T5	
+R4	Description Arg1:T4 Arg2:T3	
+T6	Phenomena 48 59	движущегося
+T7	Property 63 72	скоростью
+T8	Value 73 80	36 км/ч
+R5	Measure Arg1:T7 Arg2:T8	
+R6	Description Arg1:T7 Arg2:T3	
+R7	Happens Arg1:T6 Arg2:T3	
+T9	Object 84 104	легкового автомобиля
+T10	Property 105 111	массой
+T11	Value 112 115	1 т
+R8	Measure Arg1:T10 Arg2:T11	
+R9	Description Arg1:T10 Arg2:T9	
+T12	Phenomena 117 128	движущегося
+R10	Happens Arg1:T12 Arg2:T9	
+T13	Property 132 141	скоростью
+T14	Value 142 148	25 м/с
+R11	Measure Arg1:T13 Arg2:T14	
+R12	Description Arg1:T13 Arg2:T9	
+R13	Description Arg1:T2 Arg2:T9	

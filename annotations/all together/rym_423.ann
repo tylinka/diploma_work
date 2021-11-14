@@ -1,0 +1,24 @@
+T1	Object 0 4	Груз
+T2	Property 5 11	массой
+T3	Value 12 17	400 г
+R1	Description Arg1:T2 Arg2:T1	
+R2	Measure Arg1:T2 Arg2:T3	
+T4	Property 49 59	жёсткостью
+T5	Object 41 48	пружине
+R3	Description Arg1:T4 Arg2:T5	
+T6	Value 60 67	250 Н/м
+R4	Measure Arg1:T4 Arg2:T6	
+T7	Property 69 88	Амплитуда колебаний
+T8	Value 89 94	15 см
+R5	Measure Arg1:T7 Arg2:T8	
+T9	Question 96 101	Найти
+T10	Property 102 129	полную механическую энергию
+T11	Object 130 139	колебаний
+R6	About Arg1:T9 Arg2:T10	
+R7	Description Arg1:T10 Arg2:T11	
+T12	Property 142 161	наибольшую скорость
+T13	Object 171 176	груза
+R8	Description Arg1:T12 Arg2:T13	
+R9	About Arg1:T9 Arg2:T12	
+T14	Phenomena 18 37	совершает колебания
+R10	Happens Arg1:T14 Arg2:T1	

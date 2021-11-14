@@ -1,0 +1,22 @@
+T1	Question 122 127	Какой
+T2	Value 163 168	2 мин
+T3	Object 0 4	Шкив
+T4	Property 5 13	радиусом
+T5	Value 14 19	50 см
+T6	Value 27 37	110 об/мин
+R2	Measure Arg1:T4 Arg2:T5	
+R1	Description Arg1:T4 Arg2:T3	
+R3	Description Arg1:T6 Arg2:T3	
+T7	Question 39 49	Определите
+T8	Property 50 65	период вращения
+T9	Property 68 85	линейную скорость
+R4	About Arg1:T7 Arg2:T8	
+R5	About Arg1:T7 Arg2:T9	
+T10	Object 115 120	шкива
+R6	Description Arg1:T8 Arg2:T10	
+R7	Description Arg1:T9 Arg2:T10	
+T11	Object 154 159	точек
+T12	Property 128 132	путь
+R8	About Arg1:T1 Arg2:T12	
+R9	Description Arg1:T2 Arg2:T11	
+R10	Description Arg1:T12 Arg2:T11	

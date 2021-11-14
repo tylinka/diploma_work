@@ -1,0 +1,21 @@
+T1	Question 0 5	Какую
+T2	Property 6 12	работу
+T3	Object 23 30	человек
+R1	About Arg1:T1 Arg2:T2	
+R2	Description Arg1:T2 Arg2:T3	
+T4	Object 44 49	груза
+T5	Phenomena 35 43	поднятии
+R3	Happens Arg1:T5 Arg2:T4	
+T6	Property 50 56	массой
+T7	Value 57 61	2 кг
+T8	Property 65 71	высоту
+T9	Value 72 75	1 м
+T10	Property 78 88	ускорением
+T11	Value 89 95	3 м/с2
+R4	Measure Arg1:T10 Arg2:T11	
+R5	Measure Arg1:T8 Arg2:T9	
+R6	Measure Arg1:T6 Arg2:T7	
+R7	Description Arg1:T6 Arg2:T4	
+R8	Description Arg1:T8 Arg2:T4	
+R9	Description Arg1:T10 Arg2:T4	
+R10	Do Arg1:T3 Arg2:T5	

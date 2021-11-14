@@ -1,0 +1,8 @@
+T1	Question 0 6	Какова
+T2	Property 7 12	масса
+T3	Value 13 21	500 моль
+T4	Substance 22 38	углекислого газа
+A1	Reference T4
+R1	About Arg1:T1 Arg2:T2	
+R2	Measure Arg1:T2 Arg2:T3	
+R3	Description Arg1:T2 Arg2:T4	

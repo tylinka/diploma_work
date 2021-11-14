@@ -1,0 +1,27 @@
+T1	Object 0 5	Шарик
+T2	Property 6 12	массой
+T3	Value 13 18	100 г
+R1	Measure Arg1:T2 Arg2:T3	
+R2	Description Arg1:T2 Arg2:T1	
+T4	Phenomena 19 32	свободно упал
+R3	Happens Arg1:T4 Arg2:T1	
+T5	Property 81 89	скорость
+T6	Value 90 96	10 м/с
+R4	Measure Arg1:T5 Arg2:T6	
+R5	Description Arg1:T5 Arg2:T1	
+T7	Question 98 103	Найти
+T8	Property 104 122	изменение импульса
+T9	Object 123 127	шара
+T10	Phenomena 132 157	абсолютно неупругом ударе
+R6	Happens Arg1:T10 Arg2:T9	
+R7	About Arg1:T7 Arg2:T8	
+R8	Description Arg1:T8 Arg2:T9	
+T11	Question 159 168	Вычислить
+T12	Property 169 181	среднюю силу
+R9	About Arg1:T11 Arg2:T12	
+T13	Object 198 203	шарик
+R10	Description Arg1:T12 Arg2:T13	
+T14	Phenomena 225 239	неупругий удар
+R11	Happens Arg1:T14 Arg2:T13	
+T15	Value 247 253	0,05 с
+R12	Description Arg1:T15 Arg2:T13	

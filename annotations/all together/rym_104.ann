@@ -1,0 +1,14 @@
+T1	Property 0 8	Скорость
+T2	Object 9 23	точек экватора
+R1	Description Arg1:T1 Arg2:T2	
+T3	Phenomena 39 64	вращении вокруг своей оси
+R2	Happens Arg1:T3 Arg2:T2	
+T4	Value 71 77	2 км/с
+R3	Measure Arg1:T1 Arg2:T4	
+T5	Question 79 84	Найти
+T6	Property 85 101	период обращения
+R4	About Arg1:T5 Arg2:T6	
+T8	Property 128 157	центростремительное ускорение
+T9	Object 158 172	точек экватора
+R6	Description Arg1:T8 Arg2:T9	
+R5	Description Arg1:T6 Arg2:T9	

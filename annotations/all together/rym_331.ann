@@ -1,0 +1,19 @@
+T1	Question 0 5	Какую
+T2	Property 6 12	работу
+T3	Object 23 35	сила тяжести
+R1	About Arg1:T1 Arg2:T2	
+R2	Description Arg1:T2 Arg2:T3	
+T4	Property 67 73	массой
+T5	Value 74 79	20 мг
+R3	Measure Arg1:T4 Arg2:T5	
+T6	Property 98 104	высоты
+T7	Value 105 109	2 км
+R4	Measure Arg1:T6 Arg2:T7	
+T8	Object 61 66	каплю
+R5	Description Arg1:T4 Arg2:T8	
+R6	Description Arg1:T6 Arg2:T8	
+T9	Phenomena 88 95	падении
+R7	Happens Arg1:T9 Arg2:T8	
+T10	Phenomena 37 48	действующая
+R8	Do Arg1:T3 Arg2:T10	
+R9	Happens Arg1:T10 Arg2:T8	

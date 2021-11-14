@@ -1,0 +1,22 @@
+T1	Question 57 64	Сколько
+T2	Property 65 73	оборотов
+T3	Object 81 85	винт
+T4	Phenomena 74 80	делает
+R1	About Arg1:T1 Arg2:T2	
+R2	Happens Arg1:T4 Arg2:T3	
+R3	Description Arg1:T2 Arg2:T3	
+T5	Value 94 99	90 км
+T6	Property 89 93	пути
+R4	Measure Arg1:T6 Arg2:T5	
+T7	Property 104 112	скорости
+T8	Value 120 128	180 км/ч
+R5	Measure Arg1:T7 Arg2:T8	
+T9	Value 44 55	1500 об/мин
+T10	Property 0 17	Частота обращения
+T11	Object 29 34	винта
+R6	Description Arg1:T10 Arg2:T11	
+R7	Measure Arg1:T10 Arg2:T9	
+T12	Object 35 43	самолёта
+R8	Part Arg1:T11 Arg2:T12	
+R9	Description Arg1:T6 Arg2:T12	
+R10	Description Arg1:T7 Arg2:T12	

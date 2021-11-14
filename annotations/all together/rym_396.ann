@@ -1,0 +1,24 @@
+T1	Property 6 12	массой
+T2	Object 0 5	Поезд
+R1	Description Arg1:T1 Arg2:T2	
+T3	Value 13 19	1500 т
+R2	Measure Arg1:T1 Arg2:T3	
+T4	Property 32 38	подъём
+T5	Value 47 52	0,004
+R3	Measure Arg1:T4 Arg2:T5	
+R4	Description Arg1:T4 Arg2:T2	
+T6	Phenomena 20 28	движется
+R5	Happens Arg1:T6 Arg2:T2	
+T7	Property 57 66	скоростью
+T8	Value 67 73	16 м/с
+R6	Measure Arg1:T7 Arg2:T8	
+T9	Property 78 104	коэффициенте сопротивления
+T10	Value 105 110	0,006
+R7	Measure Arg1:T9 Arg2:T10	
+R8	Description Arg1:T9 Arg2:T2	
+R9	Description Arg1:T7 Arg2:T2	
+T11	Question 112 118	Какова
+T12	Property 119 136	полезная мощность
+T13	Object 137 147	локомотива
+R10	About Arg1:T11 Arg2:T12	
+R11	Description Arg1:T12 Arg2:T13	

@@ -1,0 +1,14 @@
+T1	Property 0 9	Сила тяги
+T2	Object 25 33	самолёта
+R1	Description Arg1:T1 Arg2:T2	
+T3	Value 54 63	2340 км/ч
+T4	Value 70 76	220 кН
+T5	Property 38 46	скорости
+R2	Measure Arg1:T5 Arg2:T3	
+R3	Measure Arg1:T1 Arg2:T4	
+R4	Description Arg1:T5 Arg2:T2	
+T6	Question 78 83	Найти
+T7	Property 84 92	мощность
+T8	Object 104 112	самолёта
+R5	About Arg1:T6 Arg2:T7	
+R6	Description Arg1:T7 Arg2:T8	

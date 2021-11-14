@@ -1,0 +1,23 @@
+T1	Increase 4 14	увеличении
+E1	Increase:T1 Changing-Arg:T3
+A1	Type_of_changing E1 In
+T2	Value 17 23	4 раза
+T3	Property 24 31	радиуса
+R1	Measure Arg1:T3 Arg2:T2	
+T4	Object 32 47	круговой орбиты
+R2	Description Arg1:T3 Arg2:T4	
+T5	Property 78 98	период его обращения
+T6	Increase 99 112	увеличивается
+E2	Increase:T6 Changing-Arg:T5
+T7	Value 115 120	8 раз
+A2	Type_of_changing E2 In
+R3	Measure Arg1:T5 Arg2:T7	
+R4	Description Arg1:T5 Arg2:T4	
+T8	Question 122 136	Во сколько раз
+T9	Increase 137 147	изменяется
+E3	Increase:T9 Changing-Arg:T10
+A3	Type_of_changing E3 In
+T10	Property 148 156	скорость
+R5	About Arg1:T8 Arg2:T10	
+T11	Object 166 174	спутника
+R6	Description Arg1:T10 Arg2:T11	

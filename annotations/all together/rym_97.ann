@@ -1,0 +1,14 @@
+T1	Property 148 164	период обращения
+T2	Value 165 174	88,85 мин
+R1	Measure Arg1:T1 Arg2:T2	
+T3	Property 177 191	среднюю высоту
+T4	Object 26 45	космическая станция
+R2	Description Arg1:T1 Arg2:T4	
+R3	Description Arg1:T3 Arg2:T4	
+T5	Value 215 221	230 км
+R4	Measure Arg1:T3 Arg2:T5	
+T6	Question 248 253	Найти
+T7	Property 254 270	среднюю скорость
+T8	Object 280 287	станции
+R5	About Arg1:T6 Arg2:T7	
+R6	Description Arg1:T7 Arg2:T8	
