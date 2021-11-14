@@ -1,0 +1,18 @@
+T1	Property 75 100	Средняя скорость движения
+T2	Object 101 108	молекул
+T3	Constant 118 128	неизменной
+E1	Constant:T3 Changing-Arg:T1
+R1	Description Arg1:T1 Arg2:T2	
+T4	Question 0 24	Во сколько раз изменится
+T5	Property 25 33	давление
+R2	About Arg1:T4 Arg2:T5	
+T6	Object 34 38	газа
+R3	Description Arg1:T5 Arg2:T6	
+T7	Property 58 64	объёма
+T8	Value 67 73	3 раза
+R4	Measure Arg1:T7 Arg2:T8	
+T9	Decrease 43 53	уменьшении
+E2	Decrease:T9 Changing-Arg:T7
+A1	Type_of_changing E2 In
+R5	Description Arg1:T7 Arg2:T6	
+R6	Part Arg1:T2 Arg2:T6	

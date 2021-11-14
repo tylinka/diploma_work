@@ -1,0 +1,27 @@
+T1	Property 141 166	Коэффициент сопротивления
+T2	Value 182 186	0,02
+R1	Measure Arg1:T1 Arg2:T2	
+T3	Object 0 10	Троллейбус
+T4	Property 11 17	массой
+T5	Value 18 22	11 т
+R2	Measure Arg1:T4 Arg2:T5	
+R3	Description Arg1:T4 Arg2:T3	
+T6	Property 46 55	скоростью
+T7	Value 56 63	36 км/ч
+R4	Measure Arg1:T6 Arg2:T7	
+T8	Phenomena 23 42	движется равномерно
+R5	Happens Arg1:T8 Arg2:T3	
+R6	Description Arg1:T6 Arg2:T3	
+T9	Question 65 70	Найти
+T10	Property 71 80	силу тока
+R7	About Arg1:T9 Arg2:T10	
+T11	Object 91 100	двигателя
+R8	Description Arg1:T10 Arg2:T11	
+T12	Property 107 117	напряжение
+T13	Value 124 129	550 В
+T14	Property 132 135	КПД
+T15	Value 136 139	80%
+R9	Measure Arg1:T14 Arg2:T15	
+R10	Measure Arg1:T12 Arg2:T13	
+R11	Description Arg1:T12 Arg2:T11	
+R12	Description Arg1:T14 Arg2:T11	

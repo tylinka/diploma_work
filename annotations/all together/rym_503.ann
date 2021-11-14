@@ -1,0 +1,16 @@
+T1	Property 22 33	температура
+T2	Property 48 56	давление
+T3	Value 78 83	750 К
+T4	Value 86 94	9120 кПа
+R1	Measure Arg1:T1 Arg2:T3	
+R2	Measure Arg1:T2 Arg2:T4	
+T5	Question 96 101	Найти
+T6	Property 102 111	плотность
+T7	Object 112 121	атмосферы
+R3	About Arg1:T5 Arg2:T6	
+R4	Description Arg1:T6 Arg2:T7	
+R5	Description Arg1:T1 Arg2:T7	
+R6	Description Arg1:T2 Arg2:T7	
+T8	Substance 172 188	углекислого газа
+A1	Reference T8
+R7	Material Arg1:T8 Arg2:T7	

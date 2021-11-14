@@ -1,0 +1,19 @@
+T1	Question 111 117	Какова
+T2	Property 118 123	длина
+T3	Object 124 133	проволоки
+R1	About Arg1:T1 Arg2:T2	
+R2	Description Arg1:T2 Arg2:T3	
+T4	Property 75 103	площадью поперечного сечения
+T5	Value 104 109	1 мм2
+R3	Measure Arg1:T4 Arg2:T5	
+T6	Property 17 31	сопротивлением
+T7	Value 32 37	84 Ом
+R4	Measure Arg1:T6 Arg2:T7	
+T8	Substance 51 62	никелиновой
+A1	Reference T8
+T9	Object 63 72	проволоки
+R5	Material Arg1:T8 Arg2:T9	
+R6	Description Arg1:T4 Arg2:T9	
+T10	Object 8 16	реостата
+R7	Description Arg1:T6 Arg2:T10	
+R8	Part Arg1:T9 Arg2:T10	

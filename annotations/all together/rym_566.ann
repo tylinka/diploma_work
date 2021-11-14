@@ -1,0 +1,11 @@
+T1	Property 0 20	Парциальное давление
+T2	Substance 21 34	водяного пара
+A1	Reference T2
+R1	Description Arg1:T1 Arg2:T2	
+T3	Value 49 54	19 °С
+R2	Description Arg1:T3 Arg2:T2	
+T4	Value 60 67	1,1 кПа
+R3	Measure Arg1:T1 Arg2:T4	
+T5	Question 69 74	Найти
+T6	Property 75 98	относительную влажность
+R4	About Arg1:T5 Arg2:T6	

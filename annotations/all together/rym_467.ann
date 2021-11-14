@@ -1,0 +1,35 @@
+T1	Object 2 7	озеро
+T2	Property 25 32	глубину
+T3	Value 33 37	10 м
+R1	Measure Arg1:T2 Arg2:T3	
+R2	Description Arg1:T2 Arg2:T1	
+T4	Property 40 59	площадь поверхности
+T5	Value 60 66	20 км2
+R3	Measure Arg1:T4 Arg2:T5	
+R4	Description Arg1:T4 Arg2:T1	
+T6	Object 76 86	кристаллик
+T7	Substance 87 102	поваренной соли
+A1	Reference T7
+R5	Material Arg1:T7 Arg2:T6	
+T8	Phenomena 68 75	бросили
+R6	Happens Arg1:T8 Arg2:T6	
+T9	Property 103 109	массой
+T10	Value 110 114	0,01
+R7	Measure Arg1:T9 Arg2:T10	
+R8	Description Arg1:T9 Arg2:T7	
+T11	Question 118 125	Сколько
+T12	Property 126 133	молекул
+T13	Substance 139 143	соли
+A2	Reference T13
+R9	About Arg1:T11 Arg2:T12	
+R10	Description Arg1:T12 Arg2:T13	
+T14	Object 159 173	напёрстке воды
+T15	Phenomena 144 153	оказалось
+T16	Property 174 181	объёмом
+T17	Value 182 187	2 см3
+R11	Measure Arg1:T16 Arg2:T17	
+R12	Description Arg1:T16 Arg2:T14	
+T18	Phenomena 189 209	зачерпнутой из озера
+R13	Happens Arg1:T18 Arg2:T14	
+R14	Do Arg1:T13 Arg2:T15	
+R15	Happens Arg1:T15 Arg2:T14	

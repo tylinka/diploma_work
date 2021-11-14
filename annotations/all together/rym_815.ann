@@ -1,0 +1,24 @@
+T1	Property 14 17	ЭДС
+T2	Value 18 22	12 В
+T3	Property 25 50	внутренним сопротивлением
+T4	Value 51 55	1 Ом
+R1	Measure Arg1:T3 Arg2:T4	
+T5	Object 66 73	реостат
+T6	Property 75 88	сопротивление
+T7	Value 98 102	5 Ом
+R2	Measure Arg1:T6 Arg2:T7	
+R3	Description Arg1:T6 Arg2:T5	
+T8	Object 2 11	источнику
+R4	Description Arg1:T1 Arg2:T8	
+R5	Description Arg1:T3 Arg2:T8	
+R6	Measure Arg1:T1 Arg2:T2	
+T9	Phenomena 56 65	подключён
+R7	Do Arg1:T5 Arg2:T9	
+R8	Happens Arg1:T9 Arg2:T8	
+T10	Question 104 109	Найти
+T11	Property 110 119	силу тока
+R9	About Arg1:T10 Arg2:T11	
+T12	Object 122 126	цепи
+T13	Property 129 139	напряжение
+R10	Description Arg1:T11 Arg2:T12	
+R11	Description Arg1:T13 Arg2:T12	

@@ -1,0 +1,12 @@
+T1	Question 0 5	Найти
+T2	Property 6 18	число атомов
+R1	About Arg1:T1 Arg2:T2	
+T3	Substance 21 32	алюминиевом
+A1	Reference T3
+T4	Object 33 41	предмете
+R2	Material Arg1:T3 Arg2:T4	
+R3	Description Arg1:T2 Arg2:T4	
+T5	Property 42 48	массой
+T6	Value 49 54	135 г
+R4	Measure Arg1:T5 Arg2:T6	
+R5	Description Arg1:T5 Arg2:T4	

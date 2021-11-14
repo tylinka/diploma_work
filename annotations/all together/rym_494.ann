@@ -1,0 +1,15 @@
+T1	Question 0 6	Каково
+T2	Property 7 15	давление
+T3	Object 24 31	воздуха
+R1	About Arg1:T1 Arg2:T2	
+R2	Description Arg1:T2 Arg2:T3	
+T4	Value 69 73	20 л
+T5	Property 78 89	температуре
+T6	Value 90 95	12 °С
+R3	Measure Arg1:T5 Arg2:T6	
+R4	Description Arg1:T4 Arg2:T3	
+R5	Description Arg1:T5 Arg2:T3	
+T7	Property 102 107	масса
+T8	Value 122 126	2 кг
+R6	Measure Arg1:T7 Arg2:T8	
+R7	Description Arg1:T7 Arg2:T3	

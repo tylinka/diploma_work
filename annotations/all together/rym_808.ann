@@ -1,0 +1,30 @@
+T1	Property 47 58	напряжением
+T2	Value 59 64	380 В
+R1	Measure Arg1:T1 Arg2:T2	
+T3	Property 75 84	сила тока
+T4	Value 105 109	20 А
+R2	Measure Arg1:T3 Arg2:T4	
+T5	Object 0 16	Электродвигатель
+T6	Object 28 33	крана
+R3	Part Arg1:T5 Arg2:T6	
+R4	Description Arg1:T1 Arg2:T5	
+R5	Description Arg1:T3 Arg2:T5	
+T7	Question 111 116	Каков
+T8	Property 117 120	КПД
+T9	Property 142 148	массой
+T10	Value 149 152	1 т
+R6	Measure Arg1:T9 Arg2:T10	
+T11	Property 171 177	высоту
+T12	Value 178 182	19 м
+T13	Value 186 190	50 с
+R7	Measure Arg1:T11 Arg2:T12	
+T14	Object 137 141	груз
+R8	Description Arg1:T9 Arg2:T14	
+R9	Description Arg1:T11 Arg2:T14	
+T15	Object 153 157	кран
+T16	Phenomena 158 167	поднимает
+R10	Do Arg1:T15 Arg2:T16	
+R11	Happens Arg1:T16 Arg2:T14	
+R12	About Arg1:T7 Arg2:T8	
+R13	Description Arg1:T8 Arg2:T15	
+R14	Description Arg1:T13 Arg2:T14	

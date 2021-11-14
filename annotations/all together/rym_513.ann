@@ -1,0 +1,25 @@
+T1	Question 110 120	Каким было
+T2	Property 121 144	первоначальное давление
+R1	About Arg1:T1 Arg2:T2	
+T3	Decrease 4 14	уменьшении
+E1	Decrease:T3 Changing-Arg:T4
+A1	Type_of_changing E1 In
+T4	Property 15 21	объёма
+T5	Value 27 35	в 2 раза
+R2	Measure Arg1:T4 Arg2:T5	
+T6	Property 36 44	давление
+T7	Increase 45 56	увеличилось
+E2	Increase:T7 Changing-Arg:T6
+A2	Type_of_changing E2 On
+T8	Value 57 67	на 120 кПа
+R3	Measure Arg1:T6 Arg2:T8	
+T9	Property 70 92	абсолютная температура
+T10	Increase 93 101	возросла
+E3	Increase:T10 Changing-Arg:T9
+A3	Type_of_changing E3 On
+T11	Value 102 108	на 10%
+R4	Measure Arg1:T9 Arg2:T11	
+T12	Object 22 26	газа
+R5	Description Arg1:T4 Arg2:T12	
+R6	Description Arg1:T6 Arg2:T12	
+R7	Description Arg1:T9 Arg2:T12	

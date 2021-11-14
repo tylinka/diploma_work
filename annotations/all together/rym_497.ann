@@ -1,0 +1,26 @@
+T1	Substance 0 6	Воздух
+A1	Reference T1
+T2	Property 7 14	объёмом
+T3	Value 15 22	1,45 м3
+R1	Measure Arg1:T2 Arg2:T3	
+R2	Description Arg1:T2 Arg2:T1	
+T4	Property 40 51	температуре
+T5	Value 52 57	20 °С
+R3	Measure Arg1:T4 Arg2:T5	
+R4	Description Arg1:T4 Arg2:T1	
+T6	Property 60 68	давлении
+T7	Value 69 76	100 кПа
+R5	Measure Arg1:T6 Arg2:T7	
+R6	Description Arg1:T6 Arg2:T1	
+T8	Phenomena 78 105	перевели в жидкое состояние
+R7	Happens Arg1:T8 Arg2:T1	
+T9	Question 107 112	Какой
+T10	Property 113 118	объём
+T11	Substance 126 139	жидкий воздух
+A2	Reference T11
+R8	About Arg1:T9 Arg2:T10	
+R9	Description Arg1:T10 Arg2:T11	
+T12	Property 150 159	плотность
+T13	Value 160 169	861 кг/м3
+R10	Measure Arg1:T12 Arg2:T13	
+R11	Description Arg1:T12 Arg2:T11	

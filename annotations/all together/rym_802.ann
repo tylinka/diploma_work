@@ -1,0 +1,10 @@
+T1	Object 19 36	лампы накаливания
+T2	Value 47 52	220 В
+T3	Value 54 59	60 Вт
+R1	Description Arg1:T2 Arg2:T1	
+R2	Description Arg1:T3 Arg2:T1	
+T4	Question 61 66	Найти
+T5	Property 67 76	силу тока
+T6	Property 79 92	сопротивление
+R3	About Arg1:T4 Arg2:T5	
+R4	About Arg1:T4 Arg2:T6	

@@ -1,0 +1,26 @@
+T1	Object 38 49	смесь газов
+T2	Substance 64 75	аргона (Аг)
+A1	Reference T2
+T3	Value 23 27	25 л
+R1	Description Arg1:T3 Arg2:T1	
+R2	Material Arg1:T2 Arg2:T1	
+T4	Property 76 82	массой
+T5	Value 83 87	20 г
+R3	Measure Arg1:T4 Arg2:T5	
+R4	Description Arg1:T4 Arg2:T2	
+T6	Substance 90 100	гелия (Не)
+A2	Reference T6
+T7	Property 101 107	массой
+T8	Value 108 111	2 г
+R5	Measure Arg1:T7 Arg2:T8	
+R6	Description Arg1:T7 Arg2:T6	
+R7	Material Arg1:T6 Arg2:T1	
+T9	Property 116 127	температуре
+T10	Value 128 133	301 К
+R8	Measure Arg1:T9 Arg2:T10	
+R9	Description Arg1:T9 Arg2:T1	
+T11	Question 135 140	Найти
+T12	Property 141 149	давление
+T13	Object 150 161	смеси газов
+R10	About Arg1:T11 Arg2:T12	
+R11	Description Arg1:T12 Arg2:T13	

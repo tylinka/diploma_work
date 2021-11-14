@@ -1,0 +1,17 @@
+T1	Question 0 5	Какое
+T2	Property 6 25	количество вещества
+T3	Object 39 43	газе
+R1	About Arg1:T1 Arg2:T2	
+R2	Description Arg1:T2 Arg2:T3	
+T4	Property 54 62	давлении
+T5	Value 63 70	200 кПа
+R3	Measure Arg1:T4 Arg2:T5	
+R4	Description Arg1:T4 Arg2:T3	
+T6	Property 73 84	температуре
+T7	Value 85 90	240 К
+R5	Measure Arg1:T6 Arg2:T7	
+R6	Description Arg1:T6 Arg2:T3	
+T8	Property 95 100	объём
+T9	Value 107 111	40 л
+R7	Measure Arg1:T8 Arg2:T9	
+R8	Description Arg1:T8 Arg2:T3	

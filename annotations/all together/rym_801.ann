@@ -1,0 +1,10 @@
+T1	Question 62 67	Найти
+T2	Property 68 81	сопротивление
+T3	Property 101 122	потребляемую мощность
+R1	About Arg1:T1 Arg2:T2	
+R2	About Arg1:T1 Arg2:T3	
+T4	Value 47 52	3,5 В
+T5	Value 54 60	0,28 А
+R3	Description Arg1:T4 Arg2:T7	
+R4	Description Arg1:T5 Arg2:T7	
+T7	Object 10 18	лампочки
