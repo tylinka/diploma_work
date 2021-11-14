@@ -1,0 +1,16 @@
+T1	Question 80 85	Какое
+T2	Property 86 104	количество теплоты
+R1	About Arg1:T1 Arg2:T2	
+T3	Object 118 122	печи
+T4	Value 126 131	1 мин
+R2	Description Arg1:T2 Arg2:T3	
+R3	Description Arg1:T4 Arg2:T3	
+T5	Value 53 58	800 А
+T6	Property 49 52	ток
+R4	Measure Arg1:T6 Arg2:T5	
+T7	Property 63 73	напряжении
+T8	Value 74 78	60 В
+R5	Measure Arg1:T7 Arg2:T8	
+T9	Object 14 18	печь
+R6	Description Arg1:T6 Arg2:T9	
+R7	Description Arg1:T7 Arg2:T9	

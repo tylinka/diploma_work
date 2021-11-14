@@ -1,0 +1,19 @@
+T1	Question 81 91	Определите
+T2	Property 96 118	удельное сопротивление
+R1	About Arg1:T1 Arg2:T2	
+T3	Property 0 13	Сопротивление
+T4	Substance 14 26	алюминиевого
+A1	Reference T4
+T5	Object 27 34	провода
+R2	Material Arg1:T4 Arg2:T5	
+R3	Description Arg1:T3 Arg2:T5	
+T6	Property 35 41	длиной
+T7	Value 42 48	0,9 км
+R4	Measure Arg1:T6 Arg2:T7	
+T8	Property 51 59	сечением
+T9	Value 60 66	10 мм2
+R5	Measure Arg1:T8 Arg2:T9	
+T10	Value 73 79	2,5 Ом
+R6	Measure Arg1:T3 Arg2:T10	
+R7	Description Arg1:T6 Arg2:T5	
+R8	Description Arg1:T8 Arg2:T5	

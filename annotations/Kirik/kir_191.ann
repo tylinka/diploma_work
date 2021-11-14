@@ -1,0 +1,16 @@
+T1	Question 0 5	Какое
+T2	Property 6 24	количество теплоты
+R1	About Arg1:T1 Arg2:T2	
+T3	Value 79 82	1 ч
+T4	Property 106 115	ток силой
+T5	Value 116 119	1 А
+R2	Measure Arg1:T4 Arg2:T5	
+T6	Property 124 134	напряжении
+T7	Value 135 140	110 В
+R3	Measure Arg1:T6 Arg2:T7	
+T8	Object 63 68	лампы
+R4	Description Arg1:T2 Arg2:T8	
+R5	Description Arg1:T3 Arg2:T8	
+T9	Object 89 94	лампа
+R6	Description Arg1:T4 Arg2:T9	
+R7	Description Arg1:T6 Arg2:T9	

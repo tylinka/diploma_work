@@ -1,0 +1,20 @@
+T1	Question 0 7	Сколько
+T2	Property 8 14	метров
+R1	About Arg1:T1 Arg2:T2	
+T3	Substance 15 27	никелинового
+A1	Reference T3
+T4	Object 28 35	провода
+R2	Material Arg1:T3 Arg2:T4	
+T5	Property 36 44	сечением
+T6	Value 45 52	0,1 мм2
+R3	Measure Arg1:T5 Arg2:T6	
+R4	Description Arg1:T5 Arg2:T4	
+R5	Description Arg1:T2 Arg2:T4	
+T7	Object 82 90	реостата
+T8	Property 91 105	сопротивлением
+T9	Value 106 112	180 Ом
+R6	Measure Arg1:T8 Arg2:T9	
+T10	Phenomena 69 81	изготовления
+R7	Description Arg1:T8 Arg2:T7	
+R8	Do Arg1:T4 Arg2:T10	
+R9	Happens Arg1:T10 Arg2:T7	

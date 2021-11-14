@@ -1,0 +1,16 @@
+T1	Question 0 11	Рассчитайте
+T2	Property 12 25	сопротивление
+R1	About Arg1:T1 Arg2:T2	
+T3	Substance 26 37	алюминиевой
+A1	Reference T3
+T4	Object 38 47	проволоки
+R2	Material Arg1:T3 Arg2:T4	
+R3	Description Arg1:T2 Arg2:T4	
+T5	Property 48 54	длиной
+T6	Value 55 60	80 см
+R4	Measure Arg1:T5 Arg2:T6	
+R5	Description Arg1:T5 Arg2:T4	
+T7	Property 63 91	площадью поперечного сечения
+T8	Value 92 99	0,2 мм2
+R6	Measure Arg1:T7 Arg2:T8	
+R7	Description Arg1:T7 Arg2:T4	

@@ -1,0 +1,14 @@
+T1	Question 0 5	Какое
+T2	Property 6 16	напряжение
+R1	About Arg1:T1 Arg2:T2	
+T3	Object 35 45	проводнику
+T4	Property 46 60	сопротивлением
+R2	Description Arg1:T2 Arg2:T3	
+T5	Value 61 67	250 Ом
+R3	Measure Arg1:T4 Arg2:T5	
+R4	Description Arg1:T4 Arg2:T3	
+T6	Object 77 87	проводнике
+T7	Property 93 102	сила тока
+T8	Value 103 108	0,3 А
+R5	Measure Arg1:T7 Arg2:T8	
+R6	Description Arg1:T7 Arg2:T6	

@@ -1,0 +1,16 @@
+T1	Question 0 6	Какого
+T2	Property 7 14	сечения
+R1	About Arg1:T1 Arg2:T2	
+T3	Substance 20 26	медный
+A1	Reference T3
+T4	Object 27 33	провод
+R2	Material Arg1:T3 Arg2:T4	
+R3	Description Arg1:T2 Arg2:T4	
+T5	Property 44 49	длине
+T6	Value 50 56	1000 м
+R4	Measure Arg1:T5 Arg2:T6	
+T7	Property 61 74	сопротивление
+T8	Value 81 87	1,1 Ом
+R5	Measure Arg1:T7 Arg2:T8	
+R6	Description Arg1:T5 Arg2:T4	
+R7	Description Arg1:T7 Arg2:T4	

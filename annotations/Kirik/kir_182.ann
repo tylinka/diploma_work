@@ -1,0 +1,14 @@
+T1	Property 0 10	Напряжение
+T2	Value 18 23	220 В
+R1	Measure Arg1:T1 Arg2:T2	
+T3	Question 25 35	Определите
+T4	Property 36 45	силу тока
+R2	About Arg1:T3 Arg2:T4	
+T5	Object 48 55	спирали
+T6	Object 56 69	электроплитки
+R3	Part Arg1:T5 Arg2:T6	
+R4	Description Arg1:T4 Arg2:T5	
+T7	Property 79 92	сопротивление
+T8	Value 93 98	44 Ом
+R5	Measure Arg1:T7 Arg2:T8	
+R6	Description Arg1:T7 Arg2:T5	
