@@ -1,0 +1,14 @@
+T1	Question 0 11	Рассчитайте
+T2	Property 12 25	сопротивление
+R1	About Arg1:T1 Arg2:T2	
+T3	Value 26 31	200 м
+R2	Measure Arg1:T2 Arg2:T3	
+T4	Substance 32 39	медного
+A1	Reference T4
+T5	Object 40 47	провода
+T6	Property 48 56	сечением
+T7	Value 57 62	2 мм2
+R3	Measure Arg1:T6 Arg2:T7	
+R4	Material Arg1:T4 Arg2:T5	
+R5	Description Arg1:T6 Arg2:T5	
+R6	Description Arg1:T2 Arg2:T5	

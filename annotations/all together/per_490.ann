@@ -1,0 +1,12 @@
+T1	Question 0 10	Определите
+T2	Property 11 14	вес
+T3	Substance 17 29	пресной воде
+A1	Reference T3
+A2	Medium T3
+T4	Value 30 35	1 см3
+T5	Substance 36 40	меди
+A3	Reference T5
+R1	About Arg1:T1 Arg2:T2	
+R2	Located Arg1:T5 Arg2:T3	
+R3	Description Arg1:T2 Arg2:T5	
+R4	Description Arg1:T4 Arg2:T5	

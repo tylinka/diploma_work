@@ -1,0 +1,17 @@
+T1	Question 0 5	Каков
+T2	Property 6 11	объем
+T3	Object 25 29	тела
+T4	Phenomena 12 24	погруженного
+R1	Happens Arg1:T4 Arg2:T3	
+R2	Description Arg1:T2 Arg2:T3	
+R3	About Arg1:T1 Arg2:T2	
+T5	Phenomena 40 53	выталкивается
+R4	Happens Arg1:T5 Arg2:T3	
+T6	Substance 54 59	водой
+A1	Reference T6
+A2	Medium T6
+R5	Located Arg1:T3 Arg2:T6	
+T7	Property 62 67	силой
+T8	Value 70 74	50 Н
+R6	Measure Arg1:T7 Arg2:T8	
+R7	Description Arg1:T7 Arg2:T3	

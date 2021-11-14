@@ -1,0 +1,10 @@
+T1	Question 0 7	Сколько
+T2	Phenomena 18 26	сгорании
+T3	Substance 38 53	древесного угля
+A1	Reference T3
+T4	Property 8 13	тепла
+R1	About Arg1:T1 Arg2:T4	
+R2	Happens Arg1:T2 Arg2:T3	
+T5	Value 32 37	10 кг
+R3	Description Arg1:T5 Arg2:T3	
+R4	Description Arg1:T4 Arg2:T3	

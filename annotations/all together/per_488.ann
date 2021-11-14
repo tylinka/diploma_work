@@ -1,0 +1,13 @@
+T1	Question 0 5	Какой
+T2	Property 6 11	объем
+T3	Substance 12 16	воды
+A1	Reference T3
+R1	About Arg1:T1 Arg2:T2	
+R2	Description Arg1:T2 Arg2:T3	
+T4	Object 27 34	корабль
+T5	Phenomena 17 26	вытесняет
+T6	Property 59 77	выталкивающая сила
+R4	Description Arg1:T6 Arg2:T4	
+T7	Value 78 88	200 000 кН
+R5	Measure Arg1:T6 Arg2:T7	
+R6	Happens Arg1:T5 Arg2:T3	

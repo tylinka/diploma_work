@@ -1,0 +1,11 @@
+T1	Question 0 10	Чему равно
+T2	Property 11 24	сопротивление
+R1	About Arg1:T1 Arg2:T2	
+T3	Object 25 32	спирали
+T4	Object 47 52	лампы
+R2	Part Arg1:T3 Arg2:T4	
+R3	Description Arg1:T2 Arg2:T3	
+T5	Value 82 87	6,3 В
+T6	Value 89 95	0,22 А
+R4	Description Arg1:T5 Arg2:T4	
+R5	Description Arg1:T6 Arg2:T4	

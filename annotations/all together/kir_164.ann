@@ -1,0 +1,16 @@
+T1	Question 0 9	Вычислите
+T2	Property 10 16	работу
+R1	About Arg1:T1 Arg2:T2	
+T3	Property 82 88	заряда
+T4	Value 89 94	15 Кл
+R2	Measure Arg1:T3 Arg2:T4	
+T5	Property 121 132	напряжением
+T6	Value 133 138	220 В
+T7	Object 60 67	спираль
+T8	Object 68 81	электроплитки
+R3	Part Arg1:T7 Arg2:T8	
+R4	Description Arg1:T3 Arg2:T7	
+R5	Description Arg1:T5 Arg2:T7	
+T9	Phenomena 105 120	включена в сеть
+R6	Happens Arg1:T9 Arg2:T8	
+R7	Description Arg1:T2 Arg2:T7	

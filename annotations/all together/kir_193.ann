@@ -1,0 +1,16 @@
+T1	Question 0 10	Определите
+T2	Property 11 29	количество теплоты
+R1	About Arg1:T1 Arg2:T2	
+T4	Value 66 73	1,5 мин
+T5	Object 44 54	проводнике
+R4	Description Arg1:T2 Arg2:T5	
+T6	Property 80 89	сила тока
+R2	Description Arg1:T4 Arg2:T5	
+T3	Value 103 106	5 А
+R3	Measure Arg1:T6 Arg2:T3	
+T7	Property 110 120	напряжение
+T8	Object 131 141	проводника
+R5	Description Arg1:T7 Arg2:T8	
+T9	Value 142 147	200 В
+R6	Measure Arg1:T7 Arg2:T9	
+R7	Description Arg1:T6 Arg2:T5	

@@ -1,0 +1,14 @@
+T1	Property 0 10	Напряжение
+T2	Object 28 36	лампочке
+T3	Value 37 41	12 В
+R1	Measure Arg1:T1 Arg2:T3	
+R2	Description Arg1:T1 Arg2:T2	
+T4	Question 43 48	Какой
+T5	Property 49 54	заряд
+R3	About Arg1:T4 Arg2:T5	
+T6	Object 80 88	лампочки
+R4	Description Arg1:T5 Arg2:T6	
+T7	Property 119 125	работа
+T8	Value 126 133	1200 Дж
+R5	Measure Arg1:T7 Arg2:T8	
+R6	Description Arg1:T7 Arg2:T6	

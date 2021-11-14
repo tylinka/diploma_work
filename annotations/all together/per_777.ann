@@ -1,0 +1,10 @@
+T1	Question 0 7	Сколько
+T2	Property 8 13	тепла
+T3	Value 19 24	20 кг
+T4	Substance 25 30	торфа
+A1	Reference T4
+R1	Description Arg1:T3 Arg2:T4	
+R2	About Arg1:T1 Arg2:T2	
+R3	Description Arg1:T2 Arg2:T4	
+T5	Phenomena 42 50	сгорании
+R4	Happens Arg1:T5 Arg2:T4	

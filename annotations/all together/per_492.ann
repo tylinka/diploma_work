@@ -1,0 +1,16 @@
+T1	Question 12 19	сколько
+T2	Property 20 25	весит
+R1	About Arg1:T1 Arg2:T2	
+T3	Substance 28 32	воде
+A1	Reference T3
+A2	Medium T3
+T4	Substance 33 43	стеклянный
+T5	Object 44 49	кубик
+A3	Reference T4
+R2	Material Arg1:T4 Arg2:T5	
+R3	Located Arg1:T5 Arg2:T3	
+R4	Description Arg1:T2 Arg2:T5	
+T6	Property 50 57	объемом
+T7	Value 58 63	1 см3
+R5	Description Arg1:T6 Arg2:T5	
+R6	Measure Arg1:T6 Arg2:T7	

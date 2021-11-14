@@ -1,0 +1,13 @@
+T1	Question 0 10	Определите
+T2	Property 11 21	напряжение
+R1	About Arg1:T1 Arg2:T2	
+T3	Object 25 37	участке цепи
+R2	Description Arg1:T2 Arg2:T3	
+T4	Property 60 66	заряда
+T5	Value 69 74	10 Кл
+R3	Measure Arg1:T4 Arg2:T5	
+T6	Property 90 96	работа
+T7	Value 97 103	15 кДж
+R4	Measure Arg1:T6 Arg2:T7	
+R5	Description Arg1:T4 Arg2:T3	
+R6	Description Arg1:T6 Arg2:T3	

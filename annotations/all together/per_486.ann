@@ -1,0 +1,17 @@
+T1	Question 2 7	какой
+T2	Property 8 13	силой
+T3	Phenomena 14 27	выталкивается
+T4	Object 38 43	кусок
+R1	Happens Arg1:T3 Arg2:T4	
+R2	About Arg1:T1 Arg2:T2	
+R3	Description Arg1:T2 Arg2:T4	
+T5	Substance 44 50	стекла
+R4	Material Arg1:T5 Arg2:T4	
+T6	Property 51 58	объемом
+T7	Value 59 65	10 см3
+R5	Measure Arg1:T6 Arg2:T7	
+R6	Description Arg1:T6 Arg2:T4	
+T8	Substance 28 37	керосином
+A1	Reference T8
+A2	Medium T8
+R7	Located Arg1:T4 Arg2:T8	
