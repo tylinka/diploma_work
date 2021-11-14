@@ -1,0 +1,9 @@
+T1	Question 0 7	Сколько
+T2	Property 8 15	времени
+R1	About Arg1:T1 Arg2:T2	
+T3	Property 36 42	заряда
+T4	Object 43 49	7,7 Кл
+R2	Description Arg1:T3 Arg2:T4	
+T5	Property 54 63	силе тока
+T6	Object 64 69	0,5 А
+R3	Description Arg1:T5 Arg2:T6	

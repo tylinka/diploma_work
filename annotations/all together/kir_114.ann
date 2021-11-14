@@ -1,0 +1,10 @@
+T1	Question 0 5	Какое
+T2	Property 6 24	количество теплоты
+R1	About Arg1:T1 Arg2:T2	
+T3	Phenomena 39 54	полном сгорании
+T4	Value 55 60	100 г
+T5	Substance 61 67	пороха
+A1	Reference T5
+R2	Description Arg1:T4 Arg2:T5	
+R3	Happens Arg1:T3 Arg2:T5	
+R4	Description Arg1:T2 Arg2:T5	

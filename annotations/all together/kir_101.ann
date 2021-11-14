@@ -1,0 +1,14 @@
+T1	Question 0 5	Какую
+T2	Property 6 11	массу
+T3	Substance 12 16	воды
+A1	Reference T3
+R1	About Arg1:T1 Arg2:T2	
+R2	Description Arg1:T2 Arg2:T3	
+T4	Value 31 38	на 40 C
+T5	Phenomena 23 30	нагреть
+R3	Happens Arg1:T5 Arg2:T3	
+R4	Description Arg1:T4 Arg2:T3	
+T6	Value 51 58	4,5 кДж
+T7	Property 59 66	теплоты
+R5	Measure Arg1:T7 Arg2:T6	
+R6	Description Arg1:T7 Arg2:T3	

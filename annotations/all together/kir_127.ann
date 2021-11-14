@@ -1,0 +1,14 @@
+T1	Value 85 88	0 С
+T2	Value 50 54	5 кг
+T3	Substance 55 59	льда
+A1	Reference T3
+T4	Question 0 5	Какое
+T5	Property 6 24	количество теплоты
+R1	About Arg1:T4 Arg2:T5	
+T6	Phenomena 40 49	плавления
+R2	Description Arg1:T2 Arg2:T3	
+T7	Property 73 84	температуре
+R3	Measure Arg1:T7 Arg2:T1	
+R4	Description Arg1:T7 Arg2:T3	
+R5	Happens Arg1:T6 Arg2:T3	
+R6	Description Arg1:T5 Arg2:T3	

@@ -1,0 +1,24 @@
+T1	Question 98 104	Какова
+T2	Property 105 126	удельная теплоемкость
+T3	Substance 127 134	серебра
+A1	Reference T3
+R1	About Arg1:T1 Arg2:T2	
+R2	Description Arg1:T2 Arg2:T3	
+T4	Property 15 21	массой
+T5	Value 22 27	120 г
+R3	Measure Arg1:T4 Arg2:T5	
+T6	Substance 7 14	серебра
+A2	Reference T6
+T7	Object 0 6	Слиток
+R4	Material Arg1:T6 Arg2:T7	
+R5	Description Arg1:T4 Arg2:T7	
+T8	Phenomena 32 41	остывании
+R6	Happens Arg1:T8 Arg2:T7	
+T9	Value 42 47	от 66
+T10	Value 48 55	до 16 C
+T11	Value 81 88	1,5 кДж
+T12	Property 89 96	теплоты
+R7	Measure Arg1:T12 Arg2:T11	
+R8	Description Arg1:T9 Arg2:T7	
+R9	Description Arg1:T10 Arg2:T7	
+R10	Description Arg1:T12 Arg2:T7	

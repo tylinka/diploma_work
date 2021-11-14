@@ -1,0 +1,16 @@
+T1	Property 43 52	ток силой
+T2	Value 53 57	5 мА
+R1	Measure Arg1:T1 Arg2:T2	
+T3	Question 59 64	Какой
+T4	Property 65 70	заряд
+R2	About Arg1:T3 Arg2:T4	
+T5	Object 85 91	прибор
+R3	Description Arg1:T4 Arg2:T5	
+T6	Value 102 105	1 ч
+R4	Description Arg1:T6 Arg2:T5	
+T7	Object 30 37	прибора
+T8	Object 3 10	обмотке
+R5	Part Arg1:T8 Arg2:T7	
+R6	Description Arg1:T1 Arg2:T8	
+T9	Phenomena 11 29	включенного в цепь
+R7	Happens Arg1:T9 Arg2:T7	

@@ -1,0 +1,10 @@
+T1	Question 0 5	Какой
+T2	Property 6 11	объем
+T3	Substance 12 20	керосина
+A1	Reference T3
+T4	Value 58 65	688 МДж
+T5	Phenomena 25 31	сожжен
+R1	About Arg1:T1 Arg2:T2	
+R2	Description Arg1:T2 Arg2:T3	
+R3	Happens Arg1:T5 Arg2:T3	
+R4	Description Arg1:T4 Arg2:T3	

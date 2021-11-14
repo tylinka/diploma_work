@@ -1,0 +1,16 @@
+T1	Question 0 5	Какое
+T2	Property 6 16	количество
+T3	Substance 17 23	спирта
+A1	Reference T3
+R1	About Arg1:T1 Arg2:T2	
+R2	Description Arg1:T2 Arg2:T3	
+T4	Property 37 48	температуре
+T5	Value 49 53	78 C
+R3	Measure Arg1:T4 Arg2:T5	
+T6	Phenomena 55 63	выкипело
+R4	Happens Arg1:T6 Arg2:T3	
+R5	Description Arg1:T4 Arg2:T3	
+T7	Value 88 94	18 кДж
+T8	Property 95 102	теплоты
+R6	Measure Arg1:T8 Arg2:T7	
+R7	Description Arg1:T8 Arg2:T3	

@@ -1,0 +1,41 @@
+T1	Substance 2 13	алюминиевый
+A1	Reference T1
+T2	Object 14 24	калориметр
+R1	Material Arg1:T1 Arg2:T2	
+T3	Property 25 31	массой
+T4	Value 32 37	140 г
+R2	Measure Arg1:T3 Arg2:T4	
+R3	Description Arg1:T3 Arg2:T2	
+T5	Value 45 50	250 г
+T6	Substance 51 55	воды
+A2	Reference T6
+T7	Property 60 71	температуре
+T8	Value 72 76	15 C
+R4	Measure Arg1:T7 Arg2:T8	
+R5	Description Arg1:T5 Arg2:T6	
+R6	Description Arg1:T7 Arg2:T6	
+R7	Located Arg1:T6 Arg2:T2	
+T9	Substance 103 109	свинца
+A3	Reference T9
+T10	Property 110 116	массой
+T11	Value 117 122	100 г
+R8	Measure Arg1:T10 Arg2:T11	
+T12	Object 93 99	брусок
+R9	Material Arg1:T9 Arg2:T12	
+R10	Description Arg1:T10 Arg2:T12	
+T13	Value 136 141	100 C
+T14	Property 192 203	температура
+T15	Value 204 208	16 C
+R11	Measure Arg1:T14 Arg2:T15	
+T16	Substance 168 173	водой
+A4	Reference T16
+T17	Object 155 165	калориметр
+R12	Material Arg1:T16 Arg2:T17	
+R13	Located Arg1:T12 Arg2:T16	
+R14	Description Arg1:T14 Arg2:T16	
+T18	Question 210 220	Определите
+T19	Property 221 242	удельную теплоемкость
+R15	About Arg1:T18 Arg2:T19	
+T20	Substance 243 249	свинца
+A5	Reference T20
+R16	Description Arg1:T19 Arg2:T20	
