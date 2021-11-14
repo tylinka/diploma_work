@@ -1,0 +1,21 @@
+T1	Property 25 43	периодом колебаний
+T2	Value 44 57	4,89 • 10^-11
+R1	Measure Arg1:T1 Arg2:T2	
+T3	Object 0 22	Электромагнитная волна
+R2	Description Arg1:T1 Arg2:T3	
+T4	Phenomena 60 94	переходит из воздуха в сероуглерод
+R3	Happens Arg1:T4 Arg2:T3	
+T5	Property 96 118	Показатель преломления
+T6	Substance 119 131	сероуглерода
+A1	Reference T6
+T7	Value 132 136	1,63
+R4	Measure Arg1:T5 Arg2:T7	
+R5	Description Arg1:T5 Arg2:T6	
+T8	Question 138 148	Чему равна
+T9	Property 149 154	длина
+T10	Object 160 165	волны
+R6	About Arg1:T8 Arg2:T9	
+R7	Description Arg1:T9 Arg2:T10	
+T11	Substance 168 180	сероуглероде
+A2	Medium T11
+R8	Located Arg1:T10 Arg2:T11	
