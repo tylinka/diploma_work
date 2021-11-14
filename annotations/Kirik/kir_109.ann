@@ -1,0 +1,39 @@
+T1	Substance 0 4	Воду
+A1	Reference T1
+T2	Property 5 11	массой
+T3	Value 12 17	150 г
+R1	Measure Arg1:T2 Arg2:T3	
+R2	Description Arg1:T2 Arg2:T1	
+T4	Property 22 33	температуре
+T5	Value 34 38	12 C
+R3	Measure Arg1:T4 Arg2:T5	
+T6	Substance 48 56	латунный
+A2	Reference T6
+T7	Object 57 67	калориметр
+R4	Material Arg1:T6 Arg2:T7	
+T8	Property 68 74	массой
+T9	Value 75 80	200 г
+R5	Measure Arg1:T8 Arg2:T9	
+R6	Description Arg1:T8 Arg2:T7	
+R7	Description Arg1:T4 Arg2:T1	
+R8	Located Arg1:T1 Arg2:T7	
+T10	Question 82 89	Найдите
+T11	Property 90 101	температуру
+R9	About Arg1:T10 Arg2:T11	
+T12	Object 125 136	калориметре
+R10	Description Arg1:T11 Arg2:T12	
+T13	Substance 145 149	воду
+A3	Reference T13
+T14	Substance 159 167	железную
+A4	Reference T14
+T15	Object 168 172	гирю
+R11	Material Arg1:T14 Arg2:T15	
+T16	Property 173 179	массой
+T17	Value 180 185	0,5 к
+R12	Measure Arg1:T16 Arg2:T17	
+T18	Value 200 205	100 C
+T19	Property 188 196	нагретую
+R13	Description Arg1:T16 Arg2:T15	
+R14	Measure Arg1:T19 Arg2:T18	
+R15	Description Arg1:T19 Arg2:T15	
+R16	Located Arg1:T15 Arg2:T13	

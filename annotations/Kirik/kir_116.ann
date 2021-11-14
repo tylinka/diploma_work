@@ -1,0 +1,12 @@
+T1	Question 0 5	Какое
+T2	Property 6 24	количество теплоты
+R1	About Arg1:T1 Arg2:T2	
+T3	Property 75 82	объемом
+T4	Value 83 89	0,2 м3
+R2	Measure Arg1:T3 Arg2:T4	
+T5	Phenomena 39 54	полном сгорании
+T6	Substance 55 74	сухих сосновых дров
+A1	Reference T6
+R3	Happens Arg1:T5 Arg2:T6	
+R4	Description Arg1:T2 Arg2:T6	
+R5	Description Arg1:T3 Arg2:T6	

@@ -1,0 +1,15 @@
+T1	Question 0 19	На сколько градусов
+T3	Increase 20 30	повысилась
+E1	Increase:T3 Changing-Arg:T4
+A1	Type_of_changing E1 On
+T4	Property 31 42	температура
+T5	Value 43 46	4 л
+T6	Substance 47 51	воды
+A2	Reference T6
+T7	Value 98 105	168 кДж
+T8	Property 71 89	количество теплоты
+R2	Measure Arg1:T8 Arg2:T7	
+R3	Description Arg1:T5 Arg2:T6	
+R1	About Arg1:T1 Arg2:T4	
+R4	Description Arg1:T4 Arg2:T6	
+R5	Description Arg1:T8 Arg2:T6	

@@ -1,0 +1,14 @@
+T1	Question 0 5	Каким
+T2	Property 6 25	количеством теплоты
+R1	About Arg1:T1 Arg2:T2	
+T3	Value 40 45	300 г
+T4	Phenomena 32 39	нагреть
+T5	Substance 46 50	воды
+A1	Reference T5
+T6	Value 51 56	от 12
+T7	Value 57 64	до 20 С
+R2	Description Arg1:T6 Arg2:T5	
+R3	Description Arg1:T7 Arg2:T5	
+R4	Description Arg1:T3 Arg2:T5	
+R5	Happens Arg1:T4 Arg2:T5	
+R6	Description Arg1:T2 Arg2:T5	

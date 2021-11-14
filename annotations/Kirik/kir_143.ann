@@ -1,0 +1,23 @@
+T1	Question 0 5	Какое
+T2	Property 6 24	количество теплоты
+R1	About Arg1:T1 Arg2:T2	
+T3	Phenomena 39 49	конденсаци
+T4	Value 50 54	50 г
+T5	Substance 55 68	водяного пара
+A1	Reference T5
+R2	Description Arg1:T4 Arg2:T5	
+R3	Happens Arg1:T3 Arg2:T5	
+T6	Property 79 90	температуру
+T7	Value 91 96	100 C
+R4	Measure Arg1:T6 Arg2:T7	
+T8	Substance 126 130	воды
+A2	Reference T8
+T9	Phenomena 100 110	охлаждении
+R5	Happens Arg1:T9 Arg2:T8	
+T10	Property 134 145	температуры
+T11	Value 146 150	60 C
+R6	Measure Arg1:T10 Arg2:T11	
+R7	Description Arg1:T10 Arg2:T8	
+R8	Description Arg1:T6 Arg2:T5	
+R9	Description Arg1:T2 Arg2:T5	
+R10	Description Arg1:T2 Arg2:T8	

@@ -1,0 +1,18 @@
+T1	Question 0 6	Какова
+T2	Property 7 12	масса
+T3	Substance 13 21	железной
+A1	Reference T3
+T4	Object 22 28	детали
+R1	About Arg1:T1 Arg2:T2	
+R2	Description Arg1:T2 Arg2:T4	
+R3	Material Arg1:T3 Arg2:T4	
+T5	Phenomena 41 51	нагревание
+R4	Happens Arg1:T5 Arg2:T4	
+T6	Value 52 57	от 20
+T7	Value 58 66	до 200 C
+R5	Description Arg1:T6 Arg2:T4	
+R6	Description Arg1:T7 Arg2:T4	
+T8	Value 77 85	20,7 кДж
+T9	Property 86 93	теплоты
+R7	Measure Arg1:T9 Arg2:T8	
+R8	Description Arg1:T9 Arg2:T4	

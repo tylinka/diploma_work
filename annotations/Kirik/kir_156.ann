@@ -1,0 +1,13 @@
+T1	Question 0 5	Какой
+T2	Property 6 11	заряд
+R1	About Arg1:T1 Arg2:T2	
+T3	Value 24 29	2 мин
+T4	Object 44 57	гальванометра
+R2	Description Arg1:T3 Arg2:T4	
+R3	Description Arg1:T2 Arg2:T4	
+T5	Phenomena 59 77	включенного в цепь
+R4	Happens Arg1:T5 Arg2:T4	
+T6	Property 84 93	сила тока
+T7	Value 101 106	12 мА
+R5	Measure Arg1:T6 Arg2:T7	
+R6	Description Arg1:T6 Arg2:T4	

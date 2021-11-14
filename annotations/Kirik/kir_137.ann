@@ -1,0 +1,16 @@
+T1	Question 0 5	Какое
+T2	Property 6 16	количество
+R1	About Arg1:T1 Arg2:T2	
+T3	Substance 17 22	эфира
+A1	Reference T3
+T4	Property 36 47	температуре
+T5	Value 48 52	35 C
+R2	Measure Arg1:T4 Arg2:T5	
+T6	Phenomena 54 62	выкипело
+T7	Value 87 92	6 кДж
+T8	Property 93 100	теплоты
+R3	Measure Arg1:T8 Arg2:T7	
+R4	Description Arg1:T2 Arg2:T3	
+R5	Description Arg1:T4 Arg2:T3	
+R6	Happens Arg1:T6 Arg2:T3	
+R7	Description Arg1:T8 Arg2:T3	

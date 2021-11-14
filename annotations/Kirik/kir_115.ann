@@ -1,0 +1,12 @@
+T1	Question 0 5	Какая
+T2	Property 6 11	масса
+T3	Substance 12 26	каменного угля
+A1	Reference T3
+R1	About Arg1:T1 Arg2:T2	
+R2	Description Arg1:T2 Arg2:T3	
+T4	Value 73 79	54 МДж
+T5	Property 80 87	теплоты
+R3	Measure Arg1:T5 Arg2:T4	
+T6	Phenomena 32 39	сожжена
+R4	Happens Arg1:T6 Arg2:T3	
+R5	Description Arg1:T5 Arg2:T3	

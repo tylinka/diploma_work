@@ -1,0 +1,21 @@
+T1	Question 0 5	Какое
+T2	Property 6 24	количество теплоты
+R1	About Arg1:T1 Arg2:T2	
+T3	Phenomena 44 54	расплавить
+T4	Value 55 60	100 г
+T5	Substance 61 65	льда
+A1	Reference T5
+T6	Property 79 90	температуре
+T7	Value 91 95	—5 C
+R2	Measure Arg1:T6 Arg2:T7	
+T8	Substance 116 120	воду
+A2	Reference T8
+T9	Phenomena 121 128	нагреть
+R3	Happens Arg1:T9 Arg2:T8	
+T10	Value 129 136	до 20 C
+R4	Description Arg1:T10 Arg2:T8	
+R5	Description Arg1:T4 Arg2:T5	
+R6	Description Arg1:T6 Arg2:T5	
+R7	Happens Arg1:T3 Arg2:T5	
+R8	Description Arg1:T2 Arg2:T5	
+R9	Description Arg1:T2 Arg2:T8	

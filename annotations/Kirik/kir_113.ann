@@ -1,0 +1,14 @@
+T1	Question 61 67	Какова
+T2	Property 68 93	удельная теплота сгорания
+T3	Object 94 101	топлива
+R1	About Arg1:T1 Arg2:T2	
+R2	Description Arg1:T2 Arg2:T3	
+T4	Value 20 25	500 г
+T5	Value 45 51	22 МДж
+T6	Property 52 59	теплоты
+R3	Measure Arg1:T6 Arg2:T5	
+T7	Object 26 33	топлива
+R4	Description Arg1:T4 Arg2:T7	
+T8	Phenomena 4 19	полном сгорании
+R5	Happens Arg1:T8 Arg2:T7	
+R6	Description Arg1:T6 Arg2:T7	

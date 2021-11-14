@@ -1,0 +1,20 @@
+T1	Value 20 24	40 г
+T2	Substance 25 31	спирта
+A1	Reference T2
+R1	Description Arg1:T1 Arg2:T2	
+T3	Phenomena 4 19	обращения в пар
+R2	Happens Arg1:T3 Arg2:T2	
+T4	Property 45 56	температуре
+T5	Value 57 61	78 C
+R3	Measure Arg1:T4 Arg2:T5	
+R4	Description Arg1:T4 Arg2:T2	
+T6	Value 77 83	36 кДж
+T7	Property 84 91	теплоты
+R5	Measure Arg1:T7 Arg2:T6	
+R6	Description Arg1:T7 Arg2:T2	
+T8	Question 93 99	Какова
+T9	Property 100 132	удельная теплота парообразования
+R7	About Arg1:T8 Arg2:T9	
+T10	Substance 133 139	спирта
+A2	Reference T10
+R8	Description Arg1:T9 Arg2:T10	

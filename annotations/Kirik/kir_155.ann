@@ -1,0 +1,13 @@
+T1	Question 0 8	За какое
+T2	Property 9 14	время
+R1	About Arg1:T1 Arg2:T2	
+T3	Object 40 50	проводника
+T4	Value 73 78	30 Кл
+T5	Property 84 93	силе тока
+T6	Value 94 100	200 мА
+R2	Measure Arg1:T5 Arg2:T6	
+R3	Description Arg1:T2 Arg2:T3	
+T7	Property 59 64	заряд
+R4	Measure Arg1:T7 Arg2:T4	
+R5	Description Arg1:T5 Arg2:T3	
+R6	Description Arg1:T7 Arg2:T3	

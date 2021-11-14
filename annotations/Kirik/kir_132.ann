@@ -1,0 +1,16 @@
+T1	Question 0 9	При какой
+T2	Property 10 21	температуре
+T3	Substance 33 40	льдинка
+A1	Reference T3
+T4	Property 41 47	массой
+T5	Value 48 53	200 г
+R1	Measure Arg1:T4 Arg2:T5	
+R2	Description Arg1:T4 Arg2:T3	
+R3	About Arg1:T1 Arg2:T2	
+R4	Description Arg1:T2 Arg2:T3	
+T6	Phenomena 67 76	плавления
+T7	Value 90 96	66 кДж
+T8	Property 97 104	теплоты
+R5	Measure Arg1:T8 Arg2:T7	
+R6	Happens Arg1:T6 Arg2:T3	
+R7	Description Arg1:T8 Arg2:T3	
