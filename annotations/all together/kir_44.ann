@@ -1,0 +1,29 @@
+T1	Question 126 136	Определите
+T2	Property 137 140	КПД
+T3	Object 141 150	двигателя
+R1	About Arg1:T1 Arg2:T2	
+R2	Description Arg1:T2 Arg2:T3	
+T4	Property 87 95	Мощность
+T5	Value 118 124	10 кВт
+R3	Measure Arg1:T4 Arg2:T5	
+T6	Object 96 105	двигателя
+R4	Description Arg1:T4 Arg2:T6	
+T7	Object 162 167	крана
+R5	Part Arg1:T3 Arg2:T7	
+T8	Property 41 47	массой
+T9	Value 48 53	200 к
+T10	Property 58 64	высоту
+T11	Value 65 69	50 м
+R6	Measure Arg1:T10 Arg2:T11	
+R7	Measure Arg1:T8 Arg2:T9	
+T12	Property 73 78	время
+T13	Value 79 85	12,5 с
+R8	Measure Arg1:T12 Arg2:T13	
+T14	Object 10 14	кран
+T15	Phenomena 15 35	равномерно поднимает
+T16	Object 36 40	груз
+R9	Description Arg1:T8 Arg2:T16	
+R10	Description Arg1:T10 Arg2:T16	
+R11	Description Arg1:T12 Arg2:T16	
+R12	Do Arg1:T14 Arg2:T15	
+R13	Happens Arg1:T15 Arg2:T16	

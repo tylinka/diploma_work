@@ -1,0 +1,14 @@
+T1	Question 0 5	Какое
+T2	Property 6 14	давление
+T3	Substance 44 52	керосина
+A1	Reference T3
+T4	Property 53 60	высотой
+T5	Value 61 66	25 см
+R1	Measure Arg1:T4 Arg2:T5	
+R2	About Arg1:T1 Arg2:T2	
+R3	Description Arg1:T4 Arg2:T3	
+R4	Description Arg1:T2 Arg2:T3	
+T6	Phenomena 29 38	оказывает
+T7	Object 18 28	дно сосуда
+R5	Do Arg1:T3 Arg2:T6	
+R6	Happens Arg1:T6 Arg2:T7	

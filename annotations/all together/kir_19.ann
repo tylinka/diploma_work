@@ -1,0 +1,15 @@
+T1	Question 109 119	Чему равна
+T2	Property 120 125	масса
+T3	Object 126 131	катка
+R1	About Arg1:T1 Arg2:T2	
+R2	Description Arg1:T2 Arg2:T3	
+T4	Property 80 87	Площадь
+T5	Object 94 99	катка
+T6	Value 100 107	0,12 м2
+R3	Measure Arg1:T4 Arg2:T6	
+R4	Description Arg1:T4 Arg2:T5	
+T7	Object 0 5	Каток
+T8	Value 71 78	400 кПа
+T9	Property 62 70	давление
+R5	Measure Arg1:T9 Arg2:T8	
+R6	Description Arg1:T9 Arg2:T7	

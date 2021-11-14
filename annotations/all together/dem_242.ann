@@ -1,0 +1,19 @@
+T1	Property 28 40	длиной волны
+T2	Value 41 47	300 нм
+R1	Measure Arg1:T1 Arg2:T2	
+T3	Property 49 76	Красная граница фотоэффекта
+T4	Value 101 107	450 нм
+R2	Measure Arg1:T3 Arg2:T4	
+T5	Object 19 25	светом
+R3	Description Arg1:T1 Arg2:T5	
+T6	Object 0 9	Фотокатод
+T7	Phenomena 10 18	облучают
+R4	Do Arg1:T5 Arg2:T7	
+R5	Happens Arg1:T7 Arg2:T6	
+T8	Object 90 100	фотокатода
+R6	Description Arg1:T3 Arg2:T8	
+T9	Question 109 114	Какое
+T10	Property 115 127	напряжение U
+R7	About Arg1:T9 Arg2:T10	
+T11	Object 148 164	анодом и катодом
+R8	Description Arg1:T10 Arg2:T11	

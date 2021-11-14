@@ -1,0 +1,13 @@
+T1	Question 0 10	Чему равна
+T2	Property 11 20	жесткость
+R1	About Arg1:T1 Arg2:T2	
+T3	Object 21 28	пружины
+R2	Description Arg1:T2 Arg2:T3	
+T4	Property 35 39	сила
+T5	Value 40 43	2 Н
+R3	Measure Arg1:T4 Arg2:T5	
+T6	Value 60 64	4 см
+R4	Description Arg1:T4 Arg2:T3	
+R5	Description Arg1:T6 Arg2:T3	
+T7	Phenomena 44 53	растянула
+R6	Happens Arg1:T7 Arg2:T3	

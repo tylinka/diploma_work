@@ -1,0 +1,18 @@
+T1	Question 0 5	Какое
+T2	Property 40 46	массой
+T3	Value 47 52	90 кг
+R1	Measure Arg1:T2 Arg2:T3	
+T4	Property 59 64	длина
+T5	Object 72 76	лыжи
+T6	Value 77 80	2 м
+R2	Measure Arg1:T4 Arg2:T6	
+R3	Description Arg1:T4 Arg2:T5	
+T7	Property 84 90	ширина
+T8	Value 91 96	12 см
+R4	Measure Arg1:T7 Arg2:T8	
+R5	Description Arg1:T7 Arg2:T5	
+T9	Property 6 14	давление
+R6	About Arg1:T1 Arg2:T9	
+T10	Object 33 39	лыжник
+R7	Description Arg1:T9 Arg2:T10	
+R8	Description Arg1:T2 Arg2:T10	

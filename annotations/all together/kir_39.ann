@@ -1,0 +1,18 @@
+T1	Property 94 97	КПД
+T2	Value 98 101	70%
+T3	Question 69 75	Какова
+T4	Property 76 81	масса
+T5	Object 82 87	груза
+R1	About Arg1:T3 Arg2:T4	
+R2	Description Arg1:T4 Arg2:T5	
+R3	Description Arg1:T1 Arg2:T5	
+R4	Measure Arg1:T1 Arg2:T2	
+T6	Object 0 4	Груз
+T7	Property 57 61	силу
+T8	Value 62 67	300 Н
+R5	Measure Arg1:T7 Arg2:T8	
+T9	Phenomena 5 14	поднимают
+T10	Object 25 43	неподвижного блока
+R6	Description Arg1:T7 Arg2:T6	
+R7	Happens Arg1:T9 Arg2:T6	
+R8	Do Arg1:T10 Arg2:T9	

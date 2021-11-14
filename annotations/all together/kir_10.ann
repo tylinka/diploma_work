@@ -1,0 +1,13 @@
+T1	Question 0 5	Какая
+T2	Property 6 10	сила
+R1	About Arg1:T1 Arg2:T2	
+T3	Value 26 30	2 см
+T4	Property 39 49	жесткостью
+T5	Value 50 57	120 Н/м
+R2	Measure Arg1:T4 Arg2:T5	
+T6	Object 31 38	пружину
+T7	Phenomena 11 22	растягивает
+R3	Happens Arg1:T7 Arg2:T6	
+R4	Description Arg1:T4 Arg2:T6	
+R5	Description Arg1:T3 Arg2:T6	
+R6	Description Arg1:T2 Arg2:T6	

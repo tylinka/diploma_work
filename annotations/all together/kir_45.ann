@@ -1,0 +1,29 @@
+T1	Question 145 155	Чему равна
+T2	Property 156 167	сила трения
+R1	About Arg1:T1 Arg2:T2	
+T3	Object 180 185	груза
+R2	Description Arg1:T2 Arg2:T3	
+T4	Question 72 82	Определите
+T5	Property 83 86	КПД
+T6	Object 87 106	наклонной плоскости
+R3	About Arg1:T4 Arg2:T5	
+R4	Description Arg1:T5 Arg2:T6	
+T7	Property 116 121	длина
+T8	Value 122 125	5 м
+T9	Property 129 135	высота
+T10	Value 138 143	40 см
+R5	Measure Arg1:T7 Arg2:T8	
+R6	Measure Arg1:T9 Arg2:T10	
+R7	Description Arg1:T7 Arg2:T6	
+R8	Description Arg1:T9 Arg2:T6	
+T11	Object 0 4	Груз
+T12	Property 5 11	массой
+T13	Value 12 17	50 кг
+R9	Measure Arg1:T12 Arg2:T13	
+R10	Description Arg1:T12 Arg2:T11	
+T14	Property 60 65	силой
+T15	Value 66 70	50 Н
+R11	Measure Arg1:T14 Arg2:T15	
+T16	Phenomena 18 57	равномерно тянут по наклонной плоскости
+R12	Description Arg1:T14 Arg2:T11	
+R13	Happens Arg1:T16 Arg2:T11	
