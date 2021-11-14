@@ -1,0 +1,23 @@
+T1	Property 0 13	Работа выхода
+T2	Object 14 23	электрона
+R1	Description Arg1:T1 Arg2:T2	
+A1	Reference T2
+T3	Object 37 45	пластины
+T4	Value 52 56	2 эВ
+R2	Measure Arg1:T1 Arg2:T4	
+R3	Part Arg1:T2 Arg2:T3	
+T5	Object 58 66	Пластина
+T6	Object 78 102	монохроматическим светом
+T7	Phenomena 67 77	освещается
+R4	Do Arg1:T6 Arg2:T7	
+R5	Happens Arg1:T7 Arg2:T5	
+T8	Question 104 114	Чему равна
+T9	Property 115 122	энергия
+T10	Object 123 130	фотонов
+T11	Object 141 146	света
+R6	About Arg1:T8 Arg2:T9	
+R7	Description Arg1:T9 Arg2:T10	
+R8	Part Arg1:T10 Arg2:T11	
+T12	Property 153 174	запирающее напряжение
+T13	Value 181 186	1,5 В
+R9	Measure Arg1:T12 Arg2:T13	

@@ -1,0 +1,31 @@
+T1	Question 194 214	Насколько изменилась
+T2	Property 215 222	частота
+R1	About Arg1:T1 Arg2:T2	
+T3	Object 233 238	света
+R2	Description Arg1:T2 Arg2:T3	
+T4	Property 150 171	запирающее напряжение
+T5	Value 184 192	на 3,3 В
+T6	Increase 172 183	увеличилось
+E1	Increase:T6 Changing-Arg:T4
+A1	Type_of_changing E1 On
+R3	Measure Arg1:T4 Arg2:T5	
+T7	Property 136 143	частоты
+T8	Object 144 149	света
+R4	Description Arg1:T7 Arg2:T8	
+T9	Increase 126 135	изменения
+E2	Increase:T9 Changing-Arg:T7
+A2	Type_of_changing E2 On
+T10	Property 89 110	запирающее напряжение
+T11	Value 117 118	U
+R5	Measure Arg1:T10 Arg2:T11	
+T12	Property 71 78	частоты
+T13	Phenomena 0 10	Фотоэффект
+T14	Constant 57 70	фиксированной
+E3	Constant:T14 Changing-Arg:T12
+T15	Object 50 56	светом
+R6	Description Arg1:T12 Arg2:T15	
+T16	Object 30 49	поверхность металла
+T17	Phenomena 22 29	освещая
+R7	Do Arg1:T15 Arg2:T17	
+R8	Happens Arg1:T17 Arg2:T16	
+R9	Happens Arg1:T13 Arg2:T16	

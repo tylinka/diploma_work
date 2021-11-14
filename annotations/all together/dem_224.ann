@@ -1,0 +1,23 @@
+T1	Property 39 51	длиной волны
+T2	Value 52 60	0,42 мкм
+R1	Measure Arg1:T1 Arg2:T2	
+T3	Object 14 23	фотокатод
+T4	Object 32 38	светом
+R2	Description Arg1:T1 Arg2:T4	
+T5	Phenomena 24 31	освещен
+R3	Do Arg1:T4 Arg2:T5	
+R4	Happens Arg1:T5 Arg2:T3	
+T6	Property 62 83	Максимальная скорость
+T7	Object 84 98	фотоэлектронов
+R5	Description Arg1:T6 Arg2:T7	
+T8	Object 125 135	фотокатода
+T9	Value 137 149	v = 580 км/с
+R6	Measure Arg1:T6 Arg2:T9	
+T10	Phenomena 100 124	вылетающих с поверхности
+R7	Do Arg1:T7 Arg2:T10	
+R8	Happens Arg1:T10 Arg2:T8	
+T11	Question 151 157	Какова
+T12	Property 158 185	длина волны красной границы
+R9	About Arg1:T11 Arg2:T12	
+T13	Object 186 197	фотоэффекта
+R10	Description Arg1:T12 Arg2:T13	
