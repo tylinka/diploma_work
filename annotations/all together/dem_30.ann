@@ -1,0 +1,28 @@
+T1	Property 36 42	высоты
+T2	Value 43 46	5 м
+R1	Measure Arg1:T1 Arg2:T2	
+T3	Object 62 69	камешек
+T4	Object 47 54	мальчик
+T5	Phenomena 55 61	бросил
+T6	Phenomena 72 98	горизонтальном направлении
+R2	Do Arg1:T4 Arg2:T5	
+R4	Do Arg1:T4 Arg2:T6	
+R5	Happens Arg1:T6 Arg2:T3	
+R6	Happens Arg1:T5 Arg2:T3	
+R3	Description Arg1:T1 Arg2:T3	
+T7	Property 100 118	Начальная скорость
+T8	Object 119 126	камешка
+T9	Value 127 132	7 м/с
+R7	Measure Arg1:T7 Arg2:T9	
+R8	Description Arg1:T7 Arg2:T8	
+T10	Property 138 143	масса
+T11	Value 144 150	0,1 кг
+R9	Measure Arg1:T10 Arg2:T11	
+R10	Description Arg1:T10 Arg2:T8	
+T12	Question 152 177	Чему приблизительно равна
+T13	Property 178 198	кинетическая энергия
+T14	Object 199 206	камешка
+T15	Value 213 216	2 с
+R11	About Arg1:T12 Arg2:T13	
+R12	Description Arg1:T13 Arg2:T14	
+R13	Description Arg1:T15 Arg2:T14	

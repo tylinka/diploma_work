@@ -1,0 +1,14 @@
+T1	Object 40 44	груз
+T2	Phenomena 35 39	упал
+R1	Happens Arg1:T2 Arg2:T1	
+T3	Value 52 56	10 с
+R2	Description Arg1:T3 Arg2:T1	
+T4	Question 86 94	На какой
+T5	Property 95 101	высоте
+T6	Object 112 120	аэростат
+R3	About Arg1:T4 Arg2:T5	
+R4	Description Arg1:T5 Arg2:T6	
+T7	Object 2 11	аэростата
+T8	Phenomena 13 33	зависшего над Землей
+R5	Happens Arg1:T8 Arg2:T7	
+R6	Part Arg1:T1 Arg2:T7	

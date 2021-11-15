@@ -1,0 +1,14 @@
+T1	Object 0 4	Тело
+T2	Phenomena 5 30	брошено вертикально вверх
+R1	Happens Arg1:T2 Arg2:T1	
+T3	Value 38 43	0,5 с
+T4	Property 61 69	скорость
+T5	Value 70 76	20 м/с
+R2	Measure Arg1:T4 Arg2:T5	
+R3	Description Arg1:T3 Arg2:T1	
+R4	Description Arg1:T4 Arg2:T1	
+T6	Question 78 84	Какова
+T7	Property 85 103	начальная скорость
+T8	Object 104 108	тела
+R5	About Arg1:T6 Arg2:T7	
+R6	Description Arg1:T7 Arg2:T8	
