@@ -1,0 +1,28 @@
+T1	Property 98 103	Масса
+T2	Substance 104 109	гелия
+A1	Reference T2
+T3	Value 110 116	0,04 к
+R1	Description Arg1:T1 Arg2:T2	
+R2	Measure Arg1:T1 Arg2:T3	
+T4	Property 15 23	давлении
+T5	Constant 4 14	постоянном
+E1	Constant:T5 Changing-Arg:T4
+T6	Substance 37 42	гелий
+A2	Reference T6
+T7	Phenomena 43 50	нагрели
+R3	Happens Arg1:T7 Arg2:T6	
+R4	Description Arg1:T4 Arg2:T6	
+T8	Property 82 88	работу
+T9	Value 89 96	4986 Дж
+R5	Measure Arg1:T8 Arg2:T9	
+T10	Phenomena 73 81	совершил
+R6	Do Arg1:T6 Arg2:T10	
+R7	Description Arg1:T8 Arg2:T6	
+T11	Question 119 128	Насколько
+T12	Increase 129 140	увеличилась
+E2	Increase:T12 Changing-Arg:T13
+A3	Type_of_changing E2 On
+T13	Property 141 152	температура
+T14	Object 153 157	газа
+R8	About Arg1:T11 Arg2:T13	
+R9	Description Arg1:T13 Arg2:T14	

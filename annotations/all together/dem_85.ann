@@ -1,0 +1,22 @@
+T1	Object 0 8	Резистор
+T2	Object 21 35	источнику тока
+T3	Property 38 41	ЭДС
+T4	Value 42 46	10 В
+R1	Measure Arg1:T3 Arg2:T4	
+R2	Part Arg1:T1 Arg2:T2	
+R3	Description Arg1:T3 Arg2:T2	
+T5	Property 49 74	внутренним сопротивлением
+T6	Value 75 79	1 Ом
+R4	Measure Arg1:T5 Arg2:T6	
+R5	Description Arg1:T5 Arg2:T2	
+T7	Property 81 90	Сила тока
+T8	Object 93 111	электрической цепи
+T9	Value 118 121	2 А
+R6	Description Arg1:T7 Arg2:T8	
+R7	Measure Arg1:T7 Arg2:T9	
+R8	Part Arg1:T2 Arg2:T8	
+T10	Question 123 129	Каково
+T11	Property 130 143	сопротивление
+T12	Object 144 153	резистора
+R9	About Arg1:T10 Arg2:T11	
+R10	Description Arg1:T11 Arg2:T12	

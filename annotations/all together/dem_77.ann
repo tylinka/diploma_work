@@ -1,0 +1,22 @@
+T1	Object 26 44	электрическом поле
+T2	Property 47 61	напряженностью
+T3	Value 62 69	100 В/м
+R1	Measure Arg1:T2 Arg2:T3	
+T4	Property 2 14	вертикальном
+T5	Property 15 25	однородном
+R2	Description Arg1:T4 Arg2:T1	
+R3	Description Arg1:T5 Arg2:T1	
+R4	Description Arg1:T2 Arg2:T1	
+T6	Object 88 95	пылинка
+T7	Phenomena 71 87	неподвижно висит
+R5	Happens Arg1:T7 Arg2:T6	
+R6	Part Arg1:T6 Arg2:T1	
+T8	Property 97 102	заряд
+T9	Value 111 117	10 нкл
+R7	Measure Arg1:T8 Arg2:T9	
+R8	Description Arg1:T8 Arg2:T6	
+T10	Question 119 129	Чему равна
+T11	Property 130 135	масса
+T12	Object 136 143	пылинки
+R9	About Arg1:T10 Arg2:T11	
+R10	Description Arg1:T11 Arg2:T12	

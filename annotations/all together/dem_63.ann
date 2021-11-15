@@ -1,0 +1,26 @@
+T1	Property 0 23	Температура нагревателя
+T2	Value 61 66	227 C
+R1	Measure Arg1:T1 Arg2:T2	
+T3	Property 70 94	температура холодильника
+T4	Value 95 99	27 C
+R2	Measure Arg1:T3 Arg2:T4	
+T5	Object 24 60	идеального теплового двигателя Карно
+R3	Description Arg1:T1 Arg2:T5	
+R4	Description Arg1:T3 Arg2:T5	
+T6	Object 101 113	Рабочее тело
+T7	Object 114 123	двигателя
+R5	Part Arg1:T6 Arg2:T7	
+T8	Phenomena 124 141	совершает за цикл
+R6	Do Arg1:T6 Arg2:T8	
+T9	Property 142 148	работу
+T10	Value 157 163	10 кДж
+R7	Measure Arg1:T9 Arg2:T10	
+R8	Description Arg1:T9 Arg2:T6	
+T11	Question 165 170	Какое
+T12	Property 171 189	количество теплоты
+R9	About Arg1:T11 Arg2:T12	
+T13	Object 199 211	рабочее тело
+T14	Increase 190 198	получает
+E1	Increase:T14 Changing-Arg:T12
+A1	Type_of_changing E1 On
+R10	Description Arg1:T12 Arg2:T13	

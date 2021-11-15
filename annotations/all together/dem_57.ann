@@ -1,0 +1,29 @@
+T1	Question 127 132	Какое
+T2	Property 133 151	количество теплоты
+R1	About Arg1:T1 Arg2:T2	
+T3	Increase 152 160	получает
+E1	Increase:T3 Changing-Arg:T2
+A1	Type_of_changing E1 On
+T4	Substance 161 166	гелий
+A2	Reference T4
+R2	Description Arg1:T2 Arg2:T4	
+T5	Substance 13 18	гелий
+A3	Reference T5
+T6	Property 20 25	масса
+T7	Value 41 45	32 г
+R3	Measure Arg1:T6 Arg2:T7	
+R4	Description Arg1:T6 Arg2:T5	
+T8	Property 57 63	работу
+T9	Phenomena 47 56	совершает
+R5	Do Arg1:T5 Arg2:T9	
+R6	Description Arg1:T8 Arg2:T5	
+T10	Value 72 79	0,8 кДж
+R7	Measure Arg1:T8 Arg2:T10	
+T11	Property 90 101	температура
+T12	Object 102 106	газа
+R8	Description Arg1:T11 Arg2:T12	
+T13	Increase 107 117	повышается
+E2	Increase:T13 Changing-Arg:T11
+A4	Type_of_changing E2 On
+T14	Value 118 125	на 10 К
+R9	Measure Arg1:T11 Arg2:T14	

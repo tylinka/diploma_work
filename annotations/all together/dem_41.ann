@@ -1,0 +1,22 @@
+T1	Object 0 4	Груз
+T2	Property 5 11	массой
+T3	Value 12 16	2 кг
+R1	Measure Arg1:T2 Arg2:T3	
+T4	Property 42 52	жесткостью
+T5	Value 53 60	200 Н/м
+R3	Measure Arg1:T4 Arg2:T5	
+T6	Object 34 41	пружине
+R4	Description Arg1:T4 Arg2:T6	
+T8	Phenomena 62 95	совершает гармонические колебания
+R2	Description Arg1:T2 Arg2:T1	
+R5	Happens Arg1:T8 Arg2:T1	
+T7	Property 97 119	Максимальное ускорение
+T9	Object 120 125	груза
+R6	Description Arg1:T7 Arg2:T9	
+T10	Value 141 147	10 м/с
+R7	Measure Arg1:T7 Arg2:T10	
+T11	Question 150 156	Какова
+T12	Property 157 178	максимальная скорость
+T13	Object 179 184	груза
+R8	About Arg1:T11 Arg2:T12	
+R9	Description Arg1:T12 Arg2:T13	

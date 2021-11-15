@@ -1,0 +1,31 @@
+T1	Property 85 96	температура
+T2	Substance 97 104	воздуха
+A1	Reference T2
+R1	Description Arg1:T1 Arg2:T2	
+T3	Increase 114 124	повысилась
+E1	Increase:T3 Changing-Arg:T1
+A2	Type_of_changing E1 In
+T4	Value 125 135	в 2,5 раза
+R2	Measure Arg1:T1 Arg2:T4	
+T5	Property 143 151	давление
+T6	Increase 152 160	возросло
+E2	Increase:T6 Changing-Arg:T5
+A3	Type_of_changing E2 In
+T7	Value 161 168	в 5 раз
+R3	Measure Arg1:T5 Arg2:T7	
+R4	Description Arg1:T5 Arg2:T2	
+T8	Phenomena 19 29	закачивают
+T9	Substance 30 36	воздух
+A4	Reference T9
+R5	Happens Arg1:T8 Arg2:T9	
+T10	Phenomena 51 59	нагревая
+R6	Happens Arg1:T10 Arg2:T9	
+T11	Question 170 184	Во сколько раз
+T12	Increase 185 196	увеличилась
+E3	Increase:T12 Changing-Arg:T13
+A5	Type_of_changing E3 In
+T13	Property 197 202	масса
+T14	Substance 203 210	воздуха
+A6	Reference T14
+R7	About Arg1:T11 Arg2:T13	
+R8	Description Arg1:T13 Arg2:T14	

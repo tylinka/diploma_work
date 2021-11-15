@@ -1,0 +1,22 @@
+T1	Object 2 12	проводнике
+T2	Property 13 27	индуктивностью
+T3	Value 28 33	5 мгн
+T4	Property 34 43	сила тока
+T5	Value 54 59	0,4 с
+T6	Increase 71 81	возрастает
+E1	Increase:T6 Changing-Arg:T4
+T7	Value 84 87	2 А
+R1	Measure Arg1:T4 Arg2:T7	
+R2	Measure Arg1:T2 Arg2:T3	
+R3	Description Arg1:T2 Arg2:T1	
+R4	Description Arg1:T4 Arg2:T1	
+T8	Property 153 169	ЭДС самоиндукции
+T9	Value 170 175	0,1 В
+R5	Measure Arg1:T8 Arg2:T9	
+T10	Object 132 142	проводнике
+R6	Description Arg1:T8 Arg2:T10	
+T11	Question 177 187	Определите
+T12	Property 188 215	конечное значение силы тока
+R7	About Arg1:T11 Arg2:T12	
+T13	Object 218 228	проводнике
+R8	Description Arg1:T12 Arg2:T13	

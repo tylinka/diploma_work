@@ -1,0 +1,22 @@
+T1	Object 0 4	Груз
+T2	Property 5 11	массой
+T3	Value 12 18	0,5 кг
+R1	Measure Arg1:T2 Arg2:T3	
+R2	Description Arg1:T2 Arg2:T1	
+T4	Object 36 43	пружине
+T5	Property 44 54	жесткостью
+T6	Value 55 62	200 Н/м
+R3	Measure Arg1:T5 Arg2:T6	
+R4	Description Arg1:T5 Arg2:T4	
+T7	Property 100 110	амплитудой
+T8	Value 111 115	5 см
+R5	Measure Arg1:T7 Arg2:T8	
+T9	Phenomena 64 97	совершает гармонические колебания
+R6	Happens Arg1:T9 Arg2:T1	
+R7	Part Arg1:T1 Arg2:T4	
+R8	Description Arg1:T7 Arg2:T1	
+T10	Question 117 127	Определите
+T11	Property 128 148	максимальный импульс
+T12	Object 149 154	груза
+R9	About Arg1:T10 Arg2:T11	
+R10	Description Arg1:T11 Arg2:T12	

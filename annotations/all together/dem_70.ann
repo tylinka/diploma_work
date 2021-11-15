@@ -1,0 +1,28 @@
+T1	Property 0 9	Идеальный
+T2	Value 10 21	одноатомный
+T3	Object 22 25	газ
+R1	Description Arg1:T2 Arg2:T3	
+R2	Description Arg1:T1 Arg2:T3	
+T4	Property 65 72	объемом
+T5	Value 73 78	0,6 м
+R3	Measure Arg1:T4 Arg2:T5	
+R4	Description Arg1:T4 Arg2:T3	
+T6	Phenomena 84 94	нагревании
+T7	Property 99 117	внутренняя энергия
+T8	Increase 118 129	увеличилась
+E1	Increase:T8 Changing-Arg:T7
+A1	Type_of_changing E1 On
+T9	Value 130 139	на 18 кДж
+R5	Measure Arg1:T7 Arg2:T9	
+R6	Description Arg1:T7 Arg2:T3	
+R7	Happens Arg1:T6 Arg2:T3	
+T10	Question 141 158	На какую величину
+T11	Increase 159 167	возросло
+E2	Increase:T11 Changing-Arg:T12
+A2	Type_of_changing E2 On
+T12	Property 177 185	давление
+T13	Object 186 190	газа
+R8	Description Arg1:T12 Arg2:T13	
+R9	About Arg1:T10 Arg2:T12	
+T14	Constant 47 64	жесткими стенками
+E3	Constant:T14 Changing-Arg:T4

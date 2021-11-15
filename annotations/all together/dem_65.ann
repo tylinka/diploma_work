@@ -1,0 +1,23 @@
+T1	Increase 4 14	увеличении
+E1	Increase:T1 Changing-Arg:T2
+A1	Type_of_changing E1 On
+T2	Property 15 37	абсолютной температуры
+T3	Value 38 46	на 750 К
+R1	Measure Arg1:T2 Arg2:T3	
+T4	Property 47 75	средняя кинетическая энергия
+T5	Object 95 102	молекул
+T6	Substance 103 108	гелия
+A2	Reference T6
+R2	Material Arg1:T6 Arg2:T5	
+T7	Increase 109 120	увеличилась
+E2	Increase:T7 Changing-Arg:T4
+A3	Type_of_changing E2 In
+T8	Value 121 129	в 4 раза
+R3	Measure Arg1:T4 Arg2:T8	
+R4	Description Arg1:T4 Arg2:T5	
+R5	Description Arg1:T2 Arg2:T5	
+T9	Question 131 137	Какова
+T10	Property 138 158	конечная температура
+T11	Object 159 163	газа
+R6	About Arg1:T9 Arg2:T10	
+R7	Description Arg1:T10 Arg2:T11	

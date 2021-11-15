@@ -1,0 +1,26 @@
+T1	Property 0 3	КПД
+T2	Object 4 18	трансформатора
+R1	Description Arg1:T1 Arg2:T2	
+T3	Value 19 24	90.94
+R2	Measure Arg1:T1 Arg2:T3	
+T4	Property 26 36	Напряжение
+T5	Object 47 64	первичной обмотки
+R3	Description Arg1:T4 Arg2:T5	
+T6	Value 67 72	300 В
+R4	Measure Arg1:T4 Arg2:T6	
+T7	Object 84 93	вторичной
+T8	Value 94 98	39 В
+R5	Description Arg1:T4 Arg2:T7	
+R6	Measure Arg1:T4 Arg2:T8	
+T9	Property 100 109	Сила тока
+T10	Object 113 129	вторичной обмотк
+R7	Description Arg1:T9 Arg2:T10	
+T11	Value 131 137	12.9 А
+R8	Measure Arg1:T9 Arg2:T11	
+T12	Question 139 145	Какова
+T13	Property 146 155	сила тока
+T14	Object 158 175	первичной обмотке
+T15	Object 176 190	трансформатора
+R9	About Arg1:T12 Arg2:T13	
+R10	Description Arg1:T13 Arg2:T14	
+R11	Part Arg1:T14 Arg2:T15	

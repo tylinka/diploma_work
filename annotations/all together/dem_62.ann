@@ -1,0 +1,27 @@
+T1	Object 13 32	теплового двигателя
+T2	Phenomena 34 60	работающего по циклу Карно
+R1	Happens Arg1:T2 Arg2:T1	
+T3	Property 62 85	температура нагревателя
+T4	Value 86 91	750 К
+R2	Measure Arg1:T3 Arg2:T4	
+T5	Property 95 119	температура холодильника
+T6	Value 120 125	450 К
+R3	Measure Arg1:T5 Arg2:T6	
+R4	Description Arg1:T3 Arg2:T1	
+R5	Description Arg1:T5 Arg2:T1	
+T7	Object 127 139	Рабочее тело
+T8	Property 177 195	количество теплоты
+T9	Value 196 202	40 кДж
+R6	Measure Arg1:T8 Arg2:T9	
+T10	Increase 153 176	получает от нагревателя
+E1	Increase:T10 Changing-Arg:T8
+A1	Type_of_changing E1 On
+R7	Description Arg1:T8 Arg2:T7	
+T11	Question 204 209	Какое
+T12	Property 210 228	количество теплоты
+T13	Object 229 241	рабочее тело
+R8	About Arg1:T11 Arg2:T12	
+R9	Description Arg1:T12 Arg2:T13	
+T14	Decrease 242 269	отдает за цикл холодильнику
+E2	Decrease:T14 Changing-Arg:T12
+A2	Type_of_changing E2 On
