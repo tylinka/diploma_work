@@ -1,0 +1,14 @@
+T1	Property 84 100	оптической силой
+T2	Value 101 108	20 дптр
+R1	Measure Arg1:T1 Arg2:T2	
+T3	Object 58 81	тонкой собирающей линзы
+R2	Description Arg1:T1 Arg2:T3	
+T4	Property 110 141	Расстояние от предмета до линзы
+T5	Value 148 154	7.5 см
+R3	Measure Arg1:T4 Arg2:T5	
+T6	Object 0 7	Предмет
+T7	Phenomena 8 57	расположен перпендикулярно главной оптической оси
+R4	Happens Arg1:T7 Arg2:T6	
+T8	Question 156 166	Определите
+T9	Property 167 198	расстояние от линзы до предмета
+R5	About Arg1:T8 Arg2:T9	
