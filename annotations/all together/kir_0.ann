@@ -1,10 +1,12 @@
-T1	Question 0 6	Какова
-T2	Property 7 12	масса
-T3	Substance 13 21	керосина
-A1	Reference T3
-R1	About Arg1:T1 Arg2:T2	
-R2	Description Arg1:T2 Arg2:T3	
-T4	Property 55 63	емкостью
-T5	Value 64 71	0,02 м3
-R3	Measure Arg1:T4 Arg2:T5	
-R4	Description Arg1:T4 Arg2:T3	
+T1      Question 0 6    Какова
+T2      Property 7 12   масса
+T3      Substance 13 21 керосина
+A1      Reference T3
+R1      About Arg1:T1 Arg2:T2
+R2      Description Arg1:T2 Arg2:T3
+T4      Property 55 63  емкостью
+T5      Value 64 71     0,02 м3
+R3      Measure Arg1:T4 Arg2:T5
+T6      Object 49 54    бидон
+R4      Description Arg1:T4 Arg2:T6
+R5      Located Arg1:T3 Arg2:T6
