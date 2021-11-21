@@ -1,0 +1,9 @@
+T1	Question 0 7	Найдите
+T2	Property 8 15	частоту
+T3	Object 16 25	излучения
+R1	About Arg1:T1 Arg2:T2	
+R2	Description Arg1:T2 Arg2:T3	
+T4	Property 32 43	длина волны
+T5	Value 55 61	340 нм
+R3	Measure Arg1:T4 Arg2:T5	
+R4	Description Arg1:T4 Arg2:T3	

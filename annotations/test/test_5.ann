@@ -1,0 +1,22 @@
+T1	Object 10 13	мяч
+T2	Property 14 21	объёмом
+R1	Description Arg1:T2 Arg2:T1	
+T3	Value 22 25	5 л
+R2	Measure Arg1:T2 Arg2:T3	
+T4	Phenomena 26 33	плавает
+T5	Substance 36 40	воде
+A1	Reference T5
+R3	Happens Arg1:T4 Arg2:T1	
+R4	Located Arg1:T1 Arg2:T5	
+T6	Property 42 54	Сила тяжести
+T7	Object 71 74	мяч
+R5	Description Arg1:T6 Arg2:T7	
+T8	Value 82 86	10 Н
+R6	Measure Arg1:T6 Arg2:T8	
+T9	Question 88 95	Найдите
+T10	Property 96 101	объем
+T11	Object 102 119	погруженной части
+T12	Object 120 124	мяча
+R7	About Arg1:T9 Arg2:T10	
+R8	Description Arg1:T10 Arg2:T11	
+R9	Part Arg1:T11 Arg2:T12	
