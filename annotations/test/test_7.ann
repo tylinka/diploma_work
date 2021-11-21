@@ -1,0 +1,15 @@
+T1	Substance 0 8	Чугунный
+A1	Reference T1
+T2	Object 9 16	котелок
+R1	Material Arg1:T1 Arg2:T2	
+T3	Phenomena 17 24	нагрели
+R2	Happens Arg1:T3 Arg2:T2	
+T4	Value 25 32	на 20 С
+R3	Description Arg1:T4 Arg2:T2	
+T5	Question 34 41	Сколько
+T6	Property 42 47	тепла
+R4	About Arg1:T5 Arg2:T6	
+T7	Phenomena 70 76	нагрев
+T8	Object 77 84	котелка
+R5	Happens Arg1:T7 Arg2:T8	
+R6	Description Arg1:T6 Arg2:T8	

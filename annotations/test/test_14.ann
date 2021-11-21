@@ -1,0 +1,17 @@
+T1	Object 0 9	Амперметр
+T2	Property 60 69	силу тока
+T3	Value 70 73	2 А
+R1	Measure Arg1:T2 Arg2:T3	
+R2	Description Arg1:T2 Arg2:T1	
+T4	Object 95 99	цепи
+T5	Property 81 94	сопротивление
+R3	Description Arg1:T5 Arg2:T4	
+T6	Value 111 116	13 Ом
+R4	Measure Arg1:T5 Arg2:T6	
+T7	Object 26 47	цепь постоянного тока
+R5	Part Arg1:T1 Arg2:T7	
+T8	Question 118 123	Какое
+T9	Property 124 134	напряжение
+T10	Object 138 147	батарейке
+R6	About Arg1:T8 Arg2:T9	
+R7	Description Arg1:T9 Arg2:T10	

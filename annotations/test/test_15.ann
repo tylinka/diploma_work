@@ -1,0 +1,24 @@
+T1	Question 64 74	Определите
+T2	Property 75 80	массу
+T3	Substance 81 85	воды
+A1	Reference T3
+T4	Object 88 95	чайнике
+R1	About Arg1:T1 Arg2:T2	
+R2	Description Arg1:T2 Arg2:T3	
+R3	Located Arg1:T3 Arg2:T4	
+T5	Object 0 6	Чайник
+T6	Property 7 16	мощностью
+T7	Value 17 24	2.5 кВт
+R4	Measure Arg1:T6 Arg2:T7	
+R5	Description Arg1:T6 Arg2:T5	
+T8	Substance 32 36	воду
+A2	Reference T8
+T9	Value 40 44	20 С
+T10	Value 48 53	100 С
+T11	Value 57 62	3 мин
+R6	Description Arg1:T9 Arg2:T8	
+R7	Description Arg1:T10 Arg2:T8	
+R8	Description Arg1:T11 Arg2:T5	
+T12	Phenomena 25 31	нагрел
+R9	Do Arg1:T5 Arg2:T12	
+R10	Happens Arg1:T12 Arg2:T8	

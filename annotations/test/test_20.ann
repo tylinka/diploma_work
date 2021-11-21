@@ -1,0 +1,18 @@
+T1	Property 0 24	Внутреннее сопротивление
+T2	Object 25 39	источника тока
+R1	Description Arg1:T1 Arg2:T2	
+T3	Property 42 45	ЭДС
+T4	Value 46 50	20 В
+T5	Value 51 55	1 Ом
+R2	Measure Arg1:T3 Arg2:T4	
+R3	Measure Arg1:T1 Arg2:T5	
+T6	Property 57 78	Внешнее сопротивление
+T7	Object 79 83	цепи
+R4	Description Arg1:T6 Arg2:T7	
+T8	Value 95 101	100 Ом
+R5	Measure Arg1:T6 Arg2:T8	
+T9	Question 103 109	Какова
+T10	Property 110 119	сила тока
+R6	About Arg1:T9 Arg2:T10	
+T11	Object 122 126	цепи
+R7	Description Arg1:T10 Arg2:T11	
