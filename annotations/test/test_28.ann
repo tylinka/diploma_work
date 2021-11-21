@@ -1,9 +1,0 @@
-T1	Property 0 21	Запирающее напряжение
-T2	Value 22 26	30 В
-R1	Measure Arg1:T1 Arg2:T2	
-T3	Question 28 34	Какова
-T4	Property 35 55	кинетическая энергия
-R2	About Arg1:T3 Arg2:T4	
-T5	Object 56 70	фотоэлектронов
-A1	Reference T5
-R3	Description Arg1:T4 Arg2:T5	
